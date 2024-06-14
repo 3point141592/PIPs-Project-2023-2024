@@ -22,4 +22,5 @@ order, from least important to most important:
 5. Heredity  
 6. Tic Tac Toe  
 7. minesweeper  
-8. questions  
+8. questions
+9. SuperResolution  
