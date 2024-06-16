@@ -23,4 +23,5 @@ order, from least important to most important:
 6. Tic Tac Toe  
 7. minesweeper  
 8. questions
-9. SuperResolution  
+9. SuperResolution
+10. GPT
