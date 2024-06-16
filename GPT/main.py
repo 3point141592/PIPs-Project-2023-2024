@@ -848,21 +848,21 @@ def print_colored_text(text, clr = 'BUILTIN'):
 # train_data1 = torch.utils.data.DataLoader(data1, batch_size = 1)
 # train_data2 = torch.utils.data.DataLoader(data2, batch_size = 1)
 
-#test = True
+test = True
 
 #train('math2')
 
 if __name__ == '__main__' and test:
     inpt = 'blah'
     m = Model('Minecraft2_model_expertise')
-    m.gan()
-    m.save()
+    # m.gan()
+    # m.save()
     print('SYSTEMS UP AND RUNNING')
     while inpt:
-        inpt = input()
+        inpt = input('\nEnter something related to minecraft ')
         if not inpt:
             break
-        print_colored_text(m.generate(inpt, 50, 50, exact = True))
+        print_colored_text(m.generate(inpt, 50, 0, exact = False))
 
 
 
