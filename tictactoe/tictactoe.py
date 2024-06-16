@@ -102,33 +102,40 @@ def utility(board):
 
 def maxvalue(board):
     """
-    Returns the Max-value of "board". "func" should be "min" for the min player, "max" for the max player
+    Returns the Max-value of "board".
     """
 
     if terminal(board):
-        return utility(board)
+        return utility(board), None
 
     v = -float('inf')
 
     for action in actions(board):
-        v = max(v, minvalue(result(board, action)))
+        new = minvalue(result(board, action))[0]
+        v = max(v, new)
+        if v == new:
+            best = action
 
-    return v
+    return v, best
 
 def minvalue(board):
     """
-    Returns the Min-value of "board". "func" should be "min" for the min player, "max" for the max player
+    Returns the Min-value of "board".
     """
 
     if terminal(board):
-        return utility(board)
+        return utility(board), None
 
     v = float('inf')
+    
 
     for action in actions(board):
-        v = min(v, maxvalue(result(board, action)))
+        new = maxvalue(result(board, action))[0]
+        v = min(v, new)
+        if v == new:
+            best = action
 
-    return v
+    return v, best
 
 def minimax(board):
     """
@@ -136,7 +143,7 @@ def minimax(board):
     """
     # precomputed for time efficiency
     if len(actions(board)) == 9:
-        return (0, 1)
+        return (1, 0)
     
     if terminal(board):
         return None
@@ -153,23 +160,5 @@ def minimax(board):
     else:
         function = minvalue
         boolean_func = lambda x, y: x < y
-    
-
-    best_move = None
-    best_value = None
-    depth = 3
-    
-    for move in possible:
-        new = result(board, move) 
-        util = function(new)
-        if best_move is None:
-            best_move = move
-            best_value = util
-
-        elif boolean_func(util, best_value):
-            best_move = move
-            best_value = util
         
-    
-    
-    return best_move
+    return function(board)[1]
