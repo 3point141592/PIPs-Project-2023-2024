@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Tangent (geometry) =
+A tangent line is a line that closely approximates a curve at a point.  That is, if you zoom in very closely, the tangent line and the curve will become indistinguishable from each other at a certain point where they intersect. 
+== Contents ==
+
+== Intersection ==
+Locally, a tangent line intersects a curve in a single point.  However, if a curve is neither convex nor concave , it is possible for a tangent line to intersect a curve in additional points.  For instance, the tangent line of the curve  $ y = \sin x $  at  $ (0, 0) $  intersects it in 1 point, while the tangent line at  $ \left(\frac{\pi}4, \frac{1}{\sqrt 2}\right) $  intersects it in 2 points and the tangent line at  $ \left(\frac{\pi}2, 1\right) $  intersects it in infinitely many points (and is in fact the tangent line at each point of intersection). At a given point, a curve may have either 0 or 1 tangent lines.  For the graph of a function , the condition "having a tangent line at a point" is equivalent to "being a differentiable function at that point."  It is a fairly strong condition on a function -- only continuous functions may have tangent lines, and there are many continuous functions which fail to have tangent lines either at some points (for instance, the absolute value function  $ y = |x| $  at  $ x = 0 $  ) or even at all points! 
+== Tangents to Circles ==
+When the curve being considered is a circle , the tangent has many nice properties. For example, it is perpendicular to the radius that passes through the point of tangency. Any two disjoint circles have four tangents in common, two internal and two external. 
+== Generalizations ==
+Within the realm of differential geometry, the generalization of a tangent is a tangent space. Generally, the tangent space to a k-form is also a k-form. This may not always be the case though as you can have tangent “planes” to a volume or surface form. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

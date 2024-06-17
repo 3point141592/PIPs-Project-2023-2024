@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Science =
+Science refers to the formulation of causal theories and mathematical models based on statistical methods and disciplined experimentation. Disciplined experimentation refers to experimentation that incorporates the three Rs: repetition , randomisation , and regulation (i.e. control .) If data is obtained from some source that does not use these three benchmarks of good experimentation, then it becomes difficult or impossible to perform statistical inference based on that data. The key distinguishing factor between science and pseudo-science is that the scientist will be skeptical of data from poorly-designed experiments. Mathematics has a special place in science. It is not possible to perform experimental tests on mathematical discoveries, so it is difficult to say that mathematics is indeed "scientific." In many ways, mathematics is closer to the humanities, in that it proceeds via formal methods of argument, rather than by experimentation. One might say that mathematical arguments come from outside of science, to audit and support scientific endeavors.  
+== Scientific Fields ==
+
+== Student Resources ==
+Something appears to not have loaded correctly. Click to refresh .

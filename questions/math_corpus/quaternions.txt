@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Quaternion =
+The quaternions are a division ring (that is, a ring in which each element has a multiplicative  inverse ; alternatively, a non commutative  field ) which generalize the complex numbers . Formally, the quaternions are the set  $ \{a + bi + cj + dk\} $  , where  $ a, b, c, d $  are any real numbers and the behavior of  $ i, j, k $  is "as you would expect," with the properties: Note in particular that multiplication of quaternions is not commutative.  However, multiplication on certain subsets does behave well: the set  $ \{a + bi + 0j + 0k \mid a, b \in \mathbb{R}\} $  act exactly like the complex numbers . 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rearrangement Inequality =
+The Rearrangement Inequality states that, if  $ A=\{a_1,a_2,\cdots,a_n\} $  is a permutation of a finite  set (in fact, multiset ) of real numbers and  $ B=\{b_1,b_2,\cdots,b_n\} $  is a permutation of another finite set of real numbers, the quantity  $ a_1b_1+a_2b_2+\cdots+a_nb_n $  is maximized when  $ {A} $  and  $ {B} $  are similarly sorted (that is, if  $ a_k $  is greater than or equal to exactly  $ {i} $  of the other members of  $ A $  , then  $ {b_k} $  is also greater than or equal to exactly  $ {i} $  of the other members of  $ B $  ).  Conversely,  $ a_1b_1+a_2b_2+\cdots+a_nb_n $  is minimized when  $ A $  and  $ B $  are oppositely sorted (that is, if  $ a_k $  is less than or equal to exactly  $ {i} $  of the other members of  $ A $  , then  $ {b_k} $  is also greater than or equal to exactly  $ {i} $  of the other members  $ B $  ).  
+== Contents ==
+
+== Introductory ==
+Consider the following simple application:  suppose you are involved in the hold-up of a convenience store.  You note, as you are emptying the register, that there are different numbers of each denomination (penny, nickel, dime, quarter, dollar bill, five dollar bill, ten dollar bill and twenty dollar bill) in the register.  When would your take be maximized?  Certainly, you would hope that there would be the largest number of twenty dollar bills, then the next largest number of tens, etc.  Meanwhile, you would find yourself very disappointed if there were more pennies than nickels, more nickels than dimes, and so on.  This is a simple application of the rearrangement inequality.  It is also an application of the greedy algorithm , so one possible interpretation of the rearrangement inequality is that sometimes, the greedy algorithm works.  
+== Intermediate ==
+
+=== Proof of the Rearrangement Inequality ===
+The proof of the Rearrangment Inequality can be handled with  proof by contradiction .  Only the maximization form is proved here; the minimization proof is virtually identical. Before we begin the proof properly, it is useful to consider the case where  $ n=2 $  .  Without loss of generality, sort  $ A $  and  $ B $  so that  $ a_2 \geq a_1 $  and  $ b_2\geq b_1 $  .  By hypothesis,  $ (a_2-a_1)(b_2-b_1) \geq 0 $  .  Expanding and taking some terms to the other side of the inequality, we get  $ a_1b_1+a_2b_2 \geq a_1b_2+a_2b_1 $  , as desired. Now for the general case.  Again, without loss of generality, set  $ a_1 \leq a_2 \leq \cdots \leq a_n $  and  $ b_1 \leq b_2 \leq \cdots \leq b_n $  ; and suppose the grouping that maximizes the desired sum of products is not the one that pairs  $ {a_1} $  with  $ {b_1} $  ,  $ {a_2} $  with  $ {b_2} $  , and so on.  This means that there is at least one instance where  $ {a_i} $  is paired with  $ b_j $  while  $ a_k $  is paired with  $ {b_l} $  , where  $ i < j $  and  $ k > l $  .  However, using the technique seen above to prove the inequality for  $ n=2 $  , we can see that the sum of products can only increase if we instead pair  $ {a_i} $  with  $ {b_l} $  and  $ a_k $  with  $ b_j $  (unless both a's or both b's are equal, in which case either we can choose another pair of products or note that the current arrangement is actually identical to the desired one), which contradicts our assumption that the arrangement we had was already the largest one. Note: The minimization equality can be very easily proved by noting that if we have the set  $ \{-b_1, -b_2, \ldots\} $  , ordered in decreasing order and the set  $ \{a_1, a_2, \ldots\} $  , ordered in increasing order, then the maximum sum is just  $ -a_1b_k - a_2b_{k-1} + \ldots $  . Thus, by negating all values the inequality follows. 
+== Uses ==
+The Rearrangement Inequality has a wide range of uses, from MathCounts level optimization problems to Olympiad level  inequality problems.  A relatively simple example of its use in solving higher-level problems is found in the proof of Chebyshev's Inequality .  It is particularly useful in that it does not require any terms of either sequence to be positive or negative, unlike the power-mean family of inequalities. 
+== See Also ==
+
+== External Links ==
+Something appears to not have loaded correctly. Click to refresh .

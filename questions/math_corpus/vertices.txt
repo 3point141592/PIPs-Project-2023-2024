@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Vertex =
+There are multiple uses of the word vertex in mathematics, including uses in graph theory and multiple uses in geometry . 
+== Contents ==
+
+== Vertex of a parabola ==
+The vertex of a parabola is the midpoint of the line segment joining the focus of the parabola to the directrix that is perpendicular to the directrix.  This line is the line of symmetry of the parabola.  If the parabola lies in a Cartesian coordinate system as the  graph of the equation  $ y = ax^2 + bx + c $  then this line is vertical and the vertex is the point at which the  $ y $  -value of the graph is minimal (if  $ a > 0 $  ) or maximal (if  $ a < 0 $  ). 
+== Vertex of an angle ==
+See angle . 
+== Vertex of a polygon or polyhedron ==
+See polygon . 
+== Vertex of a graph ==
+See graph . Note that the plural form of the word "vertex" is the word "vertices;"  the singular of "vertices" is "vertex," not " vertice ." Something appears to not have loaded correctly. Click to refresh .

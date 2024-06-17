@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= MediaWiki =
+MediaWiki is a free software package on which the AoPSWiki runs.  It was originally created to run Wikipedia , but is now used in a variety of wiki projects. Something appears to not have loaded correctly. Click to refresh .

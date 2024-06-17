@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Proof writing =
+Proof writing is often thought of as one of the most difficult aspects of math education to conquer. Proofs require the ability to think abstractly, that is, universally. They also require a little appreciation for mathematical culture; for instance, when a mathematician uses the word "trivial" in a proof, they intend a different meaning to how the word is understood by the wider population. Students who spend time studying maths can develop proof-writing skills over time.  
+== Contents ==
+
+== Getting Started ==
+The fundamental aspects of a good proof are precision, accuracy, and clarity. A single word can change the intended meaning of a proof, so it is best to be as precise as possible. There are two different types of proofs: informal and formal. Formal proof is often introduced using a two-column format , as favored by many geometry teachers. In higher-level mathematics (taken as meaning an advanced undergraduate level of mathematical maturity or above), two methods of formal proof predominate. These are proof by construction (a common example of which is proof by induction ), and proof by contradiction (which in its simplest form requires only the demonstration of a counterexample). An informal proof can be in a wide variety of styles. It is usually not as neat as a two-column proof but is far easier to organize. It is important to note that people trained to a university-level of mathematics do not consider so-called "informal proofs" to be proof of anything at all. Instead, they may be regarded as "heuristics", or teaching tools, at best.  
+=== Practice ===
+Art of Problem Solving (AoPS) has many resources to help students begin writing proofs. 
+== Proof Writing Guides ==
+
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,21 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Generating function =
+The idea behind generating functions is to create a power series whose coefficients, , give the terms of a sequencewhich is of interest. Therefore the power series (i.e. the generating function) is and the sequence is . 
+== Contents ==
+
+== Simple Example ==
+If we let , then we have . This function can be described as the number of ways we can get heads when flipping different coins. The reason to go to such lengths is that our above polynomial is equal to (which is clearly seen due to the Binomial Theorem). By using this equation, we can rapidly uncover identities such as (let ), also . 
+== More Examples ==
+Many generating functions can be derived using the sum formula for geometric series for . For example, using a change of variables, for (if ) or (if ), generating the powers of for any real . The identity holds for all when , but the result is uninteresting (both the generating function and the desired power series are just ). Taking the derivativeand multiplying by gives a generating function for the nonnegative integers: for . 
+== Convolutions ==
+Suppose we have the sequences and . We can create a new sequence, called the convolution of and , defined by . Generating functions allow us to represent the convolution of two sequences as the product of two power series. If is the generating function for and is the generating function for , then the generating function for is . 
+== Simple Exercises ==
+1. There are three baskets on the ground: one has 2 purple eggs, one has 2 green eggs, and one has 3 white eggs. Eggs of the same color are indistinguishable. In how many ways can I choose 4 eggs from the baskets? Solution for problem 1: The generating function for the first basket is , since there is one way to choose 0 purple eggs (do nothing), 1 way to choose 1 purple egg (since eggs are indistinguishable), and 1 way to choose 2 purple eggs. In a similar fashion the generating function for the green egg basket is and the generating function for the white egg basket is . Now to find the number of ways to pick eggs from multiple baskets, just simply multiply the functions together, getting . We want the number of ways to choose 4 eggs, so we just need to look at the coefficient of and see that there are 8 ways to choose 4 eggs. 
+== See also ==
+
+== External Link ==

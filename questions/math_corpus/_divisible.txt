@@ -1,0 +1,13 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Divisor =
+A natural number   $ {d} $  is called a divisor of a natural number  $ {n} $  if there is a natural number  $ {k} $  such that  $ n=kd $  or, in other words, if  $ \frac nd $  is also a natural number (i.e  $ d $  divides  $ n $  ). See Divisibility for more information. 
+== Notation ==
+A common notation to indicate a number is a divisor of another is  $ n|k $  . This means that  $ n $  divides  $ k $  . See the main article on counting divisors . If  $ n=p_{1}^{\alpha_{1}} \cdot p_{2}^{\alpha_{2}}\cdot\dots\cdot p_m^{\alpha_m} $  is the prime factorization of  $ {n} $  , then the number  $ d(n) $  of different divisors of  $ n $  is given by the formula  $ d(n)=(\alpha_{1} + 1)\cdot(\alpha_{2} + 1)\cdot\dots\cdot(\alpha_{m} + 1) $  . It is often useful to know that this expression grows slower than any positive power of  $ {n} $  as  $ n\to\infty $  . 
+We also know that the product of the divisors of any integer  $ n $  is \[n^{\frac{t(n)}{2}}.\] Another useful idea is that  $ d(n) $  is  odd if and only if  $ {n} $  is a perfect square . 
+== Useful formulas ==
+Something appears to not have loaded correctly. Click to refresh .

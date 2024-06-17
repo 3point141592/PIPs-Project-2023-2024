@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Nine point center =
+For a given triangle , the nine point center , usually denoted  $ N $  , is the center of the nine point circle .  It also lies on the Euler line of the triangle and is the midpoint of the segment joining the orthocenter   $ H $  to the circumcenter   $ O $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

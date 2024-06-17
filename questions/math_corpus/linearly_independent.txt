@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Linearly independent =
+In linear algebra , a set of vectors   $ v_1, v_2, \ldots, v_n $  in a vector space   $ V $  over a field  $ K $  are linearly independent if there do not exist scalars  $ c_1, c_2, \ldots, c_n \in K $  not all equal to zero such that \[c_1v_1 + c_2v_2 + \cdots + c_nv_n = O.\] Otherwise, the vectors are said to be linearly dependent . In  $ \mathbb{R}^m $  , vectors  $ \bold{v}_1, \ldots, \bold{v}_n $  are linearly independent iff their determinant   $ D(\bold{v}_1, \ldots, \bold{v}_n) = 0 $  . 
+== Examples ==
+A basis of a vector space  $ V $  is a maximal set of linearly independent vectors, that is, if  $ \{v_1, \ldots, v_n\} $  are a basis, then  $ \{v_1, \ldots, v_n, w\} $  for any vector  $ w \in V $  are linearly dependent. Any eigenvectors corresponding to different eigenvalues (with respect to a linear map  $ L $  ) are linearly independent. This can be proved by induction . Suppose  $ v_1, v_2, \ldots, v_n $  are eigenvectors corresponding to distinct eigenvalues  $ \lambda_1, \lambda_2, \ldots, \lambda_n $  , and that there exists a statement of linear dependency \[\sum c_iv_i = O.\] Multiplying both sides by  $ \lambda_1 $  and applying  $ L $  to both sides, respectively, yields \[\sum \lambda_1c_iv_i = O,\qquad L\left(\sum c_iv_i\right) = \sum \lambda_ic_iv_i = O.\] Subtracting the two equations yields \[\sum (\lambda_1-\lambda_i)c_iv_i,\] which is a statement of linear dependency among  $ v_2, \ldots, v_n $  . 
+== Problems ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

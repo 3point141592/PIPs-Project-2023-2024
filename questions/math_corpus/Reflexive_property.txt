@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Reflexive property =
+A binary relation   $ \mathcal R $  on a set   $ S $  is said to be reflexive or to have the reflexive property if  $ a{\mathcal R}a $  for all  $ a \in S $  . For example, the relation of similarity on the set of triangles in a plane is reflexive: every triangle is similar to itself.  However, the relation  $ \mathcal R $  on the real numbers given by  $ x {\mathcal R} y $  if and only if  $ x < y $  is not reflexive because  $ x < x $  does not hold for at least one real value of  $ x $  .  (In fact, it does not hold for any real value of  $ x $  , but we only need the weaker statement to disprove reflexivity.) 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

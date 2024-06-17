@@ -1,0 +1,30 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= AM-GM Inequality =
+In algebra , the AM-GM Inequality , also known formally as the Inequality of Arithmetic and Geometric Means or informally as AM-GM , is an inequality that states that any list of nonnegative reals' arithmetic mean is greater than or equal to its geometric mean. Furthermore, the two means are equal if and only if every number in the list is the same. In symbols, the inequality states that for any real numbers  $ x_1,  x_2, \ldots, x_n \geq 0 $  , \[\frac{x_1 + x_2 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 x_2 \cdots x_n}\] with  equality if and only if  $ x_1 = x_2 = \cdots = x_n $  . The AM-GM Inequality is among the most famous inequalities in algebra and has cemented itself as ubiquitous across almost all competitions. Applications exist at introductory, intermediate, and olympiad level problems, with AM-GM being particularly crucial in proof-based contests. 
+== Contents ==
+
+== Proofs ==
+All known proofs of AM-GM use induction or other, more advanced inequalities. Furthermore, they are all more complex than their usage in introductory and most intermediate competitions. AM-GM's most elementary proof utilizes Cauchy Induction , a variant of induction where one proves a result for  $ 2 $  , uses induction to extend this to all powers of  $ 2 $  , and then shows that assuming the result for  $ n $  implies it holds for  $ n-1 $  . 
+== Generalizations ==
+The AM-GM Inequality has been generalized into several other inequalities. In addition to those listed, the Minkowski Inequality and Muirhead's Inequality are also generalizations of AM-GM. 
+=== Weighted AM-GM Inequality ===
+The Weighted AM-GM Inequality relates the  weighted arithmetic and geometric means. It states that for any list of weights  $ \omega_1,  \omega_2, \ldots, \omega_n \geq 0 $  such that  $ \omega_1 + \omega_2 + \cdots + \omega_n = \omega $  , \[\frac{\omega_1 x_1 + \omega_2 x_2 + \cdots + \omega_n x_n}{\omega} \geq \sqrt[\omega]{x_1^{\omega_1} x_2^{\omega_2} \cdots x_n^{\omega_n}},\] with equality if and only if  $ x_1 = x_2 = \cdots = x_n $  . When  $ \omega_1 = \omega_2 = \cdots = \omega_n = 1/n $  , the weighted form is reduced to the AM-GM Inequality. Several proofs of the Weighted AM-GM Inequality can be found in the proofs of AM-GM article. 
+=== Mean Inequality Chain ===
+The Mean Inequality Chain , also called the RMS-AM-GM-HM Inequality , relates the root mean square, arithmetic mean, geometric mean, and harmonic mean of a list of nonnegative reals. In particular, it states that \[\sqrt{\frac{x_1^2 + x_2^2 + \cdots + x_n^2}{n}} \geq \frac{x_1 + x_2 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 x_2 \cdots x_n} \geq \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + \cdots + \frac{1}{x_n}},\] with equality if and only if  $ x_1 = x_2 = \cdots = x_n $  . As with AM-GM, there also exists a weighted version of the Mean Inequality Chain. 
+=== Power Mean Inequality ===
+The Power Mean Inequality relates all the different power means of a list of nonnegative reals. The power mean  $ M(p) $  is defined as follows: \[M(p) = \begin{cases} \left( \frac{x_1^p + x_2^p + \cdots + x_n^p}{n}\right)^\frac{1}{p} &\text{if } p \neq 0 \\ \sqrt[n]{x_1 x_2 \cdots x_n} &\text{if } p = 0. \end{cases}\] The Power Mean inequality then states that if  $ a>b $  , then  $ M(a) \geq M(b) $  , with equality holding if and only if  $ x_1 = x_2 = \cdots = x_n. $  Plugging  $ p=1, 0 $  into this inequality reduces it to AM-GM, and  $ p=2, 1, 0, -1 $  gives the Mean Inequality Chain. As with AM-GM, there also exists a weighted version of the Power Mean Inequality. 
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+( Source ) 
+=== Olympiad ===
+\[(a^5 - a^2 + 3)(b^5 - b^2 + 3)(c^5 - c^2 + 3) \ge (a+b+c)^3 .\] ( Source ) 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Light =
+
+== Overview ==
+Light is dual-natured because it is a wave that is made out of particles called photons. Photons are the smallest particles humans have ever known 
+== Optics ==
+Etymologically, optics is the study of vision. Light waves are electromagnetic waves - they consist of mutually perpendicular electric fields and magnetic fields , and can travel through a vacuum. Optics is the study of electromagnetic waves in general. So it covers all waves in the electromagnetic spectrum given below: One of the most controversial questions in optics is whether light is a wave or a ray. Accordingly, there are two branches of optics, but only ray optics belongs to classical physics. Wave optics are a topic of modern physics. In ray, optics covers topics such as reflection and refraction and the dispersion of white light into its constituent colors. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Interval =
+
+== Definition ==
+An interval is a continuous range of values, such as all of the real numbers between  $ -2 $  and  $ 0, $  inclusive. The most common uses of an interval are to specify the  domain and range of a function . 
+== Symbols ==
+If an interval has either  $ ( $  or  $ ) $  in it, the values at the end are NOT included in the interval. If an interval has either  $ [ $  or  $ ] $  in it, the values at the end ARE included. If both endpoints are not included, then the interval is open. If both endpoints are included, then the interval is closed.  Note : The symbols  $ ( $  and  $ ) $  are used with  $ -\infty $  and  $ \infty, $  by convention. 
+== Examples ==
+Use latex \infty for infinity symbol and use latex \cup for OR symbol. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Pyramid =
+A pyramid is a 3-dimensional geometric solid .  It consists of a base that is a polygon and a point not on the plane of the polygon, called the vertex .  The edges of the pyramid are the sides of the polygonal base together with line segments which join the vertex of the pyramid to each vertex of the polygon. The volume of a pyramid is given by the formula  $ \frac13bh $  , where  $ b $  is the area of the base and  $ h $  is the height . Some well-known pyramids include the tetrahedron , which has a triangle for its base. (A regular tetrahedron has all edges of equal length, and is one of the Platonic solids ). Another is the regular square pyramid. Two of these with their bases joined form an octahedron , which is another Platonic solid. If the base of the pyramid has  $ \displaystyle n $  sides, then the pyramid has  $ \displaystyle 2n $  edges,  $ \displaystyle n+1 $  vertices, and  $ \displaystyle n+1 $  faces (of which  $ \displaystyle n $  are triangular, and the remaining one is the base). 
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+Something appears to not have loaded correctly. Click to refresh .

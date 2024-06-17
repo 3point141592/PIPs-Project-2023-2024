@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Surjection =
+A surjection is a function which takes each value in its codomain at some value in its domain .  That is, the range (or image ) of the function is equal to its codomain.  (For every function, the range is a subset of the codomain.)  In adjectival form, we say that a function is surjective or onto . For instance, the function  $ f: \mathbb Z \to \mathbb Z $  defined by  $ f(x) = x+1 $  is surjective because for every integer , there exists another integer one more than that integer, but the function  $ f: \mathbb N \to\mathbb N $  defined by  $ f(x) = x+1 $  is not surjective because there exists a natural number which is not one more than any other natural number. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Open interval =
+An open interval is an interval which has neither a maximum nor a minimum element. Open intervals are denoted by  $ (a,b) $  where  $ a $  is the  infimum (greatest lower bound) and  $ b $  is the  supremum (least upper bound). Alternatively, an open interval  $ (a,b) $  is the set of all  $ x $  such that  $ x $  satisfies both of the inequalities   $ a < x $  and  $ x < b $  . In an open interval, it is possible that either the infimum  $ a $  or the supremum  $ b $  , or both, do not exist. If the infimum is nonexistent, the value of  $ a $  is written as  $ -\infty $  ; if the supremum is nonexistent, the value of  $ b $  is written as  $ \infty $  . The corresponding inequality is always considered true in these cases, since  $ -\infty < x $  and  $ x < +\infty $  by definition. Every open interval is an open set . 
+== Examples ==
+ $ \mathbb R $  , the set of all real numbers , is an open interval with neither an upper bound nor a lower bound.  $ (0, + \infty) $  , the set of positive real numbers, is an open interval with a lower bound but no upper bound.  $ (-\infty, 0) $  , the set of negative real numbers, is an open interval with an upper bound but no lower bound.  $ (-1, 1) $  , the set of real numbers strictly between  $ -1 $  and  $ 1 $  , is an open interval with both an upper bound and a lower bound. The empty set , having no elements and therefore neither a maximum nor a minimum, is considered an open interval. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Tetrahedron =
+The tetrahedron (plural tetrahedra ) or triangular pyramid is the simplest polyhedron .  Tetrahedra have four vertices , four  triangular  faces and six edges .  Three faces and three edges meet at each vertex. Any four points chosen in space will be the vertices of a tetrahedron as long as they do not all lie on a single plane . [asy] import three;  currentprojection = orthographic(-1.2,-0.2,0.4);  triple[] P = {(0,0,(2/3)^.5),(3^(-0.5),0,0),(-1/2/3^.5,1/2,0),(-1/2/3^.5,-1/2,0)};   void drawFrontFace(int x, int y, int z){  draw(P[x] -- P[y] -- P[z] -- cycle, linewidth(0.7)); /* fill(P[x] -- P[y] -- P[z] -- cycle, rgb(0.7,0.7,0.7)); */  }   void drawBackFace(int x, int y, int z){  draw(P[x] -- P[y] -- P[z] -- cycle, linetype("2 6"));  }    drawFrontFace(0,3,2);drawBackFace(0,1,3);drawBackFace(0,2,3);drawBackFace(1,2,3);    [/asy]  The volume of a tetrahedron is  $ \frac{1}{3}bh $  . Regular tetrahedra, in which all edges have equal length and all faces are congruent  equilateral triangles , are one of the five types of Platonic solids . The volume of a regular tetrahedron can also be found via  $ \frac{a^3}{6\sqrt2} $  , where  $ a $  is the side length. The polyhedral dual of a tetrahedron is another tetrahedron. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

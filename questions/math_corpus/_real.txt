@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Real number =
+A real number is a number that falls on the real number line. It can have any value. Some examples of real numbers are:  $ 1, 2, -23.25, 0, \frac{\pi}{\phi} $  , and so on. Numbers that are not real are  $ \ 3i $  ,  $ \ 3+2.5i $  ,  $ \ 3+2i+2j+k $  , i.e. complex numbers , and quaternions . The set of real numbers, denoted by  $ \mathbb{R} $  , is a subset of complex numbers (  $ \mathbb{C} $  ). Commonly used subsets of the real numbers are the rational numbers (  $ \mathbb{Q} $  ), integers (  $ \mathbb{Z} $  ), natural numbers (  $ \mathbb{N} $  ) and irrational numbers (sometimes, but not universally, denoted  $ \mathbb{J} $  ). In addition  $ \mathbb{Z}^{+} $  means positive integers and  $ \mathbb{Z}^{-} $  means negative integers. The real numbers can also be divided between the algebraic numbers and transcendental numbers , although these two classes  are best understood as subsets of the complex numbers . 
+== Contents ==
+
+== The set  ==
+The set of Real numbers is a complete , ordered  field under addition and multiplication.  Dedekind developed a method to construct  $ \mathbb{R} $  , the set of Real numbers from the set of rational numbers , using the very elegant idea of cuts . 
+=== Cuts ===
+Let  $ \mathbb{Q} $  be the set of rational numbers. Let  $ \alpha\subset\mathbb{Q} $  be non-empty We say that  $ \alpha $  is a cut if and only if (1)  $ \alpha\neq\mathbb{Q} $  and  $ \alpha $  is bounded above (2) If  $ a\in\alpha $  ,  $ p\in\alpha\forall p<a $   (3) If  $ p $  is a rational and  $ p\in\alpha $  then there exists a rational  $ q>p $  such that  $ q\in\alpha $   We define  $ \mathbb{R} $  to be the set of all cuts  $ \alpha $   Using this definition, we can show that  $ \mathbb{R} $  possesess all the properties mentioned above. 
+=== Field Axioms ===
+
+=== Order Relation ===
+Let  $ \alpha $  ,  $ \beta $  be cuts We say that  $ \alpha<\beta $  iff  $ \alpha\subset\beta $   
+=== Completeness ===
+Let  $ A\subset\mathbb{R} $   Let  $ M\in\mathbb{R} $  be an upper bound of  $ A $   Let  $ S $  be the set of all rationals  $ q $  such that  $ q\notin\alpha $    $ \forall $    $ \alpha\in A $  . As  $ A $  is bounded above,  $ S $  is non empty. Consider the set  $ S'=\{-q|q\in S\} $   We see that  $ S' $  is a cut, say  $ \gamma $   Thus, the cut  $ -\gamma $  is the supremum of set  $ A $   QED 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

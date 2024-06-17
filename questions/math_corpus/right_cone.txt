@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Right cone =
+
+== Contents ==
+
+=== Definition ===
+A right cone is a cone in which the line joining the vertex to the center of the base is perpendicular to the plane of the base. 
+=== What exactly defines a cone? ===
+A cone has two important defining features: a base, and a slant height that is equal, from any point on the base. Generally, a "cone" is defined as a right, circular cone. 
+=== What is so special about right cones? ===
+Right cones have a height that is perpendicular to the base. This makes the volume easy to calculate. 
+=== What about the "lateral surface area"? What's that? ===
+The lateral surface area is a fancy name for the surface area of a cone, without the base. The lateral surface area can be found by calculating what proportion of a circle with radius of the slant height makes up the cone. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,28 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Polyhedron =
+A polyhedron is a three-dimensional surface composed of at least four flat faces which encloses a region of space . These faces intersect in edges and vertices . Polyhedra are 3-D analogues of polygons . They can be thought of as sets of ordered triples. 
+== Contents ==
+
+== Classification ==
+
+=== Concavity ===
+Polyhedra can be  convex or  concave . 
+=== Number of sides ===
+
+=== Regular polyhedra ===
+They have congruent faces, angles, and edges. Only regular tetrahedra, hexahedra ( cubes ), octahedra, dodecahedra, and icosahedra exist. (In addition, a sphere could be thought of a polyhedron with an infinite number of faces.) 
+== Common polyhedra ==
+The polyhedra most commonly encountered include: etc. Prisms and pyramids can be polyhedra. 
+== Surface area ==
+The surface area of a polyhedron is the sum of the areas of its sides. 
+== Volume ==
+The volume of a certain polyhedron is defined as  $ (B)h $  , where B is the area of the base of the polyhedron and h is the height to this base. 
+== Angles ==
+
+== Related figures ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Reciprocal =
+The reciprocal of a non- zero number  $ r $  (usually a real number or rational number , but also a complex number or any non-zero element of a field ) is its multiplicative  inverse .  The reciprocal is usually denoted  $ r^{-1} $  or  $ \frac 1r $  .  $ q $  and  $ r $  are multiplicative inverses of each other if and only if  $ r \cdot q = q \cdot r = 1 $  . 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

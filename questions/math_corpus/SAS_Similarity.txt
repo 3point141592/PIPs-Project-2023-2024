@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= SAS Similarity =
+
+== Contents ==
+
+== Definition ==
+
+=== AoPS ===
+SAS stands for Side-Angle-Side, for two triangles to be similar triangles by SAS similarity, they must have a pair of congruent angles and the two sides next to the angle must be proportional. 
+=== Mathwords Definition ===
+Side-angle-side similarity. When two triangles have corresponding angles that are congruent and corresponding sides with identical ratios as shown below, the triangles are similar. 
+== Diagram ==
+[asy] dot((0,0)); label("A",(0,0),SW); dot((5,0)); label("B",(5,0),SE); dot((3,4)); label("C",(3,4),N); draw((0,0)--(5,0)--(3,4)--cycle); markscalefactor = 0.1; draw(anglemark((5,0),(0,0),(3,4))); [/asy]  [asy] size((8cm)); dot((0,0)); label("D",(0,0),SW); dot((5,0)); label("E",(5,0),SE); dot((3,4)); label("F",(3,4),N); draw((0,0)--(5,0)--(3,4)--cycle); markscalefactor = 0.0675; draw(anglemark((5,0),(0,0),(3,4))); [/asy] If  $ m\angle CAB = m\angle FDE $  and  $ \dfrac{CA}{FD} = \dfrac{AB}{DE} $  , then the triangles are similar by SAS similarity. 
+== See Also ==
+
+== Categories ==
+Something appears to not have loaded correctly. Click to refresh .

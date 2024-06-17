@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Sigma notation =
+This article is a stub.  Help us out by  .  Sigma notation , also known as summation notation , provides a method for writing long, complicated, sometimes infinite sums neatly and compactly.  Besides being easier to write than the explicit sum, sigma notation is also useful in that it shows the general form of each addend. 
+== Contents ==
+
+== Definition ==
+For any integers  $ m $  and  $ n $  such that  $ m \leq n $  and any function  $ a(x) $  defined on the integers, we write  $ \sum_{k=m}^n a(k) $  for the sum  $ a(m)+a(m+1)+a(m+2)+\ldots+a(n-1)+a(n) $  . 
+== Description ==
+Let's first use an example to demonstrate how to use the notation.  Consider the sum  $ 5+10+15+20+25 $  .  We'll denote the sequence   $ a_k $  where k is the number of terms being summed.  We want to rewrite the sum so that each term is in terms of its number k in the sequence. Factoring , we get,  $ 5+10+15+20+25=5(1+2+3+4+5) $  .  Now, we see that each term is five times it's number in the sequence k; that is, as k ranges from 1 to 5, each term can be written as 5k.  This sum is written in summation notation as  $ \sum_{k=1}^5 5k=5+10+15+20+25 $  .  In this case, 1 is the lower limit of summation, the number the index of summation k starts the sum with, and ends with the upper limit of summation 5.  One way to remember the terms is to note that the lower limit of summation is written under the sigma and the upper one is written above the sigma. 
+== Properties ==
+For any constant c and finite (or absolutely convergent ) series   $ a_k $  and  $ b_k $  , 
+== Examples ==
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Strictly decreasing =
+A function f(x) is said to be strictly decreasing on an interval I if f(b)<f(a) for all b>a, where a,b in I. On the other hand, if f(b)<=f(a) for all b>a, the function is said to be (nonstrictly) decreasing. Something appears to not have loaded correctly. Click to refresh .

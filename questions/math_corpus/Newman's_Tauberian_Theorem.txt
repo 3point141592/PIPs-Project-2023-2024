@@ -1,0 +1,35 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Newman's Tauberian Theorem =
+Newman's Tauberian Theorem is a tauberian theorem first proven by D.J. Newman in 1980, in his short proof of
+the prime number theorem . 
+== Statement ==
+Let  $ f:(0,+\infty)\to\mathbb C $  be a bounded function. Assume that
+its Laplace transform   $ F(s) = \int_0^\infty f(t)e^{-st}dt $  (which is well-defined by this formula for  $ \Re s>0 $  ) admits an
+analytic extension (which we'll denote by the same letter  $ F $  )
+to some  open domain  $ E $  containing the closed half-plane  $ \{s\in\mathbb C : \Re s\ge 0\} $  . Then, the integral  $ \int_0^\infty f(t) dt $  converges and its value equals  $ F(0) $  . 
+== Proof ==
+For every  $ T>0 $  , let  $ F_T(s) = \int_0^T f(t)e^{-st} dt $  . The function  $ F_T $  is defined and analytic on the entire complex plane  $ \mathbb C $  .
+The conclusion of the theorem is equivalent to the assertion  $ \lim_{T\to+\infty} F_T(0) = F(0) $  .  We choose some large  $ R>0 $  ,
+and some arbitrarily small  $ \delta > 0 $  such that  $ F $  is defined on the set \[\{ z \in \mathbb{C} \mid \Re z \ge - \delta, \lvert z \rvert \le R \} .\] Let  $ \Gamma $  be the counterclockwise contour on the boundary 
+of this set.  Let  $ \Gamma_+ $  be the restriction of this contour
+to the half-plane  $ \Re z \ge 0 $  .
+Let  $ \Gamma_-^1 $  be the restriction of the contour to the set \[\{ z \in \mathbb{C} \mid \Re z \in (-\delta,0), \lvert z \rvert = R \} ,\] and let  $ \Gamma_-^2 $  be the restriction to the set \[\{ z \in \mathbb{C} \mid \Re z = -\delta, \lvert z \rvert \le R\}.\] Let  $ \Gamma_- = \Gamma_-^1 + \Gamma_-^2 $  , as shown in the diagram
+below. [asy] size(200); defaultpen(.7);  path C=circle((0,0),1); path D=((-.3,-1.2)--(-.3,1.2)); pair d1,d2;  d1 = intersectionpoints(C,D)[0]; d2 = intersectionpoints(C,D)[1];  draw(d2..(1,0)..d1,MidArrow); draw(d1--d2); draw(d1..(-1,0)..d2,dashed); draw((-1.2,0)--(1.5,0),EndArrow); draw((0,-1.2)--(0,1.5),EndArrow);  label("\Large{ $ \Gamma_+ $ }",(1.1,.5)); label("\Large{ $ \Gamma_- $ }",(-.45,.4)); label("\Large{ $ \tilde\Gamma_- $ }",(-1.1,.6)); [/asy]  By the Cauchy integral formula , we have \[F(0)-F_T(0) = \frac{1}{2\pi i} \int_\Gamma K(z) (F(z)-F_T(z)) \frac{dz}{z} ,\] where \[K(z) = \left( 1 + \frac{z^2}{R^2}\right) e^{zT} .\] We will estimate this integral separately in the left and
+right half-planes.  In principle,  $ K $  could be arbitrary, but
+we have chosen  $ K $  to make it easier to estimate this
+integral. We first estimate the difference  $ F(z) - F_T(z) $  for  $ \Gamma_+ $  .
+Let  $ M $  be an upper bound for  $ \lvert f(x) \rvert $  .
+In the the right half-plane  $ \Re z > 0 $  , we note that \[\lvert F(z) - F_T(z) \rvert = \biggl\lvert \int_T^{\infty} f(x)e^{-zt} dt \biggr\rvert \le M \int_T^{\infty} e^{-\Re (z) t} dt = \frac{M e^{-\Re(z)T}}{\Re z} .\]  Thus, we should kill the denominator  $ \Re z $  for the integral
+to converge. On the other hand, we can afford the kernel  $ K(z) $  growth as  $ e^{T\Re z} $  in the right half-plane, which will allow
+us corresponding decay in the left half-plane.  Hence our choice \[K(z) = \left(1+\frac{z^2}{R^2}\right)e^{Tz}.\] This is convenient because for  $ \lvert z \rvert = R $  , \[K(z) = \frac{2 z \Re z}{R^2} e^{Tz} ,\] so that  $ K $  kills the unpleasant denominator  $ \Re z $  on  $ \Gamma_+ $  . We then have \[\biggl\lvert \int_{\Gamma_+} K(z)\bigl[ F(z) - F_T(z) \bigr] \frac{dz}{z} \biggr\rvert \le\int_{\Gamma_+} \frac{2M}{R^2} \lvert dz \rvert = \frac{2\pi M}{R} .\]  To estimate the integral over  $ \Gamma_- $  , we note that  $ K(z)F_T(z)/z $  is analytic in the left
+half-plane, so we may change the integration path to the left semicircle  $ \tilde\Gamma_- $  of radius  $ R $  . Now, on  $ \tilde\Gamma_- $  , we have \[\lvert F_T(z) \rvert \le M \int_{0}^T \lvert e^{-zt} \rvert dt = M \frac{e^{-T\Re z } - 1}{\lvert\Re z\rvert} < M \frac{e^{-T \Re z}}{\lvert \Re z \rvert} .\] Then as before, \[\biggl\lvert \int_{\Gamma_-} F_T(z)K(z) \frac{dz}{z} \biggr\rvert \le \frac{2\pi M}{R}.\]  Now, let  $ N(R) $  be an upper bound for the quantity \[\left\lvert F(z) \left(1 + \frac{z^2}{R^2} \right) \frac{1}{z} \right\rvert\] on  $ \Gamma_- $  .  Then for  $ \delta < R $  , \[\biggl\lvert \int_{\Gamma_-^1} F(z)K(z) \frac{dz}{z} \biggr\rvert \le N(R) \biggl\lvert \int_{\Gamma_-^1} e^{zT} dz \biggr\rvert < N(R) \cdot 4 \delta ,\] and \[\biggl\lvert \int_{\Gamma_-^2} F(z)K(z) \frac{dz}{z} \biggr\rvert \le N(R) \int_{\Gamma_-^2} e^{-\delta T} \lvert dz \rvert < N(R) \cdot 2R e^{-\delta T} .\] Therefore \[\lvert F(0) - F_T(0) \rvert \le \frac{4\pi M}{R} + N(R) \cdot 4\delta + N(R) \cdot 2Re^{-\delta T} .\] But as  $ T $  becomes arbitrarily large, the last term vanishes, so
+that \[\limsup_{T \to \infty} \lvert F(0) - F_T(0) \rvert \le \frac{4\pi M}{R} + N(R)\cdot 4 \delta .\] We can make  $ \delta $  arbitrarily small, so that the second term
+vanishes.  Then we pick an arbitrarily large  $ R $  , so that the
+first term vanishes, and the theorem follows.  $ \blacksquare $   
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

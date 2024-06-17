@@ -1,0 +1,55 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inequality =
+The subject of mathematical inequalities is tied closely with optimization methods.  While most of the subject of inequalities is often left out of the ordinary educational track, they are common in mathematics Olympiads . 
+== Contents ==
+
+== Overview ==
+Inequalities are arguably a branch of elementary algebra , and relate slightly to number theory . They deal with relations of variables denoted by four signs:  $ >,<,\ge,\le $  . For two numbers   $ a $  and  $ b $  : Note that if and only if  $ a>b $  ,  $ b<a $  , and vice versa. The same applies to the latter two signs: if and only if  $ a\ge b $  ,  $ b\le a $  , and vice versa. Some properties of inequalities are: 
+== Solving Inequalities ==
+In general, when solving inequalities, same quantities can be added or subtracted without changing the inequality sign, much like equations .  However, when multiplying, dividing, or square rooting, we have to watch the sign.  In particular, notice that although  $ 3 > 2 $  , we must have  $ -3 < -2 $  .  In particular, when multiplying or dividing by negative quantities, we have to flip the sign.  Complications can arise when the value multiplied can have varying signs depending on the variable. We also have to be careful about the boundaries of the solutions.  In the example  $ x > \frac{3}{2} $  , the value  $ x = \frac{3}{2} $  does not satisfy the inequality because the inequality is strict.  However, in the example  $ x \ge \frac{3}{2} $  , the value  $ x = \frac{3}{2} $  satisfies the inequality because the inequality is nonstrict. Solutions can be written in interval notation .  Closed bounds use square brackets, while open bounds (and bounds at infinity) use parentheses.  For instance,  $ x \in [3,6) $  means  $ 3 \le x < 6 $  . 
+=== Linear Inequalities ===
+Linear inequalities can be solved much like linear equations to get implicit restrictions upon a variable.  However, when multiplying/dividing both sides by negative numbers, we have to flip the sign. 
+=== Polynomial Inequalities ===
+The first part of solving polynomial inequalities is much like solving polynomial equations -- bringing all the terms to one side and finding the roots. Afterward, we have to consider bounds.  We're comparing the sign of the polynomial with different inputs, so we could imagine a rough graph of the polynomial and how it passes through zeroes (since passing through zeroes could change the sign).  Then we can find the appropriate bounds of the inequality. 
+=== Rational Inequalities ===
+A more complex example is  $ \frac{x-8}{x+5}+4\ge 3 $  . Here is a common mistake: \begin{align*} \frac{x-8}{x+5}+4&\ge 3 \\\frac{x+5-13}{x+5}+4&\ge 3 \\1-\frac{13}{x+5}+4&\ge 3 \\x+5-13+4x+20&\ge 3x+15 \\x&\ge \frac{3}{2}. \end{align*} The problem here is that we multiplied by  $ x+5 $  as one of the last steps.  We also kept the inequality sign in the same direction.  However, we don't know if the quantity  $ x+5 $  is negative or not; we can't assume that it is positive for all real  $ x $  .  Thus, we may have to reverse the direction of the inequality sign if we are multiplying by a negative number.  But, we don't know if the quantity is negative either. A correct solution would be to move everything to the left side of the inequality, and form a common denominator.  Then, it will be simple to find the solutions to the inequality by considering the sign (negativeness or positiveness) of the fraction as  $ x $  varies. \begin{align*} \frac{x-8}{x+5}+4 &\ge 3 \\ \frac{x-8}{x+5}+1 &\ge 0 \\ \frac{2x-3}{x+5} &\ge 0 \end{align*} We will start with an intuitive solution, and then a rule can be built for solving general fractional inequalities.  To make things easier, we test positive integers.  $ 0 $  makes a good starting point, but does not solve the inequality.  Nor does  $ 1 $  .  Therefore, these two aren't solutions.  Then we begin to test numbers such as  $ 2 $  ,  $ 3 $  , and so on.  All of these work.  In fact, it's not difficult to see that the fraction will remain positive as  $ x $  gets larger and larger.  But just where does  $ x $  , which causes a negative fraction at  $ 0 $  and  $ 1 $  , begin to cause a positive fraction?  We can't just assume that  $ 2 $  is the switching point; this solution is not simply limited to integers.  The numerator and denominator are big hints.  Specifically, we examine that when  $ 2x-3=0 $  (the numerator), then the fraction is  $ 0 $  , and begins to be positive for all higher values of  $ x $  .  Solving the equation reveals that  $ x=\frac{3}{2} $  is the turning point.  After more of this type of work, we realize that  $ x=-5 $  brings about division by  $ 0 $  , so it certainly isn't a solution.  However, it also tells us that any value of  $ x $  that is less than  $ -5 $  brings about a fraction that has a negative numerator and denominator, resulting in a positive fraction and thus satisfying the inequality.  No value between  $ x=-5 $  and  $ x=\frac{3}{2} $  (except  $ \frac{3}{2} $  itself) seems to be a solution.
+Therefore, we conclude that the solutions are the intervals  $ (-\infty,-5)\cup[\frac{3}{2},+\infty) $  . For the sake of better notation, define the "x-intercept" of a fractional inequality to be those values of  $ x $  that cause the numerator and/or the denominator to be  $ 0 $  .To develop a method for quicker solutions of fractional inequalities, we can simply consider the "x-intercepts" of the numerator and denominator.  We graph them on the number line.  Then, in every region of the number line, we test one point to see if the whole region is part of the solution.  For example, in the example problem above, we see that we only had to test one value such as  $ 0 $  in the region  $ (-5,\frac{3}{2}) $  , as well as one value in the region  $ (-\infty,-5] $  and  $ [\frac{3}{2},+\infty) $  ; then we see which regions are part of the solution set.  This does indeed give the complete solution set. One must be careful about the boundaries of the solutions.  In the example problem, the value  $ x=\frac{3}{2} $  was a solution only because the inequality was nonstrict.  Also, the value  $ x=-5 $  was not a solution because it would bring about division by  $ 0 $  .  Similarly, any "x-intercept" of the numerator is a solution if and only if the inequality is nonstrict, and every "x-intercept" of the denominator is never a solution because we cannot divide by  $ 0 $  . 
+== Complete Inequalities ==
+A inequality that is true for all real numbers or for all positive numbers (or even for all complex numbers) is sometimes called a complete inequality. An example for real numbers is the so-called Trivial Inequality , which states that for any real  $ x $  ,  $ x^2\ge 0 $  . Most inequalities of this type are only for positive numbers, and this type of inequality often has extremely clever problems and applications. 
+== List of Theorems ==
+Here are some of the more useful inequality theorems, as well as general inequality topics. 
+=== Introductory ===
+
+=== Advanced ===
+
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+
+=== Olympiad ===
+
+== Resources ==
+
+=== Books ===
+
+==== Intermediate ====
+
+==== Olympiad ====
+
+=== Articles ===
+
+==== Olympiad ====
+
+=== Classes ===
+
+==== Olympiad ====
+ 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

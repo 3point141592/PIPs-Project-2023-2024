@@ -1,0 +1,26 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Menelaus' theorem =
+Menelaus' theorem deals with the collinearity of points on each of the three sides (extended when necessary) of a triangle .
+It is named after Menelaus of Alexandria. 
+== Contents ==
+
+== Statement ==
+If line  $ PQ $  intersecting  $ AB $  on  $ \triangle ABC $  , where  $ P $  is on  $ BC $  ,  $ Q $  is on the extension of  $ AC $  , and  $ R $  on the intersection of  $ PQ $  and  $ AB $  , then \[\frac{PB}{CP} \cdot \frac{QC}{QA} \cdot \frac{AR}{RB} = 1.\]  Alternatively, when written with directed segments , the theorem becomes  $ BP\cdot CQ\cdot AR = CP\cdot QA\cdot RB $  .
+Also, the theorem works with all three points on the extension of their respective sides. 
+== Proofs ==
+
+=== Proof with Similar Triangles ===
+Draw a line parallel to  $ QP $  through  $ A $  to intersect  $ BC $  at  $ K $  :  $ \triangle RBP \sim \triangle ABK \implies \frac{AR}{RB}=\frac{KP}{PB} $    $ \triangle QCP \sim \triangle ACK \implies \frac{QC}{QA}=\frac{CP}{KP} $   Multiplying the two equalities together to eliminate the  $ PK $  factor, we get:  $ \frac{AR}{RB}\cdot\frac{QC}{QA}=\frac{CP}{PB}\implies \frac{AR}{RB}\cdot\frac{QC}{QA}\cdot\frac{PB}{CP}=1 $   
+=== Proof with Barycentric coordinates ===
+Disclaimer: This proof is not nearly as elegant as the above one. It uses a bash-type approach, as barycentric coordinate proofs tend to be. Suppose we give the points  $ P, Q, R $  the following coordinates:  $ P: (0, P, 1-P) $    $ R: (R , 1-R, 0) $    $ Q: (1-Q ,0 , Q) $   Note that this says the following:  $ \frac{CP}{PB}=\frac{1-P}{P} $    $ \frac{BR}{AR}=\frac{1-R}{R} $    $ \frac{QA}{QC}=\frac{1-Q}{Q} $   The line through  $ R $  and  $ P $  is given by:  $ \begin{vmatrix} X & 0 & R \\ Y & P & 1-R\\ Z & 1-P & 0 \end{vmatrix} = 0 $   which yields, after simplification, \[-X\cdot (R-1)(P-1)+Y\cdot R(1-P)-Z\cdot PR = 0\]  \[Z\cdot PR = -X\cdot (R-1)(P-1)+Y\cdot R(1-P).\]  Plugging in the coordinates for  $ Q $  yields  $ (Q-1)(R-1)(P-1) = QPR $  . From  $ \frac{CP}{PB}=\frac{1-P}{P}, $  we have \[P=\frac{(1-P)\cdot PB}{CP}.\] Likewise, \[R=\frac{(1-R)\cdot AR}{BR}\] and \[Q=\frac{(1-Q)\cdot QC}{QA}.\]  Substituting these values yields \[(Q-1)(R-1)(P-1) = \frac{(1-Q)\cdot QC \cdot (1-P) \cdot PB \cdot (1-R) \cdot AR}{QA\cdot CP\cdot BR}\] which simplifies to  $ QA\cdot CP \cdot BR = -QC \cdot AR \cdot PB. $   QED 
+=== Proof with Mass points ===
+First let's define some masses.  $ B_{m_{1}} $  ,  $ C_{m_{2}} $  , and  $ Q_{m_{3}} $   By Mass Points: \[BP\cdot m_{1}=PC\cdot m_{2} \implies \frac{BP}{CP}=\frac{m_{2}}{m_{1}}\]  \[\frac{QC}{QA}=\frac{AC+QA}{QA}=1+\frac{AC}{QA}=1+\frac{m_{3}}{m_{2}}=\frac{m_{2}}{m_{2}}+\frac{m_{3}}{m_{2}}=\frac{m_{3}+m_{2}}{m_{2}}\] The mass at A is  $ m_{3}+m_{2} $   \[AR\cdot (m_{3}+m_{2}) = RB \cdot m_{1} \implies \frac{AR}{RB} = \frac{m_{1}}{m_{3}+m_{2}}\] Multiplying them together,  $ {\;\; \frac{BP}{CP} \cdot \frac{QC}{QA} \cdot \frac{AR}{RB} = \frac{{m_{2}}}{{m_{1}}} \cdot \frac{{m_{3}+m_{2}}}{{m_{2}}} \cdot \frac{{m_{1}}}{{m_{3}+m_{2}}} = 1} $   
+== Converse ==
+The converse of Menelaus' theorem is also true.  If  $ \frac{BP}{PC} \cdot \frac{CQ}{QA} \cdot \frac{AR}{RB} = 1 $  in the below diagram, then  $ P, Q, R $  are collinear .  The converse is useful in proving that three points are collinear. 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

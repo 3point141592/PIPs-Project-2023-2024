@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Ordinate =
+The ordinate of a point  $ (x, y) $  in the Cartesian coordinate system is the  $ y $  -coordinate. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Quotient set =
+A quotient set is a set derived from another by an equivalence relation . Let  $ S $  be a set, and let  $ \mathcal{R} $  be an equivalence relation.  The set of equivalence classes of  $ S $  with respect to  $ \mathcal{R} $  is called the quotient of   $ S $   by   $ \mathcal{R} $  , and is denoted  $ S/\mathcal{R} $  . A subset   $ A $  of  $ S $  is said to be saturated with respect to  $ \mathcal{R} $  if for all  $ x,y \in S $  ,  $ x\in A $  and  $ \mathcal{R}(x,y) $  imply  $ y\in A $  .  Equivalently,  $ A $  is saturated if it is the union of a family of equivalence classes with respect to  $ \mathcal{R} $  .  The saturation of   $ A $   with respect to   $ \mathcal{R} $  is the least saturated subset  $ A' $  of  $ S $  that contains  $ A $  . 
+== Compatible relations; derived relations; quotient structure ==
+Let  $ P(x) $  be a relation, and let  $ \mathcal{R} $  be an equivalence relation.  If  $ \mathcal{R}(x,y) $  and  $ P(x) $  together imply  $ P(y) $  , then  $ P $  is said to be compatible with  $ \mathcal{R} $  . Let  $ P(x) $  be a relation.  The relation  $ P'(y) $  on the elements of  $ S/\mathcal{R} $  , defined as \[\exists x \in y, P(x)\] is called the relation derived from   $ P $   by passing to the quotient.  Let  $ S $  be a structure,  $ \mathcal{R} $  , an equivalence relation.  If the equivalence classes form a structure of the same species as  $ S $  under relations derived from passing to quotients,  $ \mathcal{R} $  is said to be compatible with the structure on  $ S $  , and this structure on the equivalence classes of  $ S $  is called the quotient structure, or the derived structure, of  $ S/\mathcal{R} $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

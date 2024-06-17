@@ -1,0 +1,11 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Partial fraction decomposition =
+Any rational function of the form  $ \frac{P(x)}{Q(x)} $  may be written as a sum of simpler rational functions. To find the decomposition of a rational function, first perform the long division operation on it. This transforms the function into one of the form  $ \frac{P(x)}{Q(x)}=S(x) + \frac{R(x)}{Q(x)} $  , where  $ R(x) $  is the remainder term and  $ \deg {{R}(x)} \leq \deg {{Q}(x)} $  . Next, for every factor  $ (a_nx^n+a_{n-1}x^{n-1}+\cdots +a_0)^m $  in the factorization of  $ Q(x) $  , introduce the terms  $ \frac{A_1x^{n-1}+B_1x^{n-2}+\cdots+Z_1}{a_nx^n+a_{n-1}x^{n-1}+\cdots+a_0}+\frac{A_2x^{n-1}+B_2x^{n-2}+\cdots+Z_2}{(a_nx^n+a_{n-1}x^{n-1}+\cdots+a_0)^2} $    $ +\cdots+\frac{A_mx^{n-1}+B_mx^{n-2}+\cdots+Z_m}{(a_nx^n+a_{n-1}x^{n-1}+\cdots+a_0)^m} $   (Note that the variable  $ Z_i $  has no relation to being the 26th letter in the alphabet.) Next, take the sum of every term introduced above and equate it to  $ \frac{R(x)}{Q(x)} $  , and solve for the variables  $ A_i, B_i, \ldots $  . Once you solve for all the variables, then you will have the partial fraction decomposition of  $ \frac{R(x)}{Q(x)} $  .  
+== Examples ==
+Partial fraction decomposition has several common uses. It allows for much easier integration of rational functions, allowing one to integrate a complicated rational function term by term. Additionally, fraction decomposition can also be used to transform difficult summations into more manageable ones. If used in certain cases, the sum even telescopes into a simple arithmetic problem. Consider the sum  $ \sum_{n=1}^{99}\frac{1}{n(n+1)}=\frac{1}{1\cdot 2}+\frac{1}{2\cdot 3}+\cdots+\frac{1}{99\cdot 100} $  .
+We can rewrite the general term  $ \frac{1}{n(n+1)}=\frac{a}{n}+\frac{b}{n+1} $  for some constants  $ a $  and  $ b $  .  Multiplying both sides of the equation by  $ n(n+1) $  and solving by substituting  $ n=1, -1 $  , we find that  $ a=1,\  b=-1 $  .  Hence, the sum can be rewritten as  $ \sum_{n=1}^{99}\frac{1}{n(n+1)}=\sum_{n=1}^{99}\left(\frac{1}{n}+\frac{-1}{n+1}\right)=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\cdots +\left(\frac{1}{99}-\frac{1}{100}\right) $    $ =1-\frac{1}{100}=\frac{99}{100} $  . Something appears to not have loaded correctly. Click to refresh .

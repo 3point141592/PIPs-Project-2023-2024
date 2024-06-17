@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Unit circle =
+A unit circle is a circle whose radius has length 1. In the Cartesian coordinate system, an equation of the form  $ (x-h)^2+(y-k)^2=1 $  defines a unit circle with center  $ (h,k) $  . 
+== Trigonometry ==
+An unit circle centered at the origin can be used to calculate values for the basic trigonometric functions. Suppose we draw a ray starting from the origin and meeting the positive x-axis with an angle of  $ \theta $  . If we drop a perpendicular from the point of intersection between the ray and the circle, we have a right triangle with hypotenuse of  $ 1 $  . Using the definitions  $ \sin x = \frac{\text{opposite}}{\text{hypotenuse}} $  and  $ \cos x = \frac{\text{near}}{\text{hypotenuse}} $  , we find that  $ \sin \theta = \frac{y}{1} = y $  and  $ \cos \theta = \frac{x}{1} = x $  . We can read off values for sine and cosine of an angle this way; we can draw the angle and approximate the x and y coordinates of the intersection. We can also prove one of he fundamental theorems of trigonometry :  $ \sin^2{\theta}+\cos^2{\theta}=1 $  . The proof is as follows: We see that the length and width of the triangle in the diagram at left are  $ \sin{\theta} $  and  $ \cos{\theta} $  , respectively. We use the pythagorean theorem to get:  $ \sin^2{\theta}+\cos^2{\theta}=1 $   
+== Complex numbers ==
+On the complex plane , all solutions to the polynomial  $ x^n = 1 $  lie upon the unit circle. These are referred to as the roots of unity . In polar form, the solution to this polynomial can be expressed as  $ \cos \left(\frac{2\pi k}{n}\right) + i\sin \left(\frac{2\pi k}{n}\right) $  , where  $ k = 0,1,2,\ldots n-1 $  . This is commonly written as  $ \mathrm{cis} \left(\frac{2\pi k}{n}\right) $  . Additionally, the solution points form a regular  $ n $  -gon on the unit circle. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .
