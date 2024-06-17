@@ -1,0 +1,25 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Binomial Theorem =
+The Binomial Theorem states that for real or complex   $ a $  ,  $ b $  , and non-negative  integer $ n $,  $ (a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k$ , where  $ \binom{n}{k} = \frac{n!}{k!(n-k)!} $  is a binomial coefficient .  In other words, the coefficients when  $ (a + b)^n $  is expanded and like terms are collected are the same as the entries in the  $ n $  th row of Pascal's Triangle . For example,  $ (a + b)^5 = a^5 + 5 a^4 b + 10 a^3 b^2 + 10 a^2 b^3 + 5 a b^4 + b^5 $  , with coefficients  $ 1 = \binom{5}{0} $  ,  $ 5 = \binom{5}{1} $  ,  $ 10 = \binom{5}{2} $  , etc. 
+== Contents ==
+
+== Proof ==
+There are a number of different ways to prove the Binomial Theorem, for example by a straightforward application of mathematical induction .  The Binomial Theorem also has a nice combinatorial proof: We can write  $ (a+b)^n=\underbrace{ (a+b)\cdot(a+b)\cdot(a+b)\cdot\cdots\cdot(a+b) }_{n} $  . Repeatedly using the distributive property , we see that for a term  $ a^m b^{n-m} $  , we must choose  $ m $  of the  $ n $  terms to contribute an  $ a $  to the term, and then each of the other  $ n-m $  terms of the product must contribute a  $ b $  . Thus, the coefficient of  $ a^m b^{n-m} $  is the number of ways to choose  $ m $  objects from a set of size  $ n $  , or  $ \binom{n}{m} $  .  Extending this to all possible values of  $ m $  from  $ 0 $  to  $ n $  , we see that  $ (a+b)^n = \sum_{m=0}^{n}{\binom{n}{m}}\cdot a^m\cdot b^{n-m} $  , as claimed. Similarly, the coefficients of  $ (x+y)^n $  will be the entries of the  $ n^\text{th} $  row of Pascal's Triangle . This is explained further in the Counting and Probability textbook [AoPS]. 
+=== Proof via Induction ===
+Given the constants  $ a,b,n $  are all natural numbers, it's clear to see that  $ (a+b)^{1} = a+b $  . Assuming that  $ (a+b)^{n} = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^{k} $  , \[(a+b)^{n+1} = (\sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^{k})(a+b)\]  \[=(\binom{n}{0}a^{n}b^{0} + \binom{n}{1}a^{n-1}b^{1} + \binom{n}{2}a^{n-2}b^{2}+\cdots+\binom{n}{n}a^{0}b^{n})(a+b)\]  \[=(\binom{n}{0}a^{n+1}b^{0} + \binom{n}{1}a^{n}b^{1} + \binom{n}{2}a^{n-1}b^{2}+\cdots+\binom{n}{n}a^{1}b^{n}) + (\binom{n}{0}a^{n}b^{1} + \binom{n}{1}a^{n-1}b^{2} + \binom{n}{2}a^{n-2}b^{3}+\cdots+\binom{n}{n}a^{0}b^{n+1})\]  \[=(\binom{n}{0}a^{n+1}b^{0} + (\binom{n}{0}+\binom{n}{1})(a^{n}b^{1}) + (\binom{n}{1}+\binom{n}{2})(a^{n-1}b^{2})+\cdots+(\binom{n}{n-1}+\binom{n}{n})(a^{1}b^{n})+\binom{n}{n}a^{0}b^{n+1})\]  \[=\binom{n+1}{0}a^{n+1}b^{0} + \binom{n+1}{1}a^{n}b^{1} + \binom{n+1}{2}a^{n-1}b^{2}+\cdots+\binom{n+1}{n}a^{1}b^{n} + \binom{n+1}{n+1}a^{0}b^{n+1}\]  \[=\sum_{k=0}^{n+1}\binom{n+1}{k}a^{(n+1)-k}b^{k}\] Therefore, if the theorem holds under  $ n+1 $  , it must be valid.
+(Note that  $ \binom{n}{m} + \binom{n}{m+1} = \binom{n+1}{m+1} $  for  $ m\leq n $  ) 
+=== Proof using calculus ===
+The Taylor series for  $ e^x $  is \[\sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \dots\] for all  $ x $  . Since  $ e^{a+b} = e^ae^b $  , and power series for the same function are termwise equal, the series at  $ x = a + b $  is the convolution of the series at  $ x = a $  and  $ x = b $  . Examining the degree-  $ n $  term of each, \[\frac{(a+b)^n}{n!} = \sum_{k=0}^{n} \left( \frac{a^k}{k!} \right) \left( \frac{b^{n-k}}{(n-k)!} \right),\] which simplifies to \[(a+b)^n = \sum_{k=0}^{n} \frac{n!}{k!(n-k)!}a^kb^{n-k}\] for all natural numbers   $ n $  . 
+== Generalizations ==
+The Binomial Theorem was generalized by Isaac Newton , who used an infinite  series to allow for complex exponents : For any real or complex   $ a $  ,  $ b $  , and  $ r $  , 
+=== Proof ===
+Consider the function  $ f(b)=(a+b)^r $  for constants  $ a,r $  .  It is easy to see that  $ \frac{d^k}{db^k}f=r(r-1)\cdots(r-k+1)(a+b)^{r-k} $  .  Then, we have  $ \frac{d^k}{db^k}f(0)=r(r-1)\cdots(r-k+1)a^{r-k} $  .  So, the Taylor series for  $ f(b) $  centered at  $ 0 $  is \[(a+b)^r=\sum_{k=0}^\infty \frac{r(r-1)\cdots(r-k+1)a^{r-k}b^k}{k!}=\sum_{k=0}^\infty \binom{r}{k}a^{r-k}b^k.\]  
+== Usage ==
+Many  factorizations involve complicated polynomials with binomial coefficients . For example, if a contest problem involved the polynomial  $ x^5+4x^4+6x^3+4x^2+x $  , one could factor it as such:  $ x(x^4+4x^3+6x^2+4x+1)=x(x+1)^{4} $  . It is a good idea to be familiar with binomial expansions, including knowing the first few binomial coefficients. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .
