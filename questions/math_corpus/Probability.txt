@@ -1,0 +1,26 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Probability =
+Probability is traditionally considered one of the most difficult areas of mathematics , since probabilistic arguments often come up with apparently paradoxical or counterintuitive results. Examples include the Monty Hall paradox and the birthday problem .  Probability can be loosely defined as the chance that an event will happen.  
+== Contents ==
+
+== Video For Beginners! ==
+https://youtu.be/OOdK-nOzaII?t=979  
+== Introductory Probability ==
+Before reading about the following topics, a student learning about probability should learn about introductory counting techniques. 
+== Formal Definition of Probability ==
+The foundations of probability reside in an area of analysis known as measure theory . Measure theory in general deals with integration , in particular, how to define and extend the notion of "area" or "volume." Intuitively, therefore, probability could be said to consider how much "volume" an event takes up in a space of outcomes. Measure theory does assume considerable mathematical maturity, so it is usually ignored until one reaches an advanced undergraduate level. Once measure theory is covered, probability does become a lot easier to use and understand. In the language of measure theory, probability is formally defined as a triple known as a probability space , denoted  $ (\Omega, \mathfrak{a}, \mathit{P}) $  . Here  $ \Omega $  is a set called the sample space, and  $ \mathfrak{a} $  is a class of events given by certain subsets of  $ \Omega $  .  $ \mathfrak{a} $  must satisfy certain properties (it must be a  $ \sigma $  -algebra ) to qualify as a class of events. Together,  $ \Omega $  and  $ \mathfrak{a} $  form what is known as a measurable space ,  $ (\Omega, \mathfrak{a}) $  .  $ \mathit{P}:\mathfrak{a}\to [0,1] $  is an assignment with certain properties (it is a special kind of measure ), called the probability function, or probability measure. It assigns a "volume" to each possible event. As a simple example, consider a single coin-toss. In this case,  $ \Omega = \{H, T\} $  ,  $ \mathfrak{a} = \{\emptyset, \{H\}, \{T\}, \{H, T\}\} $  , and  $ \mathit{P} $  assigns the following probabilities to events in  $ \mathfrak{a} $  :  $ \mathit{P}(\emptyset)=0 $  ,  $ \mathit{P}(\{H\})=0.5 $  ,  $ \mathit{P}(\{T\})=0.5 $  ,  $ \mathit{P}(\{H, T\})=1 $  . We can interpret this as saying that the event of getting Heads, and the event of getting Tails, each take up an equal half of the set of possible outcomes; the event of getting Heads or Tails is certain, and likewise the event of getting neither Heads nor Tails has probability 0. Of course, to understand this example doesn't need measure theory, but it does show how to translate a very basic situation into measure-theoretic language. Furthermore, if one wanted to determine whether the coin was fair or weighted, it would be difficult to do that without using inferential methods derived from measure theory.  
+=== Types of Probability ===
+Part of a comprehensive understanding of basic probability includes an understanding of the differences between different kinds of probability problems. Important subdivisions of probability include 
+=== Example Problems ===
+
+==== Introductory ====
+
+==== Intermediate ====
+
+== Resources ==
+Something appears to not have loaded correctly. Click to refresh .

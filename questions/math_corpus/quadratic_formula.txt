@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Quadratic formula =
+The quadratic formula is a general expression for the solutions to a quadratic equation . It is used when other methods, such as completing the square , factoring , and square root property do not work or are too tedious. 
+== Contents ==
+
+=== General Solution For A Quadratic by Completing the Square ===
+We start with \[ax^{2}+bx+c=0\]  Divide by  $ a $  : \[x^{2}+\frac{b}{a}x+\frac{c}{a}=0\]  Add  $ \frac{b^{2}}{4a^{2}} $  to both sides in order to complete the square: \[\left(x^{2}+\frac{b}{a}x+\frac{b^{2}}{4a^{2}}\right)+\frac{c}{a}=\frac{b^{2}}{4a^{2}}\]  Complete the square: \[\left(x+\frac{b}{2a}\right)^{2}+\frac{c}{a}=\frac{b^{2}}{4a^{2}}\]  Move  $ \frac{c}{a} $  to the other side: \[\left(x+\frac{b}{2a}\right)^{2}=\frac{b^{2}}{4a^{2}}-\frac{c}{a}=\frac{ab^{2}-4a^{2}c}{4a^{3}}=\frac{b^{2}-4ac}{4a^{2}}\]  Take the square root of both sides: \[x+\frac{b}{2a}=\pm\sqrt{\frac{b^{2}-4ac}{4a^{2}}}=\frac{\pm\sqrt{b^{2}-4ac}}{2a}\]  Finally, move the  $ \frac{b}{2a} $  to the other side: \[x=-\frac{b}{2a}+\frac{\pm\sqrt{b^{2}-4ac}}{2a}=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}\]  This is the quadratic formula, and we are done. 
+=== Video Solution by ligonmathkid2 ===
+https://youtu.be/Akz8LcVGj5k  
+=== Variation ===
+In some situations, it is preferable to use this variation of the quadratic formula: \[\frac{2c}{-b\pm\sqrt{b^2-4ac}}\]  
+== See Also ==
+TOTO SLOT  Something appears to not have loaded correctly. Click to refresh .

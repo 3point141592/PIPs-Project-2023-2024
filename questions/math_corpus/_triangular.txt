@@ -1,0 +1,32 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Triangle =
+A triangle is a type of polygon . [asy]draw((0,1)--(2,0)--(3,2)--cycle);[/asy]  
+== Contents ==
+
+== Definition ==
+A triangle is any polygon with three  sides , with the smaller angle measures of the intersections of the sides summing to 180 degrees. Triangles exist in Euclidean geometry , and are the simplest possible polygon. In physics , triangles are noted for their durability, since they have only three vertices around with to distort. 
+== Categories ==
+Triangles are split into six categories; three by their angles and three by their side lengths. [asy]draw((0,0)--(1,0)--(0.5,0.5)--cycle);[/asy]  
+=== Equilateral ===
+An equilateral triangle has three congruent sides and is also equiangular . Note that all equilateral triangles are similar . All the angles of equilateral triangles are  $ 60^{\circ} $   
+=== Isosceles ===
+An isosceles triangle has at least two congruent sides (this means that all equilateral triangles are also isosceles), and the two angles opposite the congruent sides are also congruent (this is commonly known as the Hinge theorem ). 
+=== Scalene ===
+A scalene triangle has no congruent sides, and also no congruent angles (this can be proven by the converse of the Hinge Theorem). 
+=== Right ===
+[asy]draw((0,0)--(1,0)--(0,1)--cycle);[/asy]  A right triangle has a right angle , which means the other two angles are complementary . Trigonometry is largely based on right triangles, and the famous Pythagorean Theorem deals with the side lengths of the right triangle. Note that it is impossible to have an equilateral right triangle. It is also impossible to have more than one right angle in a triangle. 
+=== Obtuse ===
+An obtuse triangle has an obtuse angle . Note that it is impossible to have an equilateral obtuse triangle. It is also impossible to have more than one obtuse angle in a triangle. 
+=== Acute ===
+All the angles of an acute triangle are acute angles . 
+== Related Formulas and Theorems ==
+
+== External Links ==
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Integer =
+An integer is one of the numbers obtained in counting the natural numbers (  $ 1,2,3,\ldots $  ), zero (  $ 0 $  ), or the negatives of the natural numbers (  $ -1,-2,-3,\ldots $  ). If  $ a $  and  $ b $  are integers, then their sum  $ a+b $  , their difference  $ a-b $  , and their product  $ ab $  are all integers (that is, the integers are closed under addition and multiplication), but their quotient  $ a\div b $  may or may not be an integer, depending on whether  $ a $  can be divided by  $ b $  with no remainder. For a more simple and straightforward definition, an integer is a number that is not a decimal or a fraction . The class of integers is the simplest class of numbers and is used to construct other classes like the rational numbers and real numbers . The set of integers is symbolically written as  $ \mathbb{Z} $  . 
+== Integers in Computer Science ==
+In Python and just about all other programming languages, integers are a primitive datatype , and can be used to put a quantitative value to variables.  Unlike floating point numbers , integers are always stored exactly, and never approximated.  However, in most languages integers are stored in a fixed amount of space (typically  $ 32 $  bits), which limits their maximum value (typically to  $ 2^{31}-1 $  for signed  $ 32 $  -bit integers). Integers in Python can be of arbitrary size, theoretically limited only by computer memory. All the standard numerical operators work on integers, as will the relational operators . 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

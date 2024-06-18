@@ -1,0 +1,27 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Parabola =
+A parabola is a type of conic section .  A parabola is a locus of points that are equidistant from a point (the focus ) and a line (the directrix ). 
+== Contents ==
+
+== Parabola Equations ==
+There are several "standard" ways to write the equation of a parabola. The first is polynomial form:  $ y = a{x}^2+b{x}+c $  where a, b, and c are constants . This is useful for manipulating the polynomial. The second is  completed square form, or  $ y=a(x-h)^2+k $  where a, h, and k are constants and the vertex is (h,k). This is very useful for graphing the quadratic because the vertex and stretching factor are immediately before you. The third way is the conic section form, or  $ y^2 $   $ =4px $  or  $ x^2=4py $  where the p is a constant, and is the distance from the focus to the vertex. 
+== Graphing Parabolas ==
+Using the completed square form,  $ y - k = a(x - h)^2 $  or  $ x - h = a(y - k)^2 $  , the vertex of the graph is at the point  $ (h, k) $  . The graph appears vertically if the  $ x $  term is squared, and horizontal if the  $ y $  term is squared. The graph will be oriented (opens up) upwards/right if  $ a $  is positive, and will be downwards/left if  $ a $  is negative.
+Here are the graphs of a few parabolas:   
+== Video Description ==
+https://youtu.be/Res-cddhRLw?si=a2XGd_hkEArrwOVG  ~MathProblemSolvingSkills.com  
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+Suppose that a parabola has vertex  $ \left(\dfrac{1}{4},-\frac{9}{8}\right) $  and equation  $ y=ax^2+bx+c $  , where  $ a>0 $  and  $ a+b+c $  is an integer.  The minimum possible value of  $ a $  can be written in the form  $ \dfrac{p}{q} $  where  $ p $  and  $ q $  are relatively prime positive integers.  Find  $ p+q $  . 
+=== Olympiad ===
+Find the area of the largest triangle  $ ABC $  [and prove this is the maximum] whose interior is entirely within the region bounded by  $ y=\sqrt{3}x-1 $  and  $ y=3x^2-12x+1 $  . 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

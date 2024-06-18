@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Trivial group =
+The trivial group is a group with only one element: the identity.  It is a normal subgroup of every group.  It is its only subgroup, but it is not a simple group .  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

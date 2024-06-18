@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Square root =
+A square root of a number  $ x $  is a number  $ y $  such that  $ y^2 = x $  . Generally, the square root only takes the positive value of  $ y $  . This can be altered by placing a  $ \pm $  before the root.  Thus  $ y $  is a square root of  $ x $  if  $ x $  is the square of  $ y $  . 
+== Notation ==
+The square root (or the principle square root) of a number  $ x $  is denoted  $ \sqrt x $  .  For instance,  $ \sqrt 4 = 2 $  .  When we consider only positive  reals , the square root function is the inverse of the squaring function. 
+== Exponential notation ==
+Square roots can also be written in  exponential notation, so that  $ x^{\frac 12} $  is equal to the square root of  $ x $  .  Note that this agrees with all the laws of exponentiation, properly interpreted.  For example,  $ \left(x^{\frac12}\right)^2 = x^{\frac12 \cdot 2} = x^1 = x $  , which is exactly what we would have expected.  This notion can also be extended to more general rational , real or complex powers, but some caution is warranted because these do not give functions.  In particular, if we require that  $ x^{\frac 12} $  always gives the positive square root of a positive real number, then the equation  $ \left(x^2\right)^{\frac 12} = x $  does not hold.  For example, replacing  $ x $  with  $ -2 $  gives  $ 2 $  on the left but gives  $ -2 $  on the right. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

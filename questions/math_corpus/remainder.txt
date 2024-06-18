@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Remainder =
+This article is a stub.  Help us out by  .  The remainder of a division of two integers  $ \frac {a}{b},\ b \neq 0 $  is the integer  $ r < b $  such that  $ a = qb + r $  , where  $ q $  is the quotient ; in other words,  $ r $  is the part of  $ a $  that is not divisible by  $ b $  . If  $ a = 4 $  , and  $ b = 3 $  , for example, the division  $ \frac {4}{3} $  would have remainder  $ 1 $  , since  $ 4 = (1)3 + 1 $  (notice that the quotient, in this case, is one). If  $ b $  is a divisor of  $ a $  , the remainder is said to be zero. The concept of a remainder is related to modular arithmetic :  $ r $  is said to be the residue class of  $ a $  in modulo  $ b $   iff   $ a = qb + r $  (an equivalent statement would be  $ a \equiv r \mod b $  ). It is important to notice that the remainder is most useful when an integer quotient is desired, as we can always say that  $ a = qb $  for any real number   $ q $  (in the example provided earlier,  $ q = 1.\overline{3} $  ). Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= ITest =
+The iTest (formerly the American High School Internet Mathematics Competition ) is a team-based math competition for high school students.  The difficulty in the test is varied, ranging from simple arithmetic problems to complex Olympiad problems.  Winning teams earn recent technology prizes like a video game console of their choice. : 1-4.5 : 1-4.5 : 4-8 
+== Structure ==
+The iTest covers traditional high school math concepts, including algebra , geometry , pre- calculus , probability , and logic .  Graphing calculators are allowed, but computers are not allowed. Prior to 2008, the iTest has multiple choice, free response, and an "Ultimate" question.  In the multiple choice questions, there is 1 choice on the first problem, 2 choices on the second problem, and so on.  The "Ultimate" question is a series of 10 questions where each question requires the answer of a previous problem, much like the relay questions of the ARML .  There were also 4 tiebreaker proof questions. In the 2008 iTest, there are 100 free response questions with a storyline attached that connects most of the problems.  Unlike previous years, ties will solely be broken by submission time. The 2007 and 2008 iTest also have a Tournament of Champions, a series of harder free response problems. 
+== Logos ==
+2007 logo. 2006 logo. 2005 logo. 
+== Resources ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,35 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Physics =
+is a branch of science that studies the properties of matter, energy, and many more. Physics is considered to be the most fundamental of all the sciences, and is also the oldest. 
+== Contents ==
+
+== Overview ==
+Physics before the 19th century is called . Physics after the 19th century is know as . Classical Physics can be split even further into its own branches: Modern Physics is also a group of different subjects in physics:  
+== History of Physics ==
+The history of physics is long and exciting. Physics started with the first scientist, Thales of Miletus, who was the first to try to systematically explain the world using theories and hypotheses instead of using gods and magic. Archimedes also made a big breakthrough in physics when he devised the concept of buoyancy . This discovery was in the third century BC and not much innovation was made thereafter for many centuries. However, Galileo Galilei, an Italian scientist, first advocated for the systematic study of physics. He was the one who tried to preach his scientific thoughts about how the Earth orbited the Sun, opposing the ideas of the Catholic establishment, and became the first patron of physics. This was then further developed by Sir Isaac Newton , an English scientist, who devised the modern study of physics by discovering many laws. Since then, physics has never looked back! 
+== Notable Figures ==
+
+=== Isaac Newton ===
+Isaac Newton was born on January 4, 1643, in Lincolnshire, England. Newton was born very shortly after the death of his father. He did very well at his local school and later attended Trinity College. What is now considered Newton's most famous achievement is the formal statement of three basic, almost trivial laws of motion: 
+=== Albert Einstein ===
+Albert Einstein was a scientist and mathematician. He was born in Ulm, Germany on March 14, 1879. He died on April 18, 1955. He is most noted for his work on relativity and many call him a theoretical physicist. Some of his most famous works are  $ E=MC^{2} $  , General Relativity , Special Relativity , and his Theory of Brownian Motion . Relativity is a branch of modern science that has two parts: special relativity and general relativity. Both were formed by Albert Einstein. 
+== Classical Mechanics ==
+Mechanics is the study of movement. Kinematics , mechanical forces , work , power , energy , and matter are all part of mechanics. Kinematics is the study of (relative) motion - displacement, velocity, acceleration etc. The two relations at the heart of kinematics are:  $ \delta x'(t)=v(t) $  and  $ v'(t)=a(t) $  where  $ \delta x(t) $  is displacement at time  $ t $  ,  $ v $  is velocity,  $ a $  is acceleration, and  $ t $  is time. Uniform rectilinear motion , projectile motion , uniform circular motion , and simple harmonic motion are some of the types of problems studied in kinematics. The rules of physics are almost fully summarized by the three famous laws of motion formulated by Isaac Newton : Mass is one of the two most basic intrinsic properties of a body. It is a measure of its inertia . Momentum is defined as the product of the mass and velocity of a body. Force is something that changes or tends to change the momentum of a body, (informally, a "push or pull"). Mechanical work is defined by the relation  $ W =\int^{x_f}_{x_i} F\,dx $  where  $ W $  is work done,  $ F $  is force,  $ x $  is displacement, and subscripts  $ i $  and  $ f $  denote the initial and final states respectively. Similarly, mechanical power is defined as  $ P =\int^{v_f}_{v_i} F\,dv $  where  $ P $  is power delivered and  $ v $  is velocity. Energy is the other basic intrinsic property of a body. Mechanical energy is simply the capacity of a body to do mechanical work. Among the various properties of matter are elasticity, surface tension, and viscosity. The most important one is gravity . Gravity is indeed considered one of the most mysterious things not only in physics but in science as a whole. Newton's laws can also be used to study the behavior of continuous substances. This has, for example, led to the development of fluid mechanics , which, despite being almost entirely summarized by the Navier-Stokes equations or its variants, has many open questions about, for example, whether fluids continue to be well-behaved after arbitrary amounts of time. 
+== Statistical Mechanics ==
+Statistical Mechanics is mechanics that use statistics to draw conclusions. 
+== Acoustics ==
+Acoustics is the study of sound . Sound waves are mechanical waves - they travel by actual vibrations in some material medium. Acoustics concerns itself with mechanical waves in general. Phenomena such as forced vibrations , resonance , damped vibrations and the Doppler effect come under this branch of physics. 
+== Optics ==
+Optics is the study of vision and light. Light waves are electromagnetic waves - they consist of mutually perpendicular electric fields and magnetic fields , and can travel through a vacuum. Optics is the study of electromagnetic waves in general. So it covers all waves in the electromagnetic spectrum given below: One of the most controversial questions in optics is whether light is a wave or a ray. Accordingly, there are two branches of optics, but only ray optics belongs to classical physics. Wave optics are a topic of modern physics. In ray, optics covers topics such as reflection and refraction and the dispersion of white light into its constituent colors. 
+== Thermodynamics ==
+Thermodynamics is the study of heat transfer. Anything in physics related to heat is classified as thermodynamics.
+There are three laws of thermodynamics: 
+== Electromagnetism ==
+Electromagnetism is the combined study of electricity and magnetism , and the most important addition to classical physics after Isaac Newton 's work. The concept of electromagnetism has wide applications in everyday devices such as modern computers, televisions, linear particle accelerators, and more. Electromagnetism operates on the fact that when electricity is run through a conductor, it produces a magnetic field 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

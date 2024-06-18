@@ -1,0 +1,31 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Vector =
+The word vector has many different definitions, depending on who is defining it and in what context. Physicists will often refer to a vector as "a quantity with a direction and magnitude." For Euclidean geometers, a vector is essentially a directed line segment. In many situations, a vector is best considered as an n-tuple of numbers (often real or complex). Most generally, but also most abstractly, a vector is any object which is an element of a given vector space. A vector is usually graphically represented as an arrow. Vectors can be uniquely described in many ways.  The two most common is (for 2-dimensional vectors) by describing it with its length (or magnitude) and the angle it makes with some fixed line (usually the x-axis) or by describing it as an arrow beginning at the origin and ending at the point  $ (x,y) $  . An  $ n $  -dimensional vector can be described in this coordinate form as an ordered  $ n $  -tuple of numbers within angle brackets or parentheses,  $ (x\,\,y\,\,z\,\,...) $  . The set of vectors over a field is called a vector space . 
+== Contents ==
+
+== Description ==
+Every vector  $ \overrightarrow{PQ} $  has a starting point  $ P\langle x_1, y_1\rangle $  and an endpoint  $ Q\langle x_2, y_2\rangle $  .  Since the only thing that distinguishes one vector from another is its magnitude or length, and direction, vectors can be freely translated about a plane without changing.  Hence, it is convenient to consider a vector as originating from the origin.  This way, two vectors can be compared by only looking at their endpoints. This is why we only require  $ n $  values for an  $ n $  dimensional vector written in the form  $ (x\,\,y\,\,z\,\,...) $  . The magnitude of a vector, denoted  $ \|\vec{v}\| $  , is found simply by 
+using the distance formula. 
+== Addition of Vectors ==
+For vectors  $ \vec{v} $  and  $ \vec{w} $  , with angle  $ \theta $  formed by them,  $ \|\vec{v}+\vec{w}\|^2=\|\vec{v}\|^2+\|\vec{w}\|^2+2\|\vec{v}\|\|\vec{w}\|\cos\theta $  . [asy]   size(150); pen p=linewidth(1); MA("\theta",(5,-1),(2,3),(4,6),0.3,9,yellow); MC("\vec v",D((0,0)--(2,3),orange+p,Arrow),NW); D((2,3)--(3,4.5)); MC("\vec w",D((2,3)--(5,-1),green+p,Arrow),NE); MC(-10,"\vec{v}+\vec{w}",D((0,0)--(5,-1),red+p,Arrow),S); [/asy]  From this it is simple to derive that for a real number  $ c $  ,  $ c\vec{v} $  is the vector  $ \vec{v} $  with magnitude multiplied by  $ c $  .  Negative  $ c $  corresponds to opposite directions. 
+== Properties of Vectors ==
+Since a vector space is defined over a field   $ K $  , it is logically inherent that vectors have the same properties as those elements in a field. For any vectors  $ \vec{x} $  ,  $ \vec{y} $  ,  $ \vec{z} $  , and real numbers  $ a,b $  , 
+== Vector Operations ==
+
+=== Dot (Scalar) Product ===
+Consider two vectors  $ \bold{a}=\langle a_1,a_2,\ldots,a_n\rangle $  and  $ \bold{b}=\langle b_1, b_2,\ldots,b_n\rangle $  in  $ \mathbb{R}^n $  .  The dot product is defined as  $ \bold{a}\cdot\bold{b}=\bold{b}\cdot\bold{a}=|\bold{a}| |\bold{b}|\cos\theta=a_1b_1+a_2b_2+\cdots+a_nb_n $  , where  $ \theta $  is the angle formed by the two vectors. This also yields the geometric interpretation of the dot product: from basic right triangle trigonometry, it follows that the dot product is equal to the length of the projection (i.e. the distance from the origin to the foot of the head of  $ \bold{a} $  to  $ \bold{b} $  ) of  $ \bold{a} $  onto  $ \bold{b} $  times the length of  $ \bold{b} $  . Note that the dot product is  $ 0 $  if and only if the two vectors are perpendicular. 
+=== Cross (Vector) Product ===
+The cross product between two vectors  $ \bold{a} $  and  $ \bold{b} $  in  $ \mathbb{R}^3 $  is defined as the vector whose length is equal to the area of the parallelogram spanned by  $ \bold{a} $  and  $ \bold{b} $  and whose direction is in accordance with the right-hand rule . Because of this,  $ |\bold{a}\times\bold{b}|=|\bold{a}| |\bold{b}|\sin\theta $  , where  $ \theta $  is the angle formed by the two vectors, and from the right-hand rule condition,  $ \bold{a}\times\bold{b}=-\bold{b}\times\bold{a} $  . Also,  $ \sin^2\theta+\cos^2\theta=1 $  gives that  $ |\bold{a}|^2|\bold{b}|^2=|\bold{a}\cdot\bold{b}|^2+|\bold{a}\times\bold{b}|^2 $  . If  $ \bold{a}=\langle a_1,a_2,a_3\rangle $  and  $ \bold{b}=\langle b_1,b_2,b_3\rangle $  , then the cross product of  $ \bold{a} $  and  $ \bold{b} $  is given by where  $ \hat{i},\hat{j},\hat{k} $  are unit vectors along the coordinate axes, or equivalently,  $ \bold{a}\times\bold{b}=\langle a_2b_3-a_3b_2,a_3b_1-a_1b_3,a_1b_2-a_2b_1\rangle $  . Also,  $ \bold{a}\times\bold{a}=\bold{0} $   
+=== Triple Scalar Product ===
+The triple scalar product of three vectors  $ \bold{a,b,c} $  is defined as  $ (\bold{a}\times\bold{b})\cdot \bold{c} $  .  Geometrically, the triple scalar product gives the signed volume of the parallelepiped determined by  $ \bold{a,b} $  and  $ \bold{c} $  .  It follows that It can also be shown that 
+=== Triple Vector Product ===
+The vector triple product of  $ \bold{a},\bold{b},\bold{c} $  is defined as the cross product of one vector, so that  $ \bold{a}\times(\bold{b}\times\bold{c})=\bold{b}(\bold{a}\cdot\bold{c})-\bold{c}(\bold{a}\cdot\bold{b}) $  , which can be remembered by the mnemonic "BAC-CAB" (this relationship between the cross product and dot product is called the triple product expansion, or Lagrange's formula). 
+== See Also ==
+
+== Discussion ==
+Something appears to not have loaded correctly. Click to refresh .

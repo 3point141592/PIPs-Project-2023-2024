@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Kernel =
+In general, a kernel is a measure of the failure of a homomorphism to be injective . In set theory , if  $ S $  and  $ T $  are sets , with  $ f $  a function mapping  $ S $  into  $ T $  , the kernel of  $ f $  is quotient set of  $ S $  under the equivalence relation  $ R(x,y) $  defined as "  $ f(x)=f(y) $  ". In algebra , a kernel is generally the inverse image of an identity element under a homomorphism .  For instance, in group theory , if  $ G $  and  $ H $  are groups , and  $ f : G \to H $  is a homomorphism of groups, the kernel of  $ f $  is the set of elements of  $ G $  that map to the identity of  $ H $  , i.e., the set  $ f^{-1}(e_{H}) $  .  The kernel is a normal subgroup of  $ G $  , and in fact, every normal subgroup of  $ G $  is the kernel of a homomorphism.  Similarly, in ring theory , the kernel of a homomorphism is the inverse image of zero; the kernel is a two-sided ideal of the ring, and every two-sided ideal of a ring is the kernel of a ring homomorphism. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

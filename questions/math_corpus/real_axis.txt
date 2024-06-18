@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Real axis =
+
+== Definition ==
+The real axis in the complex plane roughly corresponds to the x-axis on the Cartesian plane .
+It is perpendicular to the imaginary axis and intersects at 0.
+Each unit has a length of 1 and the numbers on this line are  $ \ldots-2,-1,0,1,2\ldots $   Points that are on the real axis have no imaginary part. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

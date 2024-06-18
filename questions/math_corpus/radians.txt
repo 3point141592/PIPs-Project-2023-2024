@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Radian =
+A radian is a unit of measurement for angles . In a circle, the measure of a central angle in radians is the ratio of the length of the intercepted arc to the length of the circle's radius . In a unitcircle, a complete angle has measure  $ 2\pi $  , since a complete angle "intercepts" the whole circumference of the circle. Thus, radians can be converted to degrees :  $ 2\pi\; rad=360^\circ\implies\pi \;rad=180^\circ $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

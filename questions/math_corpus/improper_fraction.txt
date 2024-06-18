@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Improper fraction =
+An improper fraction , also called a top-heavy fraction in Britain, is a fraction whose absolute value is greater than 1.  For example,  $ \displaystyle \frac 7 3 $  is an improper fraction.  Fractions which are not improper are called proper fractions . Improper fractions may be used as a counting system, and can also be used in cryptography. See improper fractional base . This article is a stub.  Help us out by  .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

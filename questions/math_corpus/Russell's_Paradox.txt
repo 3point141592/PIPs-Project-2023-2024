@@ -1,0 +1,9 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Russell's Paradox =
+The Russell's Paradox , credited to Bertrand Russell, was one of those which forced the axiomatization of set theory. Paradox
+We start with the property P: (x does not belong to x). We define C to be the collection of all x with the property P. Now comes the question: does C have the property P? Assuming it does, it cannot be in itself, in spite of satisfying its own membership criterion, a contradiction. Assuming it doesn't, it must be in itself, in spite of not satisfying its own membership criterion. This is the paradox. See Also Something appears to not have loaded correctly. Click to refresh .

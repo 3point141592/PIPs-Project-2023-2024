@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Semiperimeter =
+The semiperimeter of a geometric figure is one half of the perimeter , or  $ \frac{P}{2} $  , where  $ P $  is the total perimeter of a figure.  It is typically denoted  $ s $  .  This article is a stub.  Help us out by  .  
+== Applications ==
+The semiperimeter has many uses in geometric formulas.  Perhaps the simplest is  $ A=rs $  , where  $ A $  is the area of a triangle and  $ r $  is the triangle's inradius (that is, the radius of the circle  inscribed in the triangle). Two other well-known examples of formulas involving the semiperimeter are Heron's formula and Brahmagupta's formula . Something appears to not have loaded correctly. Click to refresh .

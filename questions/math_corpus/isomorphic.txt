@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Isomorphism =
+An isomorphism is a bijective  homomorphism whose inverse is also homomorphism.  If  $ A $  and  $ B $  are objects in a certain category such that there exists an isomorphism  $ A\to B $  , then  $ A $  and  $ B $  are said to be isomorphic .  Informally speaking, two isomorphic objects can be considered to be two superficially different versions of the same object.  Isomorphic objects cannot be distinguished by universal mapping properties.  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

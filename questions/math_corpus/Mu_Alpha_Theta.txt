@@ -1,0 +1,33 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mu Alpha Theta =
+Mu Alpha Theta is a national honor society in the United States for high school and two year college students.  Mu Alpha Theta chapters host numerous mathematics competitions and each year a national Mu Alpha Theta convention is held during the summer that includes a large competition. 
+== Contents ==
+
+== The Competition ==
+Mu Alpha Theta competitions can be divided up into regionals, invitationals, states, and national competitions. There is no need to progress through the levels- you simply register and you can participate. There are many different tests with different topic themes. High School students are often organized into three groups- Mu, Alpha and Theta. Theta is the lowest level, Alpha is higher and Mu is the highest. 
+== The Test ==
+
+=== Individual ===
+The test is a multiple choice test with 4 choices and an extra choice called NOTA, which means None Of The Above. Test topics usually follow school curriculum subjects; however they are far more advanced. The main groups in the regional and invitational levels are: You may only take one type of test a year for every competition, depending on how many competitions your region has a year. 
+At the states and nationals, there are many more different topic tests ranging from trigonometry to analytic geometry to complex numbers.
+(Full list coming soon.)
+The tests are often made by other students.
+They generally have 30 questions. However, at nationals and state, some tests have 40 questions. There is also a one hour time limit except for History of Math which has a 30 minute time limit.
+The scoring system usually is as follows: However at Nationals the scoring system is as follows: 
+=== Team Rounds ===
+In team rounds, teams of 4 people work fast to answer a problem in 4 minutes. However, the faster a team turns in an answer, the more points recieved. This round is NOT multiple choice.
+Questions, just as in the individual round, often follow a certain subject.
+Questions usually follow the certain rubic: A=<insert some kind of math problem here> B=<Insert some kind of math problem here> C=<Insert some kind of math problem here> D=<Insert some kind of math problem here> Find AB-CD. However, this is not always the case. 
+== Example Problems ==
+Probability/Permutations/Combinations- Theta 2003 A.6 B.63 C.64 D.127 E. NOTA A. 3753/160000 B.2943/40000 C.3753/40000 D.3753/32000 E. NOTA 2001- Number theory Topic Test- Theta A. 2 B. 7 C. 9 D. 11 E. NOTA 
+== Science Fair ==
+At many regional and state science and engineering fairs, Mu Alpha Theta gives away prizes to high school students. These are prizes for investigating a modern mathematical problem. 
+== Resources ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

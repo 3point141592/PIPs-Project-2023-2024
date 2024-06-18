@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Parallelepiped =
+This article is a stub.  Help us out by  .  A parallelepiped is a prism that has parallelograms for its faces. Similarly, a parallelepiped is a hexahedron with six parallelogram faces. Specific parallelepipeds include the cube , the cuboid , and any rectangular prism . 
+== Specific Cases ==
+A parallelepiped with all rectangular faces is a cuboid, and a parallelepiped with six rhombus faces is known as a rhombohedron . In an  $ n- $  dimensional space, a parallelepiped is sometimes referred to as an  $ n- $  dimensional parallelepiped, or as an  $ n- $  parallelepiped. A cube is a parallelepiped with all square faces. 
+== Volume ==
+The volume of a parallelepiped is the product of the area of one of its faces times the perpendicular distance to the corresponding top face. Alternately, if the three edges of a parallelepiped that meet at one vertex are defined as vector   $ a, b, $  and  $ c $  with the specific vertex as the origin , then the volume of the parallelepiped is the same as the scalar triple product of the vectors, or  $ a \cdot (b \times c) $  . Suppose that  $ \bold{a} = a_1\bold{i}+a_2\bold{j}+a_3\bold{k} $  ,  $ \bold{b} = b_1\bold{i}+b_2\bold{j}+b_3\bold{k} $  ,  $ \bold{c} = c_1\bold{i}+c_2\bold{j}+c_3\bold{k} $  . We then have the area of the parallelepiped is \[|\text{det}(\begin{bmatrix} c_1 & c_2 & c_3 \\ a_1 & a_2 & a_3\\ b_1 & b_2 & b_3 \\ \end{bmatrix})|.\]   
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .
