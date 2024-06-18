@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Transporter =
+Let  $ M $  be a monoid operating on a set   $ S $  , and let  $ A $  and  $ B $  be subsets of  $ S $  .  Then the transporter of  $ A $  to  $ B $  is the set of elements  $ a\in M $  for which  $ a(A) \subseteq B $  .  The strict transporter of  $ A $  to  $ B $  is the set of  $ a\in M $  for which  $ a(A) = B $  .  The transporter of  $ A $  to itself is called the stabilizer of  $ A $  . This article is a stub.  Help us out by  .  
+== Sources ==
+N. Bourbaki, Algebra I , Springer, ISBN 3-540-64243-9 . Something appears to not have loaded correctly. Click to refresh .

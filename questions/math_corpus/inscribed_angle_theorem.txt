@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inscribed angle =
+In a given circle , an inscribed angle is an angle whose vertex lies on the circle and each of whose sides either intersects the circle in a second point (and so includes a chord of the circle) or is  tangent to the circle.  This latter case is sometimes referred to as a tangent-chord angle . The measure of an inscribed angle is equal to half of the measure of the arc it intercepts or subtends.  Thus, in particular it does not depend on the location of the vertex on the circle. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

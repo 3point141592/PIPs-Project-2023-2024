@@ -1,0 +1,15 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Octahedron =
+This article is a stub.  Help us out by  . An octahedron is a type of polyhedron . 
+== Definition ==
+In Euclidean geometry , an octahedron is any polyhedron with eight faces .  The term is most frequently to refer to a polyhedron with eight triangular faces, with four meeting at each vertex . 
+The regular  octahedron has eight equilateral triangle faces and is one of the five Platonic solids .  It has six vertices, twelve edges, and is  dual to the cube . The regular octahedron can be decomposed into two square  pyramids by a plane constructed perpendicular to the space diagonal joining two opposite vertices. 
+== Related Formulae ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

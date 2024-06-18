@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Sum =
+A sum is when a few groups of things are put all together. For example, there is one group of 2 carrots, one group of 3 carrots, and one group of 4 carrots. We sum them by sliding the groups all together, counting, and finding that there are 9 carrots all together. Thus the sum of 2 carrots, 3 carrots, and 4 carrots is 9 carrots. And those carrots can be replaced with anything; calculators, pencils, maple trees, planets, alternate realities, anything. We denote the sum function by  $ + $  . Thus if we wanted to denote a sum of two carrots, three carrots, and four carrots mathematically, we would write  $ 2+3+4=9 $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

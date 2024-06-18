@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rate =
+A rate is a type of ratio where something of one unit is compared with something else of another unit.  Rates are applied in many real-world scenarios like unit conversions, speed/velocity, and per-item price. Unit cancellation is a common strategy used in rate and conversion problems where if there are two instances of a unit written -- one on the numerator and the other on the denominator, then the instances are crossed out.  For instance,  $ \frac{60 \text{ kilometers}}{1 \text{ hour}} \cdot 2 \text{ hours} = 120 \text{ kilometers} $  . 
+== Problems ==
+Something appears to not have loaded correctly. Click to refresh .

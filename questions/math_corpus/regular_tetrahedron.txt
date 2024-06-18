@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Regular tetrahedron =
+A regular tetrahedron is a 3-dimensional geometric solid . It is also a special type of pyramid .  It consists of a base that is a triangle and a point directly over the incenter of the base, called the vertex .  The edges of the tetrahedron are the sides of the triangular base together with line segments which join the vertex of the tetrahedron to each vertex of the base. All of its edges have equal measures. All faces of a regular tetrahedron are equilateral triangles.  
+== Problems ==
+
+=== Introductory ===
+ Solution  
+=== Intermediate ===
+Something appears to not have loaded correctly. Click to refresh .

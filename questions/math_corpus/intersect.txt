@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Intersection =
+The intersection of two or more sets is the set of elements that are common to all of them.  Thus, the intersection of the sets  $ \{1, 2, 3\} $  and  $ \{1, 3, 5\} $  is the set  $ \{1, 3\} $  . Intersection is denoted by the symbol  $ \cap $  , so the preceding example could be written  $ \{1, 2, 3\} \cap \{1, 3, 5\} = \{1, 3\} $  .  One can also use the symbol for intersection in the way one uses a capital sigma (  $ \Sigma $  ) for sums, i.e.  $ \bigcap_{i = 1}^n A_i = A_1 \cap A_2 \cap \ldots \cap A_n $  is the intersection of the  $ n $  sets  $ A_1, A_2, \ldots, A_n $  . 
+== Properties ==
+
+== Geometric Definition ==
+In geometry , a line may be considered to be a set of points with a particular property (the property of being on that line).  Then the intersection of two lines reduces to the set definition of intersection.  This also extends to other curves and surfaces. Especially in the geometric context, two objects are said to intersect if their intersection is non-  empty . 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rhombus =
+A rhombus is a geometric figure that lies in a plane .  It is defined as a quadrilateral all of whose sides are  congruent .  It is a special type of parallelogram , and its properties (aside from those properties of parallelograms) include:  
+== Contents ==
+
+== Proofs ==
+
+=== Proof that a rhombus is a parallelogram ===
+All sides of a rhombus are congruent, so opposite sides are congruent, which is one of the properties of a parallelogram. Or, there is always the longer way: In rhombus  $ ABCD $  , all 4 sides are congruent (definition of a rhombus).  $ AB\cong CD $  ,  $ BC\cong DA $  , and  $ AC\cong AC $  . By the SSS Postulate,  $ \triangle ABC\cong\triangle CDA $  . Corresponding parts of congruent triangles are congruent, so  $ \angle BAC\cong BCA $  and  $ \angle B\cong\angle D $  . The same can be done for the two other angles, so  $ \angle A\cong\angle C $  . Convert the congruences into measures to get  $ m\angle A=m\angle C $  and  $ m\angle B=m\angle D $  . Adding these two equations yields  $ m\angle A+m\angle B=m\angle C+m\angle D $  . The interior angles of a quadrilateral add up to 360 degrees, so  $ m\angle A+m\angle B+m\angle C+m\angle D=360 $  , or  $ m\angle A+m\angle B=360-m\angle C-m\angle D $  . Substituting gives  $ m\angle C+m\angle D=360-m\angle C-m\angle D $  . When simplified,  $ m\angle C+m\angle D=180 $  . If two lines are cut by a transversal and same-side interior angles add up to 180 degrees, the lines are parallel. This means  $ AD\|BC $  . The same can be done for the other two sides, and know we know that opposite sides are parallel. Therefore, a rhombus is a parallelogram. 
+=== Proof that the diagonals of a rhombus divide it into 4 congruent triangles ===
+In rhombus  $ ABCD $  ,  $ M $  is the point at which the diagonals intersect. Since the diagonals of a rhombus are bisectors of eachother,  $ AM\cong MC $  and  $ BM\cong MD $  . Also, all sides are congruent. By the SSS Postulate, the 4 triangles formed by the diagonals of a rhombus are congruent. 
+=== Proof that the diagonals of a rhombus are perpendicular ===
+Continuation of above proof: Corresponding parts of congruent triangles are congruent, so all 4 angles (the ones in the middle) are congruent. This leads to the fact that they are all equal to 90 degrees, and the diagonals are perpendicular to each other. 
+== Example Problems ==
+
+=== Introductory ===
+Something appears to not have loaded correctly. Click to refresh .

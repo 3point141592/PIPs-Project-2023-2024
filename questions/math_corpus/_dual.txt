@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Dual =
+A dual of a logical statement is a sort of inversion of the statement. 
+== Rigorous definition ==
+Consider a logic statement  $ Q $  . For each individual element or operator in  $ Q $  , we replace: Such a statement is the dual of the statement. An interesting fact of logic is that if a logical statement is true, then its dual is true. 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

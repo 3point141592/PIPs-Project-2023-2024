@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Linear algebra =
+Linear algebra is the study of systems of linear equations. Matrices are useful for solving such systems. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Variance =
+The  variance  of a data set is a measure of how "spread out" the data points are in general. 
+== Formula ==
+
+=== Population ===
+For a dataset  $ X = \{ x_1, x_2, x_3, \dots, x_n \} $  with mean   $ \overline{x} $  the formula for variance if  $ X $  is a population is \[V = \frac{1}{n}\sum_{i=1}^n (x_i - \overline{x})^2.\] Additionally,  $ V = \sigma^2 $  where  $ \sigma $  is the population standard deviation . 
+=== Sample ===
+Because of Bessel's correction the variance if  $ X $  is a sample is calculated according to the slightly different formula \[V = \frac{1}{n-1}\sum_{i=1}^n (x_i - \overline{x})^2.\]  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

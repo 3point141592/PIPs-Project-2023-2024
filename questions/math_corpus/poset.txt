@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Partially ordered set =
+A partially ordered set   $ P $  is a pair,  $ (S, \leq) $  of a set   $ S $  whose elements are called the elements or vertices of  $ P $  and an  order  relation   $ \leq $  which obeys the following rules: The name "partially ordered set" is often abbreviated poset . Sometimes, we abuse notation and use the same letter  $ P $  for the poset itself and its set of vertices.  
+== Contents ==
+
+== Simple examples ==
+We don't verify that the properties stated above hold for these orderings -- a good exercise would be to prove that each of the three properties hold for the following examples.  
+== A More Involved Example ==
+Let  $ R $  be the set of well-formed formulas of Peano arithmetic .  In other words,  $ S $  is the set of all arithmetic statements.  We know that some of these statements are provably equivalent to each other.  So, let  $ S $  be the set of equivalence classes of  $ R $  under the relation of provable equivalence.  Let  $ \hat 0 $  denote the set of statements which are provably false, i.e. whose negations are provable, and let  $ \hat 1 $  denote the set of provable statements.  By Godel's First Incompleteness Theorem , there exists at least one (and in fact infinitely many) formulas which do not fall into either of these two categories.  So, let  $ P = (S, \leq) $  be the poset such that for  $ \mathbf{x, y} \in S $  ,  $ \mathbf{x} \leq \mathbf{y} $  if and only if  $ \exists x \in \mathbf{x}, y \in \mathbf{y} $  such that the formula  $ x $  provably implies the formula  $ y $  .  That this is in fact a poset follows immediately by the properties of logical implication.  This poset has other interesting properties, as well. 
+== Other Important Families of Posets ==
+ 
+== Hasse Diagrams ==
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

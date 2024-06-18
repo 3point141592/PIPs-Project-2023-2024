@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Maximal ideal =
+In ring theory , a maximal ideal of a ring   $ R $  is a proper ideal   $ I\le R $  which is not contained in any other proper ideal of  $ R $  . (That is,  $ I\neq R $  , and there is no ideal  $ J $  with  $ I<J<R $  .) One important property of maximal ideals is that if  $ R $  is a commutative ring with unity then the quotient ring   $ R/I $  is a field iff  $ I $  is a maximal ideal of  $ R $  . From this it follows that in a commutative ring with unity that any maximal ideal is prime . Indeed if  $ M $  is a maximal ideal of a commutative ring with unity  $ R $  , then by the above observation  $ R/M $  is a field. But then  $ R/M $  must clearly be an integral domain , and this happens iff  $ M $  is prime. Hence  $ M $  is indeed a prime ideal of  $ R $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

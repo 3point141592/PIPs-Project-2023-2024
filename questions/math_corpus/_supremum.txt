@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Least upper bound =
+Given a subset   $ S $  in some larger partially ordered set   $ R $  , a least upper bound or supremum , for  $ S $  is an element   $ M \in R $  such that  $ s \leq M $  for every  $ s \in S $  and there is no  $ m < M $  with this same property. If the least upper bound  $ M $  of  $ S $  is an element of  $ S $  , it is also the maximum of  $ S $  .  If  $ M \not\in S $  , then  $ S $  has no maximum.  Completeness : This is one of the fundamental axioms of real analysis . A set  $ S $  is said to be complete if any  nonempty  subset of  $ S $  that is bounded above has a supremum. The fact that  $ \mathbb{R} $  is complete is something intuitively clear but impossible to prove using only the field and order properties of  $ \mathbb{R} $   
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

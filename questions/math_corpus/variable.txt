@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Variable =
+A variable is a symbol used to represent either a quantity which is unknown (for example, the solutions of a quadratic equation ) or a quantity which may change (that is, which may vary). Variables are very useful in solving many problems algebraicly .  For instance, word problems can often be solved using variables to represent desired but unknown expressions . Any symbol may be used as a variable, but the most common variables are  $ x, y, z, m, n, a, b, c, p, q $  , and many Greek letters . By convention , certain variables are often used for certain types of quantities.  $ z, w, \omega $  and  $ \zeta $  are often used as complex variables.  $ m $  and  $ n $  are often used as variables representing integers .  $ p $  and  $ q $  are often used as variables representing prime numbers .  And  $ a $  ,  $ b $  and  $ c $  are often used as variables representing geometric quantities such as length .  
+== Contents ==
+
+== Problems ==
+
+=== Preintroductory ===
+
+=== Introductory ===
+
+=== Intermediate ===
+
+=== Olympiad ===
+Something appears to not have loaded correctly. Click to refresh .

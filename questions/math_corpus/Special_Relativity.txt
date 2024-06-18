@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Special Relativity =
+
+== Contents ==
+
+=== Special Relativity ===
+Special relativity, a powerful theory of modern physics , deals with spacetime, and its behavior when an object is moving in a line; it is based on the axioms that the speed of light is constant in all reference frames, and that the laws of physics are valid in each one. Some of its statements are: objects moving at higher speeds experience slower time. Also, the speed of light, or  $ c $  , is the highest speed any object can achieve. Objects moving at c would then move to their destination in no time since time slows down to a stop. Special relativity also deals with the equivalence of mass and energy, with the famous equation  $ E=mc^2 $  . This shows that the amount of energy an object contains is equal to its mass multiplied by the squared speed of light. It also shows that a huge amount of energy can come from only a tiny piece of matter. 
+== Time dilation ==
+In Special Relativity, time runs faster according to a moving observer than according to a steady observer. For, if a moving observer carries a clock consisting of two parallel mirrors with a beam of light bouncing between them, then the moving observer will see the clock tick normally because the beam of light travels in a straight line, but the steady observer will see the clock tick slowly because the beam of light travels diagonally. 
+== Length contraction ==
+Similarly, objects are longer according to a moving observer than according to a steady observer. This is derived from a similar thought experiment. 
+== Lorenz transformations ==
+At this point, the user may think that Special Relativity is inconsistent because the roles of the moving observer and steady observer can be trivially swapped. However, it turns out that space and time transform according to Lorenz transformations, which are inverses of each other, and thus Special Relativity is still consistent. The equations of a Lorenz transformation are:  $ t' = \gamma(t - \frac{vx}{c^2})\\ x' = \gamma(x - vt)\\ y' = y\\ z' = z $  . 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

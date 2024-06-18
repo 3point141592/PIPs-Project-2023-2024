@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Minkowski Inequality =
+The Minkowski Inequality states that if  $ r>s $  are nonzero real numbers, then for any positive numbers  $ a_{ij} $  the following holds:  $ \left(\sum_{j=1}^{m}\left(\sum_{i=1}^{n}a_{ij}^r\right)^{s/r}\right)^{1/s}\geq \left(\sum_{i=1}^{n}\left(\sum_{j=1}^{m}a_{ij}^s\right)^{r/s}\right)^{1/r} $   Notice that if either  $ r $  or  $ s $  is zero, the inequality is equivalent to Hölder's Inequality . 
+== Equivalence with the standard form ==
+For  $ r>s>0 $  , putting  $ x_{ij}:=a_{ij}^s $  and  $ p:=\frac rs>1 $  , the symmetrical form given above becomes Putting  $ m=2 $  and  $ a_i:=x_{i1},b_i:=x_{i2} $  , we get the form in which the Minkowski Inequality is given most often: As the latter can be iterated, there is no loss of generality by putting  $ m=2 $  . 
+== Problems ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Pythagorean inequality =
+The Pythagorean inequality is a generalization of the Pythagorean theorem , which states that in a right triangle with sides of length  $ a \leq b \leq c $  we have  $ a^2 + b^2 = c^2 $  .  This inequality extends this to  obtuse and acute triangles . The inequality states: For an acute triangle with sides of length  $ a \leq b \leq c $  ,  $ a^2+b^2>c^2 $  . For an obtuse triangle with sides  $ a \leq b \leq c $  ,  $ a^2+b^2<c^2 $  . This inequality is a direct result of the Law of cosines , although it is also possible to prove without using trigonometry . 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Perpendicular bisector =
+In a plane , the perpendicular bisector of a line segment   $ AB $  is a line   $ l $  such that  $ AB $  and  $ l $  are perpendicular and  $ l $  passes through the midpoint of  $ AB $  . In 3-D space, for each plane containing  $ AB $  there is a distinct perpendicular bisector in that plane.  The set of lines which are perpendicular bisectors of form a plane which is the plane perpendicularly bisecting  $ AB $  . In a triangle , the perpendicular bisectors of all three sides intersect at the circumcenter . 
+== Locus ==
+The perpendicular bisector of  $ AB $  is also the locus of points equidistant from  $ A $  and  $ B $  . To prove this, we must prove that every point on the perpendicular bisector is equidistant from  $ A $  and  $ B $  , and also that every point equidistant from  $ A $  and  $ B $  . The first part we prove as follows: Let  $ P $  be a point on the perpendicular bisector of  $ AB $  , and let  $ M $  be the midpoint of  $ AB $  .  Then we observe that the (possibly degenerate ) triangles   $ APM $  and  $ BPM $  are  congruent , by SAS congruence .  Hence the segments  $ PA $  and  $ PB $  are congruent, meaning that  $ P $  is equidistant from  $ A $  and  $ B $  . To prove the second part, we let  $ P $  be any point equidistant from  $ A $  and  $ B $  , and we let  $ M $  be the midpoint of the segment  $ AB $  .  If  $ P $  and  $ M $  are the same point, then we are done.  If  $ P $  and  $ M $  are not the same point, then we observe that the triangles  $ PAM $  and  $ PBM $  are congruent by SSS congruence , so the angles  $ PAM $  and  $ PBM $  are congruent.  Since these angles are supplementary angles , each of them must be a right angle .  Hence  $ PM $  is the perpendicular bisector of  $ AB $  , and we are done. Something appears to not have loaded correctly. Click to refresh .

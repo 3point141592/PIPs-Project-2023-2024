@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Speed =
+
+== Speed Distance Time Video ==
+https://youtu.be/rQUwNC0gqdg?t=2557  
+== Definition ==
+Speed is the scalar quantity of change in distance travelled along a path, divided by the time it takes to travel that part of the path. 
+== Contrast with velocity ==
+Speed is different from velocity, the latter has direction. Here's why that changes things: A\\\rule{0.513\textwidth}{1pt}\\[-1.5pt]\ignorespaces\rule{1pt}{1cm}\rule{1cm}{1pt}\rule{1pt}{1cm}\rule{1cm}{1pt}\rule{1pt}{1cm}\rule{1cm}{1pt}\rule{1pt}{1cm}\rule{1cm}{1pt}\rule{1pt}{1cm}\rule{1cm}{1pt}\rule{1pt}{1cm}\\\rule{0.513\textwidth}{0pt}B  Say  $ A $  wanted to get to  $ B $  , if  $ A $  can only travel the paths drawn,  $ A $  would have to go 6 units of length (be they metres,kilometres, miles, yards,etc.). If they take 6 minutes then they averaged 1 unit of length per minute, this is their average speed (usually taken to just be speed). On the other hand, velocity depends on a distance (called displacement) and ' direction . If A walks around the block (4 equal sides), she may have walked 4 units of length in 4 minutes; giving her a speed of 1 unit of length per minute. However she has a distance from point of origin (called displacement) of 0 units of length; therefore her velocity is 0 units of length per minute in the opposite path direction to which she arrived back at the point of origin. See Also: distance  Something appears to not have loaded correctly. Click to refresh .

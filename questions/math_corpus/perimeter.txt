@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Perimeter =
+
+== Definition ==
+The perimeter of a geometric figure is the distance around the outside of the figure. Perimeter is often denoted by P. The perimeter of a circle is called its circumference . 
+== Formulas ==
+
+== Introductory Example Problems ==
+Something appears to not have loaded correctly. Click to refresh .

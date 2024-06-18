@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Symmetric sum =
+The symmetric sum   $ \sum_{\rm sym} f(x_1, x_2, x_3, \dots, x_n) $  of a function  $ f(x_1, x_2, x_3, \dots, x_n) $  of  $ n $  variables is defined to be  $ \sum_{\sigma} f(x_{\sigma(1)}, x_{\sigma(2)}, x_{\sigma(3)}, \dots, x_{\sigma(n)}) $  , where  $ \sigma $  ranges over all permutations of  $ (1, 2, 3, \dots, n) $  . More generally, a symmetric sum of  $ n $  variables is a sum that is unchanged by any permutation of its variables. Any symmetric sum can be written as a polynomial of elementary symmetric sums . A symmetric function of  $ n $  variables is a function that is unchanged by any permutation of its variables. The symmetric sum of a symmetric function  $ f(x_1, x_2, x_3, \dots, x_n) $  therefore satisfies \[\sum_{\rm sym} f(x_1, x_2, x_3, \dots, x_n) = n!f(x_1, x_2, x_3, \dots, x_n).\]  Given  $ n $  variables  $ x_1,\ldots,x_n $  and a symmetric function  $ f(x_1,\ldots,x_r) $  with  $ r\leq n $  , the notation  $ \sum_{\rm sym}f(x_1, x_2, x_3, \dots, x_r) $  is sometimes used to denote the sum of  $ f(x_1,\ldots,x_r) $  over all  $ \left(\begin{matrix}n\cr r\end{matrix}\right) $  subsets of size  $ r $  in  $ \{x_1,\ldots,x_n\} $  . 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

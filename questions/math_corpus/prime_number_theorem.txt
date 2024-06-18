@@ -1,0 +1,82 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Prime Number Theorem =
+The Prime Number Theorem (PNT) is one of the most
+celebrated results in analytic number theory .  Indeed, it is
+possibly the most famous major result in all of number theory, with
+the exception of Fermat's Last Theorem .  (Fortunately, the proof
+is easier, though still non-trivial!)  It gives an
+asymptotic formula for the distribution of the prime numbers ;
+specifically, it states that the functions  $ \pi(x) $  and  $ x/\log x $  are asymptotically equivalent , where  $ \pi(x) $  is the number
+of primes less than or equal to  $ x $  .  In other words, it states
+that \[\lim_{x\to \infty} \frac{\pi(x) \log x}{x} = 1 .\]  
+== Contents ==
+
+== History ==
+
+=== First Conjectures ===
+Gauss conjectured the theorem as early as 1793, in terms of the logarithmic integral , which is asymptotically equivalent
+to  $ x / \log x $  .  Legendre conjectured in 1798 that for some
+constants  $ A $  and  $ B $  , \[\pi(x) \sim \frac{x}{A \log x - B} .\] In 1808 he refined his conjecture to \[\pi(x) = \frac{x}{\log x - A(x)} ,\] with  $ A(x) $  tending to some constant number around 1.08366.
+(In fact,  $ A(x) $  does not seem to tend to this value, but its
+actual asymptotic behavior is apparently unknown.) 
+=== Early Results ===
+In 1850, Chebyshev proved that for sufficiently large  $ x $  ,
+there existed reals  $ A, B $  such that \[A < \frac{\pi(x) \log x}{x} < B ,\] and he was able to give \[A = \frac{\log 2}{2} + \frac{\log 3}{3} + \frac{\log 5}{5} - \frac{\log 30}{30} \approx 0.921292 ,\] and  $ B = \frac{6A}{5} \approx 1.10555 $  . In 1859, Riemann established the relation between the distribution
+of the zeros of the Riemann zeta function and the distribution
+of the prime numbers; in this same paper, he posed the Riemann Hypothesis , namely that the zeta function's nontrivial
+zeros all lie on the line  $ \Re z = 1/2 $  .  To this day,
+it remains unsolved. In 1892, Sylvester was able to improve Chebyshev's bounds
+with  $ A = .956 $  ,  $ B=1.045 $  .  However, his methods did not
+seem likely to yield better bounds. 
+=== Proof and Refinement ===
+Finally, in 1896, Jacques Hadamard and Charles-Jean de la
+ValÎée Poussin independently proved that the zeta function
+has no zeros on the line  $ \Re s = 1 $  , and from this deduced
+the prime number theorem.  Their proofs were somewhat long; Hadamard's paper was some 20 pages long.  De la Vallée Poussin's proof that  $ \zeta(1+ri) $  has no zeros was about 25 pages long; Hadamard's
+proof was essentially the modern version, though de la Vallée
+Poussin and Mertens later simplified it.  The proof that this
+statement implied the prime number theorem remained long for
+some time. In 1948, Alte Selberg and Paul Erdős simultaneously
+found "elementary" proofs of the prime number theorem.  Unfortunately,
+these proofs are still much longer than the shortest proofs
+of today that use complex analysis. Finally, in 1980, D.J. Newman found a  theorem with a short proof
+that provided a much simpler link between the zeta function
+and the prime number theorem.  This is essentially the proof
+given here. 
+== Outline ==
+The major results are the fact that the Riemann zeta function
+has no zeros on the line  $ \Re s = 1 $  , and the Tauberian theorem
+due to Newman.  The rest of the theorem's proof is comparatively
+straightforward, though still non-trivial.  We do not prove
+those results in this article, but instead refer to their
+proofs  here and Newman's Tauberian Theorem . 
+== Proof ==
+We use the Riemann zeta function , which is defined as \[\zeta(s) = \sum_{n\ge 1} \frac{1}{n^s} =  \prod_{p \text{ prime}} ( 1 - p^{-s} )^{-1} .\] This function has an analytic continuation to the entire
+complex plane except  $ s= 1 $  , where it has a simple pole of
+residue 1. We define \[\phi(s) = \sum_{p} \frac{\log p}{p^s} .\] As discussed  here ,
+the function  $ \phi(s) $  extends to the set  $ \Re s > 1/2 $  by the
+relation \[\phi(s) = - \frac{\zeta'(s)}{\zeta(s)} - \sum_p \frac{\log p}{ p^s (p^s- 1)} .\]  Thus we may define the function \[g(z) = \frac{\phi(z+1)}{z+1} - \frac{1}{z} .\] Since  $ \zeta(s) $   has no zeros on the line   $ \Re s =1 $  ,
+the function  $ g(z) $  is holomorphic on the set  $ \Re z \ge 0 $  . 
+=== The Bounded Integral ===
+Theorem 1. The integral \[\int\limits_1^{\infty} \frac{\vartheta(x) - x}{x^2} dx\] converges to  $ g(0) $  . Proof. We rely on a  tauberian theorem due to Newman . Let  $ x = e^t $  .  We note that \[\int\limits_1^{e^T} \frac{\vartheta(x) -x}{x^2} dx =  \int\limits_0^T [\vartheta(e^t)e^{-t} - 1 ]dt.\]  Now, for  $ \Re s > 1 $  , \begin{align*} \int\limits_0^\infty [ \vartheta(e^t)e^{-t(s+1)}- e^{-st} ] dt &= \int\limits_1^\infty \left[ \frac{\vartheta(x)}{x^{s+2}} - \frac{1}{x^{s+1}} \right] dx \\ &= \sum_{k=0}^{\infty} \int\limits_{p_k}^{p_{k+1}} \frac{\vartheta(x)} {x^{s+2}} - \frac{1}{s} \\ &= \sum_{k=0}^{\infty} \vartheta(p_k) \int\limits_{p_k}^{p_{k+1}} \frac{dx}{x^{s+2}} - \frac{1}{s}\\ &= \frac{1}{s+1}\sum_{k=0}^\infty \vartheta(p_k) (1/p_k^{s+1} - 1/p_{k+1}^{s+1}) - \frac{1}{s} . \end{align*} Now, by the Abel Summation Technique , we have \begin{align*} \sum_{k=0}^\infty \vartheta(p_k)(1/p_k^{s+1} - 1/p_{k+1}^{s+1}) &= \sum_{k=0}^\infty \sum_{i=0}^k \log p_i (1/p_k^{s+1} - 1/p_{k+1}^{s+1}) \\ &= \sum_{k=0}^{\infty} \frac{\log p_k}{p_k^{s+1}} \\ &= \phi(s+1). \end{align*} Thus for  $ \Re s >1 $  (for the integral), \[\int_0^\infty [\vartheta(e^t)e^{-t} -1 ]e^{-st} dt = \frac{\phi(s+1)}{s+1} - \frac{1}{s} = g(s).\] Now, by a  theorem due to Chebyshev ,
+the function  $ \vartheta(x)/x - 1 $  is bounded above (by 1).
+The function  $ f(t) = \vartheta(e^t)e^{-t} -1 $  thus satisfies
+the conditions of Newman's Tauberian Theorem , and the
+result follows.  $ \blacksquare $   
+=== End of Proof ===
+The rest of the theorem is more simple. Theorem 2. The functions  $ \vartheta(x) $  and  $ x $  are
+asymptotically equivalent. Proof. Suppose that  $ \lambda \ge 1 $  is a number
+such that there are infinitely many  $ x $  for which  $ \vartheta(x) \ge \lambda x $  .  Then for all such  $ x $  , \begin{align*} \int\limits_x^{\lambda{x}} \frac{\vartheta(t) -t}{t^2} dt&\ge \int\limits_x^{\lambda{x}} \frac{\lambda x - t}{t^2}dt \\ &= \lambda x \left( \frac{1}{x} - \frac{1}{\lambda x} \right)- \left(\log (\lambda x) - \log x\right) \\ &= \lambda -1 - \log \lambda . \end{align*} Now,  $ d(x-1 - \log x)/dx = 1 - 1/x $  ; it follows that \[\lambda - 1 - \log \lambda \ge 0 ,\] with equality exactly when  $ \lambda =1 $  .  But by theorem 1,
+this quantity must equal 0 in absolute value, so  $ \lambda = 1 $  . Analogously, suppose that  $ \lambda \le 1 $  is a number
+such that there are infinitely many  $ x $  for which  $ \vartheta(x) \le \lambda x $  . 	Then for any such  $ x $  , \begin{align*} \int\limits_{\lambda x}^x \frac{\vartheta{x} - t}{t^2}dt \le \int\limits_{\lambda x}^x \frac{\lambda x -t}{t^2}dt &= \lambda x \left( \frac{1}{x} - \frac{1}{\lambda x} \right) - ( \log x - \log(\lambda x) ) \\ &= 1 - \lambda + \log \lambda \le 0. \end{align*} Again, by theorem 1, this quantity must equal zero in absolute
+value; it follows that  $ \lambda = 1 $  . If follows that  $ \limsup \vartheta(x)/x = \liminf \vartheta(x)/x =1 $  .  $ \blacksquare $   Theorem 3 (Prime Number Theorem). The functions  $ \pi(x)\log x $  and  $ x $  are asymptotically equivalent. Proof. We note that \[\vartheta(x) = \sum_{p \le x} \log p \le \sum_{p\le x} \log x = \pi(x) \log x .\] Since  $ \vartheta(x) \sim x $  , it follows that \[\liminf \frac{\pi(x) \log x}{x} \ge 1.\]  On the other hand, for any  $ \epsilon > 0 $  , \begin{align*} \vartheta(x) = \sum_{p\le x} \log p \ge \sum_{x^{1-\epsilon} \le p \le x} \log p &\ge \sum_{x^{1-\epsilon}\le p \le x} (1-\epsilon) \log x \\ &\ge (1-\epsilon) \log x ( \pi(x) - x^{1-\epsilon} ) , \end{align*} so \[\pi(x) \log x \le \frac{\vartheta(x)}{1-\epsilon} + x^{1-\epsilon}\log x = x \left( \frac{\vartheta(x)}{(1-\epsilon)x} + \frac{\log x}{x^\epsilon} \right) .\] Again, since  $ \vartheta(x) \sim x $  , it follows that for
+any  $ \epsilon > 0 $  , \[\limsup \frac{\pi(x) \log x}{x} \le \limsup \left(\frac{1}{1-\epsilon} + \frac{\log x}{x^\epsilon} \right) = \frac{1}{1 -\epsilon} .\] Thus \[\limsup \frac{\pi(x)\log x}{x} \le 1 .\] Therefore \[\lim_{x\to \infty} \frac{\pi(x)\log x}{x} = 1. \qquad  \blacksquare\]  
+== Bibliography ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

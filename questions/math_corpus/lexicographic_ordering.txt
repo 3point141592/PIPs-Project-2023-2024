@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Lexicographic ordering =
+Lexicographic (or dictionary ordering) is a strict total ordering  $ < $  on the  $ \alpha $  -tuple  $ A = \prod_{\beta < \alpha} A_{\beta} $  of totally ordered sets for some ordinal   $ \alpha $  using the strict total orderings  $ <_{\beta} $  of  $ A_{\beta}, \beta < \alpha $  . 
+== Formal Definition ==
+For  $ (a,b) \in A^2 $  , letting  $ a_{\beta} $  and  $ b_{\beta} $  denote the  $ \beta^{\text{th}} $  components of  $ a $  and  $ b $  respectively, we say  $ a < b $  iff  $ (\exists \gamma \leq \alpha)((\forall \beta < \gamma)(a_{\beta} = b_{\beta}) \wedge (a_{\gamma} <_{\gamma} b_{\gamma})) $  . Something appears to not have loaded correctly. Click to refresh .

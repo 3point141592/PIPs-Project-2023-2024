@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Routh's Theorem =
+In triangle   $ ABC $  ,  $ D $  ,  $ E $  and  $ F $  are points on sides  $ BC $  ,  $ AC $  , and  $ AB $  , respectively. Let  $ r=\frac{AF}{FB} $  ,  $ s=\frac{BD}{DC} $  , and  $ t=\frac{CE}{AE} $  . Let  $ G $  be the intersection of  $ AD $  and  $ BC $  ,  $ H $  be the intersection of  $ BE $  and  $ CF $  , and  $ I $  be the intersection of  $ CF $  and  $ AD $  . Then, Routh's Theorem states that \[[GHI]=\dfrac{(rst-1)^2}{(rs+r+1)(st+s+1)(tr+t+1)}[ABC]\]  [asy] unitsize(5); defaultpen(fontsize(10)); pair A,B,C,D,E,F,G,H,I; A=(10,20); B=(0,0); C=(30,0); D=(20,0); E=(16.66,13.33); F=(5,10); G=(14.585,11.6298); H=(9.998,8); I=(17.5,5); draw(A--B); draw(B--C); draw(C--A); draw(A--D); draw(B--E); draw(C--F); label(" $ A $ ",A,N); label(" $ B $ ",B,SW); label(" $ C $ ",C,SE); label(" $ D $ ",D,S); label(" $ E $ ",E,NE); label(" $ F $ ",F,NW); label(" $ G $ ",G,N); label(" $ H $ ",H,N); label(" $ I $ ",I,SW);[/asy]  
+== Proof ==
+Scale triangle  $ ABC $  's area down so that it becomes 1. We can then use Menelaus's Theorem on triangle   $ ABD $  and line  $ FHC $  .  $ \frac{AF}{FB}\times\frac{BC}{CD}\times\frac{DG}{GA}= 1 $  This means  $ \frac{DG}{GA}= \frac{BF}{FA}\times\frac{DC}{CB} = \frac{rs}{s+1} $   Full proof: https://en.wikipedia.org/wiki/Routh%27s_theorem  
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Topology =
+Topology is a field of mathematics that can be considered an extension to geometry : It involves the study of space and its structure. The word "topology" also denotes a topological space , a specific kind of mathematical construct that satisfies certain axioms.  Topology is often considered one of the cornerstones of pure mathematics. 
+== Important Concepts ==
+
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .
