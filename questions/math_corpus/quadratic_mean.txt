@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Root-mean-square =
+The root-mean-square or quadratic mean of a collection of real numbers   $ x_1,\dots , x_n $  is defined to be  $ \sqrt{\frac{x^2_1+x^2_2+\dots+x^2_n}{n}} $  .  This is the second power mean of the  $ x_i $  . It is so-named because it is the square root of the mean of the squares of the  $ x_i $  . It is also part of the well-known Root-Mean Square-Arithmetic Mean-Geometric Mean-Harmonic mean Inequality  
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

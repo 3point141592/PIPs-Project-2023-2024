@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= 3D =
+3D Geometry deals with objects in 3 dimensions. For example, a drawing on a piece of paper is 2-dimensional since it has length and width. A baseball, on the other hand, is three-dimensional because it not only has length and width, but also depth.  
+== Contents ==
+
+== Making 3D Problems 2D ==
+A very common technique for approaching 3D Geometry problems is to make it 2D.  We can do this by looking at certain cross-sections of the diagram one at a time. 
+=== Example ===
+On a sphere with a radius of 2 units, the points  $ A $  and  $ B $  are 2 units away from each other.  Compute the distance from the center of the sphere to the line segment  $ AB. $   
+==== Solution ====
+First, we note that the distance of a point to a line is usually meant to be the shortest distance between the point and the line.  This occurs when the perpendicular to the line segment through the point is drawn. Now that we know what we are looking for, we can choose an appropriate cross-section to look at.  We choose to look at the cross-section containing  $ A, B $  and the center of the sphere as shown in the following diagram: We now draw in the perpendicular to  $ AB $  : From here, we can note the 30-60-90 triangle, or the Pythagorean Theorem, to find that  $ x = \sqrt{3} $  units. 
+== See also ==
+Linked from 3D Geometry ( https://artofproblemsolving.com/wiki/index.php/3D_Geometry ) Something appears to not have loaded correctly. Click to refresh .

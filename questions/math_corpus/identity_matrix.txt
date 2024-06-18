@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Identity matrix =
+In linear algebra , the square identity matrix is a  $ n \times n $  matrix with  $ 1 $  s in its main diagonal and  $ 0 $  s in every other entry. It is usually denoted  $ I_n $  . \[I_n = \begin{pmatrix}1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0\\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1\end{pmatrix}.\]  The corresponding linear map is the identity map. For any  $ n \times n $  matrix  $ A $  , we have  $ AI_n = I_nA = A $  . The inverse   $ A^{-1} $  of  $ A $  is the unique matrix such that  $ AA^{-1} = A^{-1}A = I_n $  . The determinant of  $ I_n $  is  $ 1 $  .  $ I_n $  has only one eigenvalue   $ 1 $  , occurring with multiplicity  $ n $  . Hence, any  $ n \times n $  matrix is in the corresponding eigenspace. The characteristic polynomial of  $ I_n $  is  $ P_{I}(t) = (t-1)^n $  , and the minimal polynomial is  $ t - 1 $  . Something appears to not have loaded correctly. Click to refresh .

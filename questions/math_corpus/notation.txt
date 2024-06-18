@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Notation =
+This article is a stub.  Help us out by  .  In  math , science , and technical subjects in general, notation is used to express ideas more compactly.  So long as the ideas behind notations are well understood, notation allows the expression of even extremely complex ideas in relatively simple fashion. For example, we could say: A number plus the square of the number is equal to half the number plus the cube of the square root of the number. This is much easier to express using notation:  $ \displaystyle x+x^2=\frac{x}{2}+x\sqrt{x} $  . The latter is easier to understand, and we can immediately jump into algebra with it. 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

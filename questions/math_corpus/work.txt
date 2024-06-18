@@ -1,0 +1,11 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Work =
+Work is a physical quantity defined as the force exerted on an object over a certain distance. In the case of a constant force  $ F $  over a distance  $ d $  , the amount of work done is found using the equation: \[W=Fd\cos\theta\] Where  $ W $  is the work done (J),  $ F $  is the force (N),  $ d $  is the distance (m), and  $ \theta $  is the angle between the direction of force and the direction of movement.
+This also implies that if a force on an object is perpendicular to the direction in which the object is moving, there is no work done. The most common uses of this fact are in that gravity does not do work on an object on a flat surface and that a rope does not do work on an object experiencing centripetal motion . Additionally, the amount of work done on an object is equal to the change in kinetic energy . That is, \[W_{net}=\Delta KE\]  The SI unit of work is the Joule . 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

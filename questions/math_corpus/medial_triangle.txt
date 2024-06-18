@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Medial triangle =
+The medial triangle is created by joining the midpoints of a triangle's sides. It is similar to the original triangle by a spiral similarity at G the centroid with a scale factor of 2 and a rotation of 180 degrees. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

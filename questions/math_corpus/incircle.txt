@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Incircle =
+An incircle of a convex  polygon is a circle which is inside the figure and  tangent to each side.  Every triangle and regular polygon has a unique incircle, but in general polygons with 4 or more sides (such as non-  square  rectangles ) do not have an incircle. A quadrilateral that does have an incircle is called a Tangential Quadrilateral . For a triangle, the center of the incircle is the Incenter , where the incircle is the largest circle that can be inscribed in the polygon. The Incenter can be constructed by drawing the intersection of angle bisectors. 
+== Formulas ==
+
+== See also ==
+Click here to learn about the orthocenter, and Line's Tangent Something appears to not have loaded correctly. Click to refresh .

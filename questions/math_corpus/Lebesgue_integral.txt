@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Lebesgue integral =
+The Lebesgue integral was a replacement for the Riemann integral codified by French analyst Henri Lebesgue at the turn of the 19th century. Rather than summing the integral by thefunction's domain, as the Riemann integral did, it summed over its range using a concept Lebesgue himself had created - the Lebesgue measure . The Lebesgue integral agrees with the Riemann integral in terms of result on all Riemann integrable functions. It can also integrate all Lebesgue measurable functions, a huge improvement over Riemann's integral. These functions include such pathological functions as Dirichlet's function . In fact, even if  $ D_f $  is an uncountable cardinality,  $ f $  is still integrable. Essentially, every function which had been considered up to the 20th century is Lebesgue integrable. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

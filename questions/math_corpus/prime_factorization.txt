@@ -1,0 +1,30 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Prime factorization =
+For a positive integer  $ n $  , the prime factorization of  $ n $  is an expression for  $ n $  as a product of powers of prime numbers .  An important theorem of number theory called the Fundamental Theorem of Arithmetic tells us that every positive integer has a unique prime factorization, up to changing the order of the terms. The form of a prime factorization is  $ n = {p_1}^{e_1} \cdot {p_2}^{e_2}\cdot{p_3}^{e_3}\cdots{p_k}^{e_k} $  where  $ n $  is any natural number, the  $ p_{i} $  are prime numbers, and the  $ e_i $  are their positive integral exponents. Prime factorizations are important in many ways. One instance is to simplify fractions . 
+== Contents ==
+
+== Primes and Prime Factorization Video ==
+https://youtu.be/6xNkyDgIhEE?t=543  
+== Techniques ==
+The common method of prime factorization is checking prime numbers, case by case.  Use divisibility rules to check if primes (or powers of primes) are a factor and then move up to a different prime if said prime is not a factor.   When a prime is a factor, we factor out the prime and check for factors in the resulting number. Sometimes, we could easily see that a number is a multiple of a composite number or a prime.  For instance,  $ 50 $  is a factor of  $ 2650 $  , and  $ 49 $  is a factor of  $ 4998 $  .  In these cases, a good strategy is to choose the number accordingly to make factoring easier. 
+== Example ==
+Consider the number  $ 38052 $  . Thus, the prime factorization of  $ 38052 $  is  $ 2^2 \cdot 3^2 \cdot 7 \cdot 151 $  . 
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+
+== Resources ==
+
+=== Books ===
+
+=== Games ===
+ 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

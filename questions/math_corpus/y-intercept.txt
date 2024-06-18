@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Y-intercept =
+
+== Quick Description ==
+The point or value where a function intersects y axis. 
+== Quick Example ==
+The y-intercept of the line  $ y = 2x + 1 $  is 1. [asy] draw((-10,0)--(10,0)); draw((0,-10)--(0,10)); draw((-5.5, -10)--(4.5, 10)); dot((0,1)); [/asy]  Something appears to not have loaded correctly. Click to refresh .

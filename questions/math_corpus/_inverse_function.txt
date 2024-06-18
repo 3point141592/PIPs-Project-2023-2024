@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inverse of a function =
+The inverse of a function is a function that "undoes" the action of a given function. For example, consider the function  $ f $  given by the rule  $ \displaystyle f(x) = x^3 + 6 $  .  The function  $ g(x) = \sqrt[3]{x-6} $  has the property that  $ f(g(x)) = x $  .  In this case,  $ g $  is called the (right) inverse function of  $ f $  .  Similarly, a function  $ g $  such that  $ g(f(x))=x $  is called the left inverse function of  $ f $  .  Typically, the right and left inverses coincide on a suitable domain, and in this case we simply call the right and left inverse function the inverse function .  For example, in our example above,  $ g $  is both a right and left inverse to  $ f $  on the real numbers . Often the inverse of a function  $ f $  is denoted by  $ f^{-1} $  .  Note that the  $ -1 $  does not indicate an exponent . The inverse of a function  $ f: A \to B $  with range   $ C $  is a function  $ f^{-1}: C \to A $  if and only if  $ f $  is injective , so that every element in the range is mapped from a distinct element in the domain .  When the domain and range are subsets of the real numbers , one way to test this is the horizontal line test : if every horizontal line drawn in the plane intersects the graph of the function in at most one point, the function is injective. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

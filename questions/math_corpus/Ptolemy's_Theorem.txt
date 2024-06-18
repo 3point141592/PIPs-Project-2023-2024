@@ -1,0 +1,32 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Ptolemy's theorem =
+Ptolemy's theorem gives a relationship between the side lengths and the diagonals of a cyclic quadrilateral ; it is the  equality case of Ptolemy's Inequality . Ptolemy's theorem frequently shows up as an intermediate step in problems involving inscribed figures. 
+== Contents ==
+
+== Statement ==
+Given a cyclic quadrilateral   $ ABCD $  with side lengths  $ {a},{b},{c},{d} $  and diagonals   $ {e},{f} $  : \[ac+bd=ef.\]  
+== Proof 1 ==
+Given cyclic quadrilateral  $ ABCD, $  extend  $ CD $  to  $ P $  such that  $ \angle BAC=\angle DAP. $   Since quadrilateral  $ ABCD $  is cyclic,  $ m\angle ABC+m\angle ADC=180^\circ . $  However,  $ \angle ADP $  is also supplementary to  $ \angle ADC, $  so  $ \angle ADP=\angle ABC $  . Hence,  $ \triangle ABC \sim \triangle ADP $  by AA similarity and  $ \frac{AB}{AD}=\frac{BC}{DP}\implies DP=\frac{(AD)(BC)}{(AB)}. $   Now, note that  $ \angle ABD=\angle ACD $  (subtend the same arc) and  $ \angle BAC+\angle CAD=\angle DAP+\angle CAD \implies \angle BAD=\angle CAP, $  so  $ \triangle BAD\sim \triangle CAP. $  This yields  $ \frac{AB}{AC}=\frac{BD}{CP}\implies CP=\frac{(AC)(BD)}{(AB)}. $   However,  $ CP= CD+DP. $  Substituting in our expressions for  $ CP $  and  $ DP, $    $ \frac{(AC)(BD)}{(AB)}=CD+\frac{(AD)(BC)}{(AB)}. $  Multiplying by  $ AB $  yields  $ (AC)(BD)=(AB)(CD)+(AD)(BC) $  .  
+== Proof 2 (inversion) ==
+We provide a proof for the general case of Ptolemy's theorem, Ptolemy's Inequality. Let  $ A,B,C,D $  be four points in the Euclidean plane. Taking an inversion centered at  $ D $  (the point doesn't matter, it can be any of the four) with radius  $ r $  , we have that  $ A^*B^*+B^*C^*\geq A^*C^* $  by the Triangle Inequality, with equality holding when  $ A^*, B^*, C^* $  are collinear, i.e. when  $ A,B,C $  lie on a circle containing  $ D. $  Additionally, by the Inversion Distance Formula, we may express the inequality as the following: \[\frac{r^2}{AD\cdot BD}\cdot AB + \frac{r^2}{BD\cdot CD}\cdot BC \geq \frac{r^2}{AD\cdot CD}\cdot AC.\]  Dividing by  $ r^2 $  and multiplying everything by  $ AD\cdot BD \cdot CD, $  we get  $ AB\cdot CD + BC\cdot AD \geq AC\cdot BD, $  and thus the desired.  $ _\blacksquare $   
+== Problems ==
+
+=== 2023 AIME I Problem 5 ===
+Square  $ ABCD $  is inscribed in a circle. Point  $ P $  is on this circle such that  $ AP \cdot CP = 56 $  , and  $ BP \cdot DP = 90 $  . What is the area of the square? Solution: We may assume that  $ P $  is between  $ B $  and  $ C $  . Let  $ PA = a $  ,  $ PB = b $  ,  $ PC = C $  ,  $ PD = d $  , and  $ AB = s $  . We have  $ a^2 + c^2 = AC^2 = 2s^2 $  , because  $ AC $  is a diagonal. Similarly,  $ b^2 + d^2 = 2s^2 $  . Therefore,  $ (a+c)^2 = a^2 + c^2 + 2ac = 2s^2 + 2(56) = 2s^2 + 112 $  . Similarly,  $ (b+d)^2 = 2s^2 + 180 $  . By Ptolemy's Theorem on  $ PCDA $  ,  $ as + cs = ds\sqrt{2} $  , and therefore  $ a + c = d\sqrt{2} $  . By Ptolemy's on  $ PBAD $  ,  $ bs + ds = as\sqrt{2} $  , and therefore  $ b + d = a\sqrt{2} $  . By squaring both equations, we obtain \[2d^2 = (a+c)^2 = 2s^2 + 112\]  \[2a^2 = (b+d)^2 = 2s^2 + 180.\]  Thus,  $ a^2 = s^2 + 90 $  , and  $ d^2 = s^2 + 56 $  . Plugging these values into  $ a^2 + c^2 = b^2 + d^2 = 2s^2 $  , we obtain  $ c^2 = s^2 - 90 $  , and  $ b^2 = s^2 - 56 $  . Now, we can solve using  $ a $  and  $ c $  (though using  $ b $  and  $ d $  yields the same solution for  $ s $  ). \[(\sqrt{s^2 + 90})(\sqrt{s^2 - 90}) = ac = 56\]  \[(s^2 + 90)(s^2 - 90) = 56^2\]  \[s^4 = 90^2 + 56^2 = 106^2\]  \[s^2 = 106.\]  The answer is  $ \boxed{106} $  . 
+=== 2004 AMC 10B Problem 24 ===
+In triangle  $ ABC $  we have  $ AB=7 $  ,  $ AC=8 $  ,  $ BC=9 $  . Point  $ D $  is on the circumscribed circle of the triangle so that  $ AD $  bisects angle  $ BAC $  . What is the value of  $ AD/CD $  ?  $ \text{(A) } \dfrac{9}{8} \quad \text{(B) } \dfrac{5}{3} \quad \text{(C) } 2 \quad \text{(D) } \dfrac{17}{7} \quad \text{(E) } \dfrac{5}{2} $   Solution: Set  $ \overline{BD} $  's length as  $ x $  .  $ CD $  's length must also be  $ x $  since  $ \angle BAD $  and  $ \angle DAC $  intercept arcs of equal length(because  $ \angle BAD =\angle DAC $  ). Using Ptolemy's theorem,  $ 7x+8x=9(AD) $  . The ratio is  $ \boxed{\frac{5}{3}}\implies(B) $   
+=== Equilateral Triangle Identity ===
+Let  $ \triangle ABC $  be an equilateral triangle. Let  $ P $  be a point on minor arc  $ AB $  of its circumcircle. Prove that  $ PC=PA+PB $  . Solution: Draw  $ PA $  ,  $ PB $  ,  $ PC $  . By Ptolemy's theorem applied to quadrilateral  $ APBC $  , we know that  $ PC\cdot AB=PA\cdot BC+PB\cdot AC $  . Since  $ AB=BC=CA=s $  , we divide both sides of the last equation by  $ s $  to get the result:  $ PC=PA+PB $  . 
+=== Regular Heptagon Identity ===
+In a regular heptagon  $ ABCDEFG $  , prove that:  $ \frac{1}{AB}=\frac{1}{AC}+\frac{1}{AE} $  . Solution: Let  $ ABCDEFG $  be the regular heptagon. Consider the quadrilateral  $ ABCE $  . If  $ a $  ,  $ b $  , and  $ c $  represent the lengths of the side, the short diagonal, and the long diagonal respectively, then the lengths of the sides of  $ ABCE $  are  $ a $  ,  $ a $  ,  $ b $  and  $ c $  ; the diagonals of  $ ABCE $  are  $ b $  and  $ c $  , respectively. Now, Ptolemy's theorem states that  $ ab + ac = bc $  , which is equivalent to  $ \frac{1}{a}=\frac{1}{b}+\frac{1}{c} $  upon division by  $ abc $  . 
+=== 1991 AIME Problems/Problem 14 ===
+A hexagon is inscribed in a circle. Five of the sides have length  $ 81 $  and the sixth, denoted by  $ \overline{AB} $  , has length  $ 31 $  . Find the sum of the lengths of the three diagonals that can be drawn from  $ A $  . Solution  
+=== Cyclic Hexagon ===
+A hexagon with sides of lengths 2, 2, 7, 7, 11, and 11 is inscribed in a circle.  Find the diameter of the circle. Solution: Consider half of the circle, with the quadrilateral  $ ABCD $  ,  $ AD $  being the diameter.  $ AB = 2 $  ,  $ BC = 7 $  , and  $ CD = 11 $  . Construct diagonals  $ AC $  and  $ BD $  . Notice that these diagonals form right triangles. You get the following system of equations:  $ (AC)(BD) = 7(AD) + 22 $  (Ptolemy's theorem)  $ \text(AC)^2 = (AD)^2 - 121 $    $ (BD)^2 = (AD)^2 - 4 $   Solving gives  $ AD = 14 $   
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

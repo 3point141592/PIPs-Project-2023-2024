@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Number line =
+This article is a stub.  Help us out by  .  A number line is a pictoral representation of the real numbers ; it is typically represented as a line with tick marks, where each tick mark represents an integer .  Often, the number line has the the integer zero in the middle, and positive numbers to the right and negative numbers to the left. Conceptually, the number line continues indefinitely. Often a perpendicular axis is used to represent imaginary numbers , which is the complex plane .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

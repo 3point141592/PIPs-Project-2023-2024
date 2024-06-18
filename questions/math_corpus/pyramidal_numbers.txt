@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Pyramidal numbers =
+The Pyramidal Numbers are the numbers  $ n $  which are the sum of the first  $ n $  triangular numbers. The formula for their sum is  $ (n)(n+1)(n+2)/6 $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

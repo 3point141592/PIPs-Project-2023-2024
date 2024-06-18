@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Locus =
+This article is a stub.  Help us out by  .  Locus is essentially a synonym for set .  It is used most frequently in geometry , to denote a set of points satisfying a certain geometric condition. 
+== Examples ==
+Something appears to not have loaded correctly. Click to refresh .
