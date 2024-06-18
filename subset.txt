@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Subset =
+We say a set   $ A $  is a subset of another set  $ B $  if every element of  $ A $  is also an element of  $ B $  , and we denote this by  $ A \subset B $  .  The empty set is a subset of every set, and every set is a subset of itself.  The notation  $ A \subseteq B $  emphasizes that  $ A $  may be equal to  $ B $  , while  $ A \subsetneq B $  says that  $ A $  is any subset of  $ B $  other than  $ B $  itself. In the latter case,  $ A $  is called a proper subset . The following is a true statement:  $ \emptyset \subset \{1, 2\} \subset \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C} \subset \mathbb{C}\cup\{\textrm{Groucho, Harpo, Chico}\} \supset \{1, 2, i, \textrm{Groucho}\} $   The set of all subsets of a given set  $ S $  is called the power set of  $ S $  and is denoted  $ \mathcal{P}(S) $  or  $ 2^S $  . The number of subsets of  $ S $  is  $ 2^{|S|} $  . 
+== Example Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+Something appears to not have loaded correctly. Click to refresh .

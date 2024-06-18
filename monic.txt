@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Monic polynomial =
+A polynomial   $ P(x) $  is said to be monic if it is of the form  $ P(x) = x^n + a_{n-1}x^{n-1} + \cdots + a_0 $  , i.e. the coefficient of the highest-  degree term (the leading coefficient) is 1.  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Lagrange's Theorem =
+Lagrange's theorem is a result on the indices of cosets of a group . Theorem. Let  $ G $  be a group,  $ H $  a subgroup of  $ G $  , and  $ K $  a subgroup of  $ H $  .  Then \[(G:K) = (G:H)(H:K) .\]  Proof. For any  $ a\in G $  , note that  $ aK \subseteq aH $  ; thus each left coset mod  $ K $  is a subset of a left coset mod  $ H $  ; since each element of  $ G $  is in some left coset mod  $ K $  , it follows that the left cosets mod  $ H $  are unions of left cosets mod  $ K $  .  Furthermore, the mapping  $ x\mapsto ba^{-1}x $  induces a bijection from the left cosets mod  $ K $  contained in an arbitrary  $ H $  -coset  $ aH $  to those contained in an arbitrary  $ H $  -coset  $ bH $  .  Thus each  $ H $  -coset is a union of  $ K $  -cosets, and the cardinality of the set of  $ K $  -cosets contained in an  $ H $  -coset is independent of the choice of the  $ H $  -coset.  The theorem then follows.  $ \blacksquare $   By letting  $ K $  be the  trivial subgroup , we have \[|G| = (G:H) |H|.\] In particular, if  $ G $  is a finite group of  order   $ g $  and  $ H $  is a subgroup of  $ G $  of order  $ h $  , \[g = (G:H) h,\] so the index and order of  $ H $  are divisors of  $ g $  . 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

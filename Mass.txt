@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mass =
+Mass is, informally, the amount of material in an object. It is one of the core concepts of physics , especially mechanics . 
+== Contents ==
+
+== Formal Definition ==
+Mass is a measure of the amount of matter a physical body contains. Mass is often confused with weight , but is not the same. While weight is a measure of the gravity on a body, mass is the amount of matter. Note that in a standard gravitational field, mass is directly proportional to weight. 
+== Units of Measure ==
+
+== Related Formulae ==
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

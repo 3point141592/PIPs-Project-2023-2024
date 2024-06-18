@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Reductio ad absurdum =
+Also known as a Proof by contradiction . This involves proving the contrapositive of what you are trying to prove. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Order relation =
+An order relation (or a partial order relation ) on a set   $ S $  is a binary relation   $ \le $  on  $ S $  which satisfies the following axioms: We use  $ b \ge a $  to denote  $ a\le b $  . One example of an ordering is the relation  $ \le $  on the natural numbers . A set  $ S $  with a partial order relation on  $ S $  is also called a partially ordered set (or poset ).  Note that it under some partial orderings, there can exist elements  $ a,b $  in  $ S $  , such that  $ a \neq b $  ,  $ a \nleq b $  , and  $ a \ngeq b $  .  For instance, we could define  $ a\leq b $  to mean  $ a=b $  , in which case we can only write  $ a \leq b $  or  $ a \geq b $  if  $ a=b $  .  For a more substantial example, we can let  $ S $  be the power set of another set  $ A $  , and define  $ a \leq b $  to mean "  $ a $  is a subset of  $ b $  ."  In this case,  $ a $  and  $ b $  are not related in either direction in many cases (e.g., when  $ a $  and  $ b $  are disjoint). We say that a partial order on a set  $ S $  which also satisfies the axiom is a total order .  For instance, our first example, the relation  $ \le $  on the natural numbers, is a total order.  A set with a total order is called a totally ordered set . 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

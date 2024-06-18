@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Optimization =
+Optimization is simply finding the maximum or minimum possible value.  In order to prove that a value is a maximum or minimum, one needs to prove that the value is attainable and that there is no higher or lower value (depending on the problem) that works. 
+== Optimization Techniques ==
+Something appears to not have loaded correctly. Click to refresh .

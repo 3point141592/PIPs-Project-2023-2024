@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Type conversion functions =
+Type conversion functions are used in programming to convert data to primitive datatypes . 
+== Type Conversion in Python ==
+
+==== Sequence Conversion ====
+Something appears to not have loaded correctly. Click to refresh .

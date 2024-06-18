@@ -1,0 +1,26 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= International Mathematical Olympiad =
+The International Mathematical Olympiad is the pinnacle of all high school mathematics competitions and the oldest of all international scientific competitions.  Each year, countries from around the world send a team of 6 students to compete in a grueling competition. : 6.5 : 7.5-8 : 9.5 : 5.5-7 : 7-8 : 8-10 
+== Contents ==
+
+== Format of the Competition ==
+The competition takes place over 2 consecutive days.  Each day 3 problems are given to the students to work on for 4.5 hours. Following the general format of high school competitions, it does not require calculus or related topics, though proofs using higher mathematics are accepted. 
+=== Scoring ===
+Scoring on each problem is done on a 0-7 scale (inclusive and integers only).  Full credit is only given for complete, correct solutions.  Each solution is intended to be in the form of a mathematical proof .  Since there are 6 problems, a perfect score is 42 points. 
+=== Awards ===
+Medals and honorable mentions are given out. Sometimes, other prizes and awards are given to contestants too. 
+=== Team Competition ===
+There is no official team competition.  Unofficially, however, the scores of each team are compared each year where a team's score is the sum of their individual scores. 
+== History ==
+The IMO started in 1959 as a competition among Eastern European countries. Since then, it has been held every year (except 1980) and has evolved into the premier international competition in mathematics. North Korea was the only country to ever be disqualified due to cheating, occurring in 1991 and 2010. 
+== Problem Selection ==
+Each year nearly every country proposes several problems in consideration for the International Mathematical Olympiad. All submissions are compiled into a Longlist, the length of which can easily exceed 100 problems. Then the IMO deputy leaders convene on site and discuss which problems should be used on the International Mathematical Olympiad test that year. Eventually most of the problems on the Longlist are eliminated from consideration, and what is left is a shortlist, with a length between 26 problems and 32 problems, spread out across the topics of Algebra , Combinatorics , Geometry , and Number Theory . The six problems are then chosen out of these. 
+== See also ==
+
+== External Links ==
+Something appears to not have loaded correctly. Click to refresh .

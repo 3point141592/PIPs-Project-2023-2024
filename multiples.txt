@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Multiple =
+What are multiples and diVisors: https://youtu.be/ij5_vWBxZoU  A multiple of a given integer is the product of that integer with some other integer. Thus  $ k $  is a multiple of  $ m $  only if  $ k $  can be written in the form  $ mn $  , where  $ m $  and  $ n $  are integers. (In this case,  $ k $  is a multiple of  $ n $  , as well). Every nonzero integer has an infinite number of multiples. As an example, some of the multiples of 15 are 15, 30, 45, 60, and 75. An equivalent phrasing is that  $ k $  is a multiple of  $ m $  exactly when  $ k $  is  divisble by   $ m $  . In Modular Arithmetic, multiples of the modulus, are congruent to 0 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

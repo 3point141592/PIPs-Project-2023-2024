@@ -1,0 +1,28 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Base numbers =
+To understand the notion of base numbers , we look at our own number system .  We use the decimal , or base-10, number system.  To help explain what this means, consider the number 2746.  This number can be rewritten as  $ 2746_{10}=2\cdot10^3+7\cdot10^2+4\cdot10^1+6\cdot10^0. $   Note that each number in 2746 is actually just a placeholder which shows how many of a certain power of 10 there are.  The first digit to the left of the decimal place (recall that the decimal place is to the right of the 6, i.e. 2746.0) tells us that there are six  $ 10^0 $  's, the second digit tells us there are four  $ 10^1 $  's, the third digit tells us there are seven  $ 10^2 $  's, and the fourth digit tells us there are two  $ 10^3 $  's. Base-10 uses digits 0-9.  Usually, the base, or radix , of a number is denoted as a subscript written at the right end of the number (e.g. in our example above,  $ 2746_{10} $  , 10 is the radix).  
+== Contents ==
+
+== Base Number Topics ==
+
+== History ==
+Base-10 is an apparently obvious counting system because people have 10 fingers.  Historically, different societies utilized other systems.  The  Babylonian cultures are known to have used base-60; this is why we say there are 360 degrees in a circle and (fact check on this one coming) why we count 60 minutes in an hour and 60 seconds in a minute (they might have used it because it has so many multiples, 12 in fact, we wouldn't want any fractions).  The Roman system , which didn't have any base system at all, used certain letters to represent certain values (e.g. I=1, V=5, X=10, L=50, C=100, D=500, M=1000).  Imagine how difficult it would be to multiply LXV by MDII!  That's why the introduction of the Arabic numeral system , base-10, revolutionized math and science in Europe. 
+== Example Problems ==
+
+=== Beginner ===
+Find the base 2 number that is equivalent to  $ 42_7 $   
+=== Intermediate ===
+
+== Resources ==
+
+==== Books ====
+
+==== Classes ====
+ 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

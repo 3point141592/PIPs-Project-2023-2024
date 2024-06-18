@@ -1,0 +1,27 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= L'Hôpital's Rule =
+L'Hopital's Rule is a theorem dealing with limits that is very important to calculus . 
+== Contents ==
+
+== Theorem ==
+The theorem states that for real functions   $ f(x),g(x) $  , if  $ \lim f(x),g(x)\in \{0,\pm \infty\} $   \[\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}\] Note that this implies that \[\lim\frac{f(x)}{g(x)}=\lim\frac{f^{(n)}(x)}{g^{(n)}(x)}=\lim\frac{f^{(-n)}(x)}{g^{(-n)}(x)}\]  
+== Proof ==
+One can prove using linear approximation:
+The definition of a derivative is  $ f'(x) = \lim_{h\rightarrow 0} \frac{f(x+h)-f(x)}{h} $  which can be rewritten as  $ f'(x) = \frac{f(x+h)-f(x)}{h} + \eta(h) $  .
+Just so all of us know  $ \eta(h) $  is a function that is both continuous and has a limit of  $ 0 $  as the  $ h $  in the derivative function approaches  $ 0 $  .
+After multiplying the equation above by  $ h $  , we get  $ f(x+h) = f(x) +f'(x)h+h\cdot \eta(h) $  . We have already assumed by the hypothesis that the derivative equals zero. Hence, we can rewrite the function as  $ \frac{f(x_0+h)}{g(x_0+h)}=\frac{f'(x_0)h + h\cdot \eta(h)}{g'(x_0)h+h\cdot \epsilon(h)} $  , which would hence prove our lemma for L'Hospital's rule. Video by 3Blue1Brown: https://www.youtube.com/watch?v=kfF40MiS7zA  Text explanation: Let  $ z(x) = \frac{f(x)}{g(x)} $  , where  $ f(x) $  and  $ g(x) $  are both nonzero functions with value  $ 0 $  at  $ x = a $  . (For example,  $ g(x) = \cos\left(\frac{\pi}{2} x\right) $  ,  $ f(x) = 1-x $  , and  $ a = 1 $  .) Note that the points surrounding  $ z(a) $  aren't approaching infinity, as a function like  $ f(x) = 1/x-1 $  might at  $ f(a) $  . The points infinitely close to  $ z(a) $  will be equal to  $ \lim_{b\to 0} \frac{f(a+b)}{g(a+b)} $  . Note that  $ \lim_{b\to 0} f(a+b) $  and  $ \lim_{b\to 0} g(a+b) $  are equal to  $ f'(a) $  and  $ g'(a) $  . As a recap, this means that the points approaching  $ \frac{f(a)}{g(a)} $  , where  $ a $  is a number such that  $ f(a) $  and  $ g(a) $  are both equal to  $ 0 $  , are going to approach  $ \frac{f'(x)}{g'(x)} $  . 
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+
+=== Olympiad ===
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,33 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Logarithm =
+ 
+== Contents ==
+
+== Videos On Logarithms ==
+Introduction to Logarithms  Logarithms Properties  
+== Powerful use of logarithms ==
+Some of the real powerful uses of logarithms come down to never having to deal with massive numbers. ex. : \[((((((3^5)^6)^7)^8)^9)^{10})^{11}=\underbrace{1177\ldots 1}_{\text{793549 digits}}\] would be a pain to have to calculate any time you wanted to use it (say in a comparison of large numbers). Its natural logarithm though (partly due to 
+left to right parenthesized exponentiation) is only 7 digits before the decimal point. Comparing the logs of the numbers to a given precision can allow easier comparison than computing and comparing the numbers themselves. Logs also allow (with repetition) to turn left to right exponentiation into power towers (especially useful for tetration (exponentiation repetition with the same exponent)). ex. \[\log_4(3)\approx 0.7924812503605780907268694720\ldots\]  \[\log_4(5)\approx 1.160964047443681173935159715\ldots\]  \[\log_4(6)\approx 1.292481250360578090726869472\ldots\]  \[\log_4(\log_4(3))\approx -0.1677756462730553083259853611\ldots\]  Therefore by: \[(a^b)^c=a^{bc}\] and identities 1 and 2 above (2 being used twice), we get: \[\log_4(\log_4(3))+(\log_4(5)+\log_4(6))\approx 2.285669651531203956336043826\ldots=x\] such that: \[(^24)^x=4^{4^x}\approx(3^5)^6\]   
+=== Discrete Logarithm ===
+An only partially related value is the discrete logarithm, used in cryptography via modular arithmetic . It's the lowest value  $ c $  such that  $ a^c=mx+b $  for given  $ a,m,b $  being integers (as well as  $ c,x $  the unknowns being integers). It's related to the usual logarithm by the fact that if  $ b $  isn't an integer power of  $ a $  then  $ \lceil \log_a(m)\rceil $  is a lower bound on  $ c $  . 
+== Problems ==
+
+== Natural Logarithm ==
+The natural logarithm is the logarithm with base e .  It is usually denoted  $ \ln $  , an abbreviation of the French logarithme normal , so that  $ \ln(x) = \log_e(x). $  However, in higher mathematics such as complex analysis , the base 10 logarithm is typically disposed with entirely, the symbol  $ \log $  is taken to mean the logarithm base  $ e $  and the symbol  $ \ln $  is not used at all.  (This is an example of conflicting mathematical conventions .)  $ \ln a $  can also be defined as the area under the curve  $ y=\frac{1}{x} $  between 1 and a, or  $ \int^a_1 \frac{1}{x}\, dx $  . All logarithms are undefined in nonpositive reals, as they are complex. From the identity  $ e^{i\pi}=-1 $  , we have  $ \ln (-1)=i\pi $  . Additionally,  $ \ln (-n)=\ln n+i\pi $  for positive real  $ n $  . 
+== Problems ==
+
+=== Introductory ===
+ Source   Source  
+=== Intermediate ===
+ Source   $ \log_{225}x+\log_{64}y=4 $    $ \log_{x}225-\log_{y}64=1 $  are  $ (x_1,y_1) $  and  $ (x_2,y_2) $  . Find  $ \log_{30}\left(x_1y_1x_2y_2\right) $  .  Source  
+=== Olympiad ===
+
+== Video Explanation ==
+Five-minute Intro to Logarithms w/ examples [1]  
+== External Links ==
+Two-minute Intro to Logarithms [2]  Something appears to not have loaded correctly. Click to refresh .

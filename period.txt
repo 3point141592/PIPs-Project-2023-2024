@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Period =
+The period  $ p $  of a function  $ f(x) $  is the minimum positive value such that  $ f(x)=f(x+a)\forall x \in \mathbb R $  . A common example of a periodic function is  $ \sin (x) $  , which has period  $ 2 \pi $  . Note that  $ f(x+2\pi)=\sin(x+2\pi)=\sin (x)+\cos (2\pi)+\sin (2\pi) \cos (x) = \sin (x) $  , so we know that the function repeats every  $ 2\pi $  . A diagram can be found at http://www.montereyinstitute.org/courses/DevelopmentalMath/COURSE_TEXT2_RESOURCE/U19_L2_T3_text_final_3_files/image013.gif  Something appears to not have loaded correctly. Click to refresh .

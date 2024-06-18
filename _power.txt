@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Power =
+Power is loosely defined as the speed something can do work . The SI unit for power is the Watt . 
+== Formal Definition ==
+Power is the amount of work that is done over a given period of time . It is also the derivative of work. If  $ P $  is power,  $ W $  is work, and  $ t $  is time, then: \[P=\frac{W}{t}\]  
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

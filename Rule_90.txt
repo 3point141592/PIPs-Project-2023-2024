@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Sierpinski triangle =
+The Sierpinski triangle, named after Waclaw Sierpinki , is formed by parity of Pascal's triangle , coloring a cell black if odd and white if even. It is Rule 90 (Binary: 01011010) in 1-D Binary  CA .  Something appears to not have loaded correctly. Click to refresh .

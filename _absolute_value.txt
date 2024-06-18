@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Absolute value =
+The absolute value of a real number   $ x $  , denoted  $ |x| $  , is the unsigned portion of  $ x $  . Geometrically,  $ |x| $  is the distance between  $ x $  and zero on the real number line . The absolute value function exists among other contexts as well, including complex numbers . 
+== Contents ==
+
+== Real numbers ==
+When  $ x $  is real,  $ |x| $  is defined as \[|x| = \begin{cases} x & \text{for } x \ge 0,\\ -x & \text{for } x \le 0.\end{cases}\] For all real numbers  $ x $  and  $ y $  , we have the following properties: Note that \[|x| \le y \iff -y \le x \le y\]  and \[|x| \ge y \iff x \ge y \text{ or } x \le -y.\]  
+== Complex numbers ==
+For complex numbers   $ z $  , the absolute value is defined as  $ |z| = \sqrt{x^2+y^2} $  , where  $ x $  and  $ y $  are the real and imaginary parts of  $ z $  , respectively. It is equivalent to the distance between  $ z $  and the origin , and is usually called the complex modulus . Note that  $ |z| = |\overline{z}| = \sqrt{z\overline{z}} $  , where  $ \overline{z} $  is the complex conjugate of  $ z $  . 
+== Examples ==
+
+== Problems ==
+
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

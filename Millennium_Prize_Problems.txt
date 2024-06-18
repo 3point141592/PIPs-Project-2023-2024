@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Millennium Prize Problems =
+Clay Mathematics Institute's Millennium Prize Problems are seven of the hardest math problems ever thought of. The prize for solving one of these extraordinarily hard problems is one million dollars. The problems are the Birch and Swinnerton-Dyer conjecture, Hodge conjecture, Navier–Stokes existence and smoothness, P versus NP problem, Poincaré conjecture, Riemann hypothesis, and Yang–Mills existence and mass gap. Only one of these problems has been solved and it is the Poincaré conjecture, which states that if every loop in a three dimensional manifold can be shrunk to a point, then the manifold can be deformed into a three-dimensional sphere. The Poincare conjecture was solved by Grigori Perelman. Something appears to not have loaded correctly. Click to refresh .

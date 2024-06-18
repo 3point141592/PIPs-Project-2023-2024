@@ -1,0 +1,15 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Young's Inequality =
+
+== Form for Hölder exponents ==
+If  $ a, b $  are non-negative reals, and  $ p,q $  are positive reals that satisfy  $ \frac{1}{p}+\frac{1}{q}=1 $  , then the following inequality holds for all possible values of  $ a $  and  $ b $  . \begin{align*} \frac{a^p}{p}+\frac{b^q}{q} \geq ab \end{align*} with equality iff  $ a^p=b^q $   
+== Form for definite integrals ==
+Suppose  $ f $  is a strictly increasing and continuous function on the interval  $ [0,t] $  where  $ t $  is a positive real number, and also  $ f(0)=0 $  .
+Then the following inequality holds for all  $ a \in [0,c] $  and  $ b \in [0,f(c)] $   \begin{align*} \int_0^a f(x)\text{d}x + \int_0^b f^{-1}(x) \text{d}x \geq ab \end{align*} with equality iff  $ f(a) = b $  . 
+== Proof ==
+The logarithm is concave and we know that  $ \frac{1}{p}+\frac{1}{q}=1 $  , so by Jensen's Inequality, we have \[\log\left(\frac{a^p}{p}+\frac{b^q}{q}\right) \geq \frac{1}{p}\log(a^p) + \frac{1}{q}\log(b^q)\]  \[\log\left(\frac{a^p}{p}+\frac{b^q}{q}\right) \geq \log{a}+\log{b} = \log{ab}\] Young's Inequality then follows by exponentiation of both sides. Something appears to not have loaded correctly. Click to refresh .

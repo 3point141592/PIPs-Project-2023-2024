@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Syst�me international =
+The système international of units (French for "international system"), more commonly known as the metric system, is a system of standardized measurements or units that are based on the number ten. 
+== Contents ==
+
+== Origin ==
+The metric system was first suggested at the prodigious French school École Polytechnique, supported by well-known mathematician and physicist Joseph Louis Lagrange . They derived the metric unit of length , the meter, from what they considered to be  $ \frac{1}{10^6} $  th of the distance from a certain point in Europe to the North Pole. It is now known that it is actually approximately  $ \frac{1.16}{10^6} $  th of the distance. 
+== Prefixes ==
+The majority of the units of the metric system can be increased or decreased by factors of ten using the following system: 
+== Types of Measure ==
+The following measures are part of the metric system: 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

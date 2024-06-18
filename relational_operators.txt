@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Operators (Python) =
+In computer programming, operators are built-in functions similar to mathematical operations .  This article focuses primarily on numerical operators and relational operators.  For other types and some special cases, see String operations , Boolean operations and Sequence operations . 
+== Contents ==
+
+== Numerical Operators ==
+For the operators that take more than one argument, if either of the arguments are floats the output will always be a float (rather than an integer) unless otherwise noted. 
+== Relational Operators ==
+Relational operators, also simply called comparisons, are operators that return booleans . Notes: 
+== Precedence Rules ==
+Python understands and adheres to the standard precedence rules.  In particular, operators will be applied in the following order: Operators of the same precedence level are applied from left to right.  For more clarity or if you need to override these rules you can enclose subexpressions in parentheses. 
+== See Also ==
+Python 3.2 Documentation  Something appears to not have loaded correctly. Click to refresh .

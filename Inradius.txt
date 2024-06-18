@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inradius =
+The inradius of a polygon is the radius of its incircle (assuming an incircle exists). It is commonly denoted  $ r $  . In a triangle, the incenter is where the three angle bisectors meet. 
+== A Property ==
+
+= Proof =
+Add in the incircle and drop the altitudes from the incenter to the sides of the triangle. Also draw the lines  $ \overline{AI}, \overline{BI} $  , and  $ \overline{CI} $  . After this AB, AC, and BC are the bases of  $ \triangle{AIB}, {AIC} $  , and  $ {BIC} $  respectively. But they all have the same height(the inradius), so  $ [ABC]=\frac{(a+b+c) \times r}{2} =rs $  . Also the inradius of a incircle inscribed in a right triangle is  $ \frac{a+b-c}{2} $  as by drawing three inradiuses to the three tangent points, then A to that tangent point is equal to A to the other tangent point (explained in circles) and etc for B and C. After doing it for B and C, C (the hypotenuse) should equal the equivalent tangent of A and the equivalent tangent of B added together, thus our equation TOTO SLOT . 
+== Problems ==
+Something appears to not have loaded correctly. Click to refresh .

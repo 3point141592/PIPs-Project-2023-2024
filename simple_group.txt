@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Simple group =
+A simple group is a non-trivial group (i.e., a group with at least two elements) that has no non-trivial normal subgroups , i.e., none other than itself and  $ \{e\} $  , the trivial subgroup. Every  Abelian simple group is of the form  $ \mathbb{Z}/p\mathbb{Z} $  , for some prime  $ p $  .  The smallest non-Abelian simple group is  $ \mathfrak{A}_5 $  , the alternating group on five elements.  This group is of order 60. This article is a stub.  Help us out by  .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

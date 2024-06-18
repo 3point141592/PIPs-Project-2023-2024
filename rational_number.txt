@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rational number =
+A rational number is a number that can be represented as the ratio of two integers .  
+== Examples ==
+Moreover, any rational number satisfies exactly one of the last two conditions. The same remark holds if "decimal" is replaced with any other base . 
+== Properties ==
+ 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .
