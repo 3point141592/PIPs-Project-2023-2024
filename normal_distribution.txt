@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Normal distribution =
+The normal distribution is a continuous probability distribution that is widely used in statistics and beyond. Generically, a normal distribution is indicated with the notation  $ \mathcal{N}(\mu, \sigma) $  , where  $ \mu $  represents the mean of the distribution and  $ \sigma $  represents the standard deviation of the distribution. All normal distributions are scaled and translated versions of the standard normal distribution, which is  $ \mathcal{N}(0, 1) $  . For this reason, most statistics textbooks tabulate cumulative probabilities for the standard normal distribution, but not for any other, as those can easily be calculated from those of the standard normal. The probability density function of a  $ \mathcal{N}(\mu, \sigma) $  is  $ f(x) = \frac{1}{\sqrt{2\pi\sigma}} e^{-\frac{(x-\mu)^2}{2\sigma}} $  , and the cumulative density function of this distribution is  $ F(x) = \int_{-\infty}^{x} f(x) $  . The former can easily be calculated by using the formula, but the latter, unfortunately, does not have a closed form. Fortunately, computers can calculate both to high accuracy, rendering this problem moot in the majority of cases. There is also a multivariate generalization of the normal distribution. This is useful in many cases like statistical regression. 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

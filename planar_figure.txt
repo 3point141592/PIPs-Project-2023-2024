@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Planar figure =
+A planar figure resides entirely in a 2- dimensional  plane . Polygons and circles are examples of planar figures, while  cubes and nondegenerate  tetrahedra are not. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

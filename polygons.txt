@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Polygon =
+A polygon is a closed planar figure consisting of straight line segments . There are two types of polygons: convex and concave . A polygon can be  regular or irregular. A polygon is regular if all sides are the same length and all angles are congruent . In their most general form, polygons are an ordered set of vertices ,  $ \{A_1, A_2, \ldots, A_n\} $  ,  $ n \geq 3 $  ,  with edges   $ \{\overline{A_1A_2}, \overline{A_2A_3}, \ldots, \overline{A_nA_1}\} $  joining consecutive vertices.  Most frequently, one deals with simple polygons in which no two edges are allowed to intersect.  (In fact, the adjective "simple" is almost always omitted, so the term "polygon" should be understood to mean "simple polygon" unless otherwise noted.) A degenerate polygon is one in which some vertex lies on an edge joining two other vertices.  This can happen in one of two ways: either the vertices  $ A_{i - 1},A_i $  and  $ A_{i+1} $  can be colinear or the vertices  $ A_i $  and  $ A_{i + 1} $  can overlap (fail to be distinct).  In either of these cases, our polygon of  $ n $  vertices will appear to have  $ n - 1 $  or fewer -- it will have "degenerated" from an  $ n $  -gon to an  $ (n - 1) $  -gon.  (In the case of triangles, this will result in either a line segment or a point.)  
+== Contents ==
+
+== Angles in Polygons ==
+
+=== Exterior ===
+In any simple convex polygon, the sum of the exterior angles is equal to  $ 360^\circ $  . 
+=== Interior ===
+The sum of interior angles can be given by the formula  $ 180(n-2)^\circ $  , where  $ n $  is the number of sides. Thus in regular polygons, any angle is  $ \frac{180(n-2)}{n}^\circ $  . 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

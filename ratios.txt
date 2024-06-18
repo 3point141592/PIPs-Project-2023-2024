@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Ratio =
+The ratio of two numbers,  $ a $  and  $ b $  , is their quotient  $ \frac ab $  .  This ratio can be expressed as  $ \frac ab $  ,  $ a:b $  ,  $ a $  to  $ b $  , or simply as a decimal. Two ratios are considered proportional to each other (more specifically, directly proportional) if the two ratios equal each other.  In other words,  $ \tfrac{a}{b} = \tfrac{c}{d} $  . 
+== Problems ==
+
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

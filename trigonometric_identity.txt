@@ -1,0 +1,40 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Trigonometric identities =
+In trigonometry , trigonometric identities are equations involving trigonometric functions that are true for all input values. Trigonometric functions have an abundance of identities, of which only the most widely used are included in this article. 
+== Contents ==
+
+== Pythagorean identities ==
+The Pythagorean identities state that Using the unit circle definition of trigonometry, because the point  $ (\cos (x), \sin (x)) $  is defined to be on the unit circle, it is a distance one away from the origin. Then by the distance formula,  $ \sin^2x + \cos^2x = 1 $  . To derive the other two Pythagorean identities, divide by either  $ \sin^2 (x) $  or  $ \cos^2 (x) $  and substitute the respective trigonometry in place of the ratios to obtain the desired result. 
+== Angle addition identities ==
+The trigonometric angle addition identities state the following identities: There are many proofs of these identities. For the sake of brevity, we list only one here. Euler's identity states that  $ e^{ix} = \cos (x) + i \sin(x) $  . We have that \begin{align*} \cos (x+y) + i \sin (x+y) &= e^{i(x+y)} \\ &= e^{ix} \cdot e^{iy} \\ &= (\cos (x) + i \sin (x))(\cos (y) + i \sin (y)) \\ &= (\cos (x) \cos (y) - \sin (x) \sin(y)) + i(\sin (x) \cos(y) + \cos(x) \sin(y)) \end{align*} By looking at the real and imaginary parts, we derive the sine and cosine angle addition formulas. To derive the tangent addition formula, we reduce the problem to use sine and cosine, divide both numerator and denominator by  $ \cos (x) \cos (y) $  , and simplify. \begin{align*} \tan (x+y) &= \frac{\sin (x+y)}{\cos (x+y)} \\ &= \frac{\sin (x) \cos(y) + \cos(x) \sin(y)}{\cos (x) \cos (y) - \sin (x) \sin(y)} \\ &= \frac{\frac{\sin(x)}{\cos(x)} + \frac{\sin(y)}{\cos(y)}}{1 - \frac{\sin (x) \sin(y)}{\cos (x) \cos(y)}} \\ &= \frac{\tan (x) + \tan (y)}{1 - \tan (x) \tan(y)} \end{align*} as desired. 
+== Double-angle identities ==
+The trigonometric double-angle identities are easily derived from the angle addition formulas by just letting  $ x = y $  . Doing so yields: 
+=== Cosine double-angle identity ===
+Here are two equally useful forms of the cosine double-angle identity. Both are derived via the Pythagorean identity on the cosine double-angle identity given above. In addition, the following identities are useful in integration and in deriving the half-angle identities. They are a simple rearrangement of the two above. 
+== Half-angle identities ==
+The trigonometric half-angle identities state the following equalities: The plus or minus does not mean that there are two answers, but that the sign of the expression depends on the quadrant in which the angle resides. Consider the two expressions listed in the cosine double-angle section for  $ \sin^2 (x) $  and  $ \cos^2 (x) $  , and substitute  $ \frac{1}{2} x $  instead of  $ x $  . Taking the square root then yields the desired half-angle identities for sine and cosine. As for the tangent identity, divide the sine and cosine half-angle identities. 
+== Product-to-sum identities ==
+The product-to-sum identities are as follows: They can be derived by expanding out  $ \cos (x+y) $  and  $ \cos (x-y) $  or  $ \sin (x+y) $  and  $ \sin(x-y) $  , then combining them to isolate each term. 
+== Sum-to-product identities ==
+Substituting  $ \alpha = x+y $  and  $ \beta = x-y $  into the product-to-sum identities yields the sum-to-product identities. 
+== Other identities ==
+Here are some identities that are less significant than those above, but still useful. 
+=== Triple-angle identities ===
+All of these expansions can be proved using \[\sin 3x = \sin (2x+x)\] trick and perform the angle addition identities. Same for  $ \cos 3x $  and for  $ \tan 3x $  . 
+=== Even-odd identities ===
+The functions  $ \sin(x) $  ,  $ \tan(x) $  ,  $ \cot(x) $  , and  $ \csc(x) $  are odd, while  $ \cos(x) $  and  $ \sec(x) $  are even. In other words, the six trigonometric functions satisfy the following equalities: These are derived by the unit circle definitions of trigonometry. Making any angle negative is the same as reflecting it across the x-axis. This keeps its x-coordinate the same, but makes its y-coordinate negative. Thus,  $ \sin(-x) = -\sin(x) $  and  $ \cos(-x) = \cos(x) $  . 
+=== Conversion identities ===
+The following identities are useful when converting trigonometric functions. All of these can be proven via the angle addition identities. 
+=== Euler's identity ===
+Euler's identity is a formula in complex analysis that connects complex exponentiation with trigonometry. It states that for any real number  $ x $  , \[e^{ix} = \cos (x) + i \sin (x),\] where  $ e $  is Euler's constant and  $ i $  is the imaginary unit. Euler's identity is fundamental to the study of complex numbers and is widely considered among the most beautiful formulas in math. Similar to the derivation of the product-to-sum identities, we can isolate sine and cosine by comparing  $ e^{ix} $  and  $ e^{-ix} $  , which yields the following identities: They can also be derived by computing  $ \textrm{Re} (e^{ix}) $  and  $ \textrm{Im} (e^{ix}) $  . These expressions are occasionally used to define the trigonometric functions. 
+=== Miscellaneous ===
+These are the identities that are not substantial enough to warrant a section of their own. 
+== Resources ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,29 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Jensen's Inequality =
+Jensen's Inequality is an inequality discovered by Danish mathematician Johan Jensen in 1906. 
+== Contents ==
+
+== Inequality ==
+Let  $ {F} $  be a convex function of one real variable. Let  $ x_1,\dots,x_n\in\mathbb R $  and let  $ a_1,\dots, a_n\ge 0 $  satisfy  $ a_1+\dots+a_n=1 $  . Then  $ F(a_1x_1+\dots+a_n x_n)\le a_1F(x_1)+\dots+a_n F(x_n) $    If  $ {F} $  is a concave function, we have:  $ F(a_1x_1+\dots+a_n x_n)\ge a_1F(x_1)+\dots+a_n F(x_n) $    
+== Proof ==
+We only prove the case where  $ F $  is concave. The proof for the other case is similar. Let  $ \bar{x}=\sum_{i=1}^n a_ix_i $  .
+As  $ F $  is concave, its derivative  $ F' $  is monotonically decreasing. We consider two cases. If  $ x_i \le \bar{x} $  , then \[\int_{x_i}^{\bar{x}} F'(t) \, dt \ge \int_{x_i}^{\bar{x}} F'(\bar{x}) \, dt .\] If  $ x_i > \bar{x} $  , then \[\int_{\bar{x}}^{x_i} F'(t) \, dt \le \int_{\bar{x}}^{x_i} F'(\bar{x}) \, dt .\] By the fundamental theorem of calculus, we have \[\int_{x_i}^{\bar{x}} F'(t) \, dt = F(\bar{x}) - F(x_i) .\] Evaluating the integrals, each of the last two inequalities implies the same result: \[F(\bar{x})-F(x_i) \ge F'(\bar{x})(\bar{x}-x_i)\] so this is true for all  $ x_i $  . Then we have \begin{align*} && F(\bar{x})-F(x_i) &\ge F'(\bar{x})(\bar{x}-x_i) \\ \Longrightarrow && a_i F(\bar{x}) - a_i F(x_i) &\ge F'(\bar{x})(a_i\bar{x}-a_i x_i) && \text{as } a_i>0 \\ \Longrightarrow && F(\bar{x}) - \sum_{i=1}^n a_i F(x_i) &\ge F'(\bar{x})\left(\bar{x} - \sum_{i=1}^n a_i x_i \right) && \text{as } \sum_{i=1}^n a_i = 1 \\ \Longrightarrow && F(\bar{x}) &\ge \sum_{i=1}^n a_i F(x_i) && \text{as } \bar{x}=\sum_{i=1}^n a_ix_i \end{align*} as desired. 
+== Example ==
+One of the simplest examples of Jensen's inequality is the quadratic mean - arithmetic mean inequality. Taking  $ F(x)=x^2 $  , which is convex (because  $ F'(x)=2x $  and  $ F''(x)=2>0 $  ), and  $ a_1=\dots=a_n=\frac 1n $  , we obtain \[\left(\frac{x_1+\dots+x_n}{n}\right)^2\le \frac{x_1^2+\dots+ x_n^2}{n} .\]  Similarly, arithmetic mean - geometric mean inequality ( AM-GM ) can be obtained from Jensen's inequality by considering  $ F(x)=-\log x $  . In fact, the power mean inequality , a generalization of AM-GM, follows from Jensen's inequality. 
+== Problems ==
+
+=== Introductory ===
+
+==== Problem 1 ====
+Prove AM-GM using Jensen's Inequality 
+==== Problem 2 ====
+Prove the weighted AM-GM inequality . (It states that  $ x_1^{\lambda_1}x_2^{\lambda_2} \cdots x_n^{\lambda_n} \leq \lambda_1 x_1 + \lambda_2 x_2 +\cdots+ \lambda_n x_n $  when  $ \lambda_1 + \cdots + \lambda_n = 1 $  ) 
+=== Intermediate ===
+
+=== Olympiad ===
+ $ \frac{a}{\sqrt{a^{2}+8bc}}+\frac{b}{\sqrt{b^{2}+8ca}}+\frac{c}{\sqrt{c^{2}+8ab}}\ge 1 $  ( Source ) Something appears to not have loaded correctly. Click to refresh .

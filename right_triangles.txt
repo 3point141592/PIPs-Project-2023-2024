@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Right triangles =
+A Right triangle is a triangle that has one 90 degree angle. There are special cases of right angle triangles and they are very important. for instance the 30-60-90 triangle ,and the 45-45-90 triangle . Something appears to not have loaded correctly. Click to refresh .

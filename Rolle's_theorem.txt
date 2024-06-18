@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rolle's Theorem =
+Rolle's theorem is an important theorem among the class of results regarding the value of the derivative on an interval. 
+== Statement ==
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ f $  be continous on  $ [a,b] $  and differentiable on  $ (a,b) $   Let  $ f(a)=f(b) $   Then  $ \exists $    $ c\in (a,b) $  such that  $ f'(c)=0 $   
+== Proof ==
+The result is trivial for the case  $ f([a,b])=\{f(a)\} $  . Hence, let us assume that  $ f $  is a non-constant function. Let  $ M=\sup\{f([a,b])\} $  and  $ m=\inf\{f([a,b])\} $  Without loss of generality, we can assume that  $ M\neq f(a) $   By the Maximum-minimum theorem ,  $ \exists c\in (a,b) $  such that  $ f(c)=M $   Assume if possible  $ f'(c)>0 $   Let  $ \epsilon=\frac{f'(c)}{2} $   Hence,  $ \exists \delta>0 $  such that  $ x\in V_{\delta}(c)\implies |\frac{f(x)-f(c)}{x-c}-f'(c)|<\epsilon $   i.e.  $ \forall x\in V_{\delta}(c) $  ,  $ \frac{f(x)-f(c)}{x-c}>0 $   Thus we have that  $ f(x)>f(c) $  if  $ x\in (c,c+\delta) $  , contradicting the assumption that  $ f(c) $  is a maximum. Similarly we can show that  $ f'(c)<0 $  leads to contradiction. Therefore,  $ f'(c)=0 $   QED 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

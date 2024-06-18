@@ -1,0 +1,19 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Perpendicular =
+Being perpendicular is a property of lines in a plane. Generally, when the term is used, it refers to the definition of perpendicular in Euclidean geometry. 
+== Contents ==
+
+== Definition ==
+Two lines   $ l $  and  $ m $  are said to be perpendicular if they intersect in right angles .  We denote this relationship by  $ l \perp m $  . 
+=== For non-linear objects ===
+One can also discuss perpendicularity of other objects.  If a line  $ l $  intersects a plane  $ P $  at a point  $ A $  , we say that  $ l \perp P $  if and only if for every line  $ m $  in  $ P $  passing through  $ A $  ,  $ l \perp m $  . If a plane  $ P $  intersects another plane  $ Q $  in a line  $ k $  , we say that  $ P \perp Q $  if and only if:
+for line  $ l \in P $  and  $ m \in Q $  passing through  $ A \in k $  ,  $ l \perp k $  and  $ m \perp k $  implies  $ l \perp m $  . 
+== Coordinate Plane ==
+Two linear graphs in the Cartesian coordinate plane are perpendicular if and only if one's slope is the negative reciprocal of the other's. This means that their slopes must have a product of  $ -1 $  . 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

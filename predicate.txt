@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Predicate =
+A predicate is a logical expression.  In the context of set theory , usually a predicate is a statement which can be expressed using only symbols from symbolic logic , variables, and the set-theoretic relations  $ \in $  and  $ = $  . Additional relations can be made with predicates by using propositional logic quantifiers such as  $ \forall $  and  $ \exists $  , which mean "for-all" and "there exists" respectively. 
+== Examples ==
+In English, this predicate reads, "The empty set is an element of  $ y $  ."  Note that this is not true for all sets. In English, this translates to, "For all sets  $ x $  , the empty set is a subset of  $ x $  ."  Since  $ A \subseteq B $  is an abbreviation for the predicate  $ \forall y (y \in A) \implies (y\in B) $  , this can be rewritten using only logical symbols, variables, and the set-theoretic notations  $ \in $  and  $ = $  , as follows: In English, this revised predicate reads, "For all sets  $ x $  , for all sets  $ y $  , if  $ y $  is an element of the empty set, then  $ y $  is an element of  $ x $  ." This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

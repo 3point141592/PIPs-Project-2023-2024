@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Numerator =
+The top number a fraction is called the numerator. For example, in the fraction  $ \frac{2}{3} $  ,  $ 2 $  is the numerator. In the fraction  $ \frac{3x^2}{5} $  ,  $ 3x^2 $  is the numerator. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

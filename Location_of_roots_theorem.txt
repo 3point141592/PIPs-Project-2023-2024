@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Location of Roots Theorem =
+The location of roots theorem is one of the most intutively obvious properties of continuous functions , as it states that if a continuous function attains positive and negative values, it must have a root (i.e. it must pass through 0). 
+== Statement ==
+Let  $ f:[a,b]\rightarrow\mathbb{R} $  be a continuous function such that  $ f(a)<0 $  and  $ f(b)>0 $  .  Then there is some  $ c\in (a,b) $  such that  $ f(c)=0 $  . 
+== Proof ==
+Let  $ A=\{x|x\in [a,b],\; f(x)<0\} $   As  $ a\in A $  ,  $ A $  is non-empty. Also, as  $ A\subset [a,b] $  ,  $ A $  is bounded Thus  $ A $  has a least upper bound ,  $ \sup A = u \in A. $   If  $ f(u)<0 $  : As  $ f $  is continuous at  $ u $  ,  $ \exists\delta>0 $  such that  $ x\in V_{\delta}(u)\implies f(x)<0 $  , which contradicts (1). Also if  $ f(u)>0 $  :  $ f $  is continuous imples  $ \exists\delta>0 $  such that  $ x\in V_{\delta}(u)\implies f(x)>0 $  , which again contradicts (1) by the Gap lemma . Hence,  $ f(u)=0 $  . 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

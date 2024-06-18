@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Greatest lower bound =
+Given a subset   $ S $  in some larger partially ordered set   $ R $  , a greatest lower bound or infimum for  $ S $  is an element   $ m \in R $  such that  $ m \leq s $  for every  $ s \in S $  and there is no  $ M > m $  with this same property. If the greatest lower bound  $ m $  of  $ S $  is an element of  $ S $  , it is also the minimum of  $ S $  .  If  $ m \not\in S $  , then  $ S $  has no minimum. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

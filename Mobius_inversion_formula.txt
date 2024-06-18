@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mobius inversion formula =
+The Möbius Inversion Formula is a relation between pairs of arithmetic functions, each defined from the other by sums over divisors.  Originally proposed by August Ferdinand Möbius in 1832, it has many uses in Number Theory and Combinatorics . 
+=== The Formula ===
+Let  $ g $  and  $ f $  be arithmetic functions and  $ \mu $  denote the Möbius Function .  Then it follows that  $ \textit{Proof} $  : Notice the double implication, so we have two directions to prove.  We proceed with the proof of the backwards direction first.  We have To finish, we will use the fact that If we have  $ \frac{n}{c}=1\leftrightarrow n=c $  then we have and that  $ \sum_{d|\frac{n}{c}}\mu(d)=0 $  if otherwise.  Hence by considering  $ n=c $  we get The first direction is satisfied, and now we must prove the second.  We see that Both directions have been proven, which completes our work  $ \square $   
+=== Applications ===
+One of the most common applications of the formula is by proving that While there are some common combinatorial and group theoretic arguments one could use, a Möbius Inversion Formula solution also suffices.  Clearly by choosing  $ g(n)=n $  and  $ f(n)=\varphi(n) $  the theorem is proven. Something appears to not have loaded correctly. Click to refresh .

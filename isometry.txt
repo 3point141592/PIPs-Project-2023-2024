@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Isometry =
+An isometry is a map which preserves distances between points .  Isometries exist in any space in which a distance function is defined, i.e. an arbitrary abstract metric space .  In the particular case where we take our space to be the usual Euclidean plane or Euclidean 3-space (  $ \mathbb{R}^2 $  or  $ \mathbb{R}^3 $  with the standard Euclidean metric ), the isometries are known as rigid motions and two sets which can be transformed onto each other by an isometry are said to be  congruent . 
+== Isometries are injective ==
+Since for any metric we have  $ d(x, y) > 0 $  whenever  $ x \neq y $  , it follows that every isometry must be an injection . 
+=== Proof ===
+Suppose otherwise.  Then there is some non-injective isometry  $ \phi: S \to T $  .  Since  $ \phi $  is not injective, we know  $ \exists x, y \in S $  such that  $ x \neq y $  and  $ \phi(x) = \phi(y) $  .  But  $ x \neq y \Longrightarrow d_S(x, y) > 0 $  while  $ \phi(x) = \phi(y) \Longrightarrow d_T(\phi(x), \phi(y)) = 0 $  , and this contradicts the fact that  $ \phi $  is an isometry. Note that this does not mean that isometries are necessarily bijections .  Consider, for example, the discrete metric on the integers,  $ (\mathbb{Z}, d) $  such that  $ d(x, x) = 0 $  and  $ x\neq y \Longrightarrow d(x, y) = 1 $  .  It is simple to verify that this is a metric space.  The map  $ \phi: \mathbb{Z} \to \mathbb{Z} $  given by  $ \phi(n) = 2n $  is an isometry but it is not  surjective .  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

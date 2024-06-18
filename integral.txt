@@ -1,0 +1,36 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Integral =
+The integral is one of the two base concepts of calculus , along with the derivative . 
+== Contents ==
+
+== Beginner Level ==
+In introductory, high-school level texts, the integral is often presented in two parts, the indefinite integral and definite integral . Although this approach lacks mathematical formality, it has the advantage of being easy to grasp and convenient to use in most of its applications, especially in Physics . 
+=== Indefinite Integral ===
+The indefinite integral, or antiderivative, is a partial inverse of the derivative . That is, if the  derivative of a function   $ f(x) $  is written as  $ f'(x) $  , then the indefinite integral of  $ f'(x) $  is  $ f(x)+c $  , where  $ c $  is a real  constant . This is because the derivative of a constant is  $ 0 $  . 
+==== Notation ====
+
+==== Rules of Indefinite Integrals ====
+
+=== Definite Integral ===
+The definite integral is also the area under a curve between two points   $ a $  and  $ b $  . For example, the area under the curve  $ f(x)=\sin x $  between  $ -\frac{\pi}{2} $  and  $ \frac{\pi}{2} $  is  $ 0 $  , as area below the x-axis is taken as negative area. 
+==== Definition and Notation ====
+
+==== Rules of Definite Integrals ====
+
+== Formal Use ==
+The notion of an integral is one of the key ideas in severel areas of higher mathematics including analysis and topology . The integral can be defined in several ways which can be applied to several different settings. However, the most common definition, and the one which most closely resembles the the 'definite integral' is the Riemann Integral  
+=== Riemann Integral ===
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ L\in\mathbb{R} $   We say that  $ f $  is Riemann Integrable on  $ [a,b] $  if and only if  $ \forall \epsilon>0\:\exists\delta>0 $  such that if  $ \mathcal{\dot{P}} $  is a tagged partition on  $ [a,b] $  with  $ \|\mathcal{\dot{P}}\|<\delta $    $ \implies $    $ |S(f,\mathcal{\dot{P}})-L|<\epsilon $  , where  $ S(f,\mathcal{\dot{P}}) $  is the Riemann sum of  $ f $  with respect to  $ \mathcal{\dot{P}} $    $ L $  is said to be the integral of  $ f $  on  $ [a,b] $  and is written as  $ L=\int_a^b f(x)dx=\int_a^b f $   <geogebra>2f3876024e3b8d9e4506f2173c591cbfaca665de</geogebra> Another integral commonly used in introductory texts is the Darboux Integral (which is often called the Riemann Integral) 
+=== Darboux Integral ===
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   We say that  $ f $  is Darboux Integrable on  $ [a,b] $  if and only if  $ \inf_{\mathcal{P}}U(f,\mathcal{P})=\sup_{\mathcal{P}}L(f,\mathcal{P}) $  , where  $ L(f,\mathcal{P}) $  and  $ U(f,\mathcal{P}) $  are respectively the lower sum and upper sum of  $ f $  with respect to partition   $ \mathcal{P} $   The notation used for the Darboux integral is the same as that for the Riemann integral. An image is supposed to go here.  You can help us out by creating one and  .  Thanks.  
+=== Other Definitions ===
+Other important definitions of integration include the Riemann-Stieltjes integral , Lebesgue integral , Henstock-Kurzweil integral , etc. 
+== Disambiguation ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

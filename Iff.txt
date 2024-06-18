@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Iff =
+Iff is an abbreviation for the phrase "if and only if." In mathematical notation, "iff" is expressed as  $ \iff $  . It is also known as a biconditional statement. An iff statement  $ p\iff q $  means  $ p\implies q $   and   $ q\implies p $  at the same time. 
+== Contents ==
+
+== Examples ==
+In order to prove a statement of the form "  $ p $  iff  $ q $  ," it is necessary to prove two distinct implications: 
+=== Applications ===
+Gödel's Incompleteness Theorem  
+=== Videos ===
+Mathematical Logic ("I am in process of making a smoother version of this" -themathematicianisin). 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

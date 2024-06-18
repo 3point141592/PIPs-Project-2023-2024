@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Riemann sum =
+A Riemann sum is a finite approximation to the Riemann Integral . 
+== Contents ==
+
+== Definition ==
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ \mathcal{\dot{P}}=\{([x_{i-1},x_i],t_i)\}_{i=1}^n $  be a tagged partition on  $ [a,b] $   The Riemann sum of  $ f $  with respect to  $ \mathcal{\dot{P}} $  on  $ [a,b] $  is defined as  $ S(f,\mathcal{\dot{P}})=\sum_{i=1}^n f(t_i)(x_i-x_{i-1}) $   
+== Related Terms ==
+
+=== The Upper sum ===
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ \mathcal{P}=\{[x_{i-1},x_i]\}_{i=1}^n $  be a partition on  $ [a,b] $   Let  $ M_i=\sup \{f(x):x\in [x_{i-1},x_i]\}\forall i $   The Upper sum of  $ f $  with respect to  $ \mathcal{P} $  on  $ [a,b] $  is defined as  $ U(f,\mathcal{P})=\sum_{i=1}^n M_i (x_i-x_{i-1}) $   
+=== The Lower sum ===
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ \mathcal{P}=\{[x_{i-1},x_i]\}_{i=1}^n $  be a partition on  $ [a,b] $   Let  $ m_i=\inf \{f(x):x\in [x_{i-1},x_i]\}\forall i $   The Lower sum of  $ f $  with respect to  $ \mathcal{P} $  on  $ [a,b] $  is defined as  $ L(f,\mathcal{P})=\sum_{i=1}^n m_i (x_i-x_{i-1}) $   
+== See Also ==
+ This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

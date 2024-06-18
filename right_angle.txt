@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Right angle =
+A right angle is the angle formed by two perpendicular  lines .  The  measure of every right angle is 90  degrees or  $ \frac \pi 2 $   radians . When drawing diagrams, we denote right angles with a little square: [asy] unitsize(2cm); pair A, B, C, D, I;  A = (1, 0); B = (-1, 0); C = (0, 1); D = (0, -1); I = (0, 0);  draw(A--B, Arrows); draw(C--D, Arrows); draw(rightanglemark(C, I, A, 5)); [/asy]  
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

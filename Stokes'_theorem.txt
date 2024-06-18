@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Stokes' Theorem =
+Stokes' Theorem is a theorem in calculus regarding the relationship between surface integrals and line integrals. 
+== Statement ==
+ $ \int_{S} \int \text{curl F} \cdot \text{dS}=\int_{C} \text{F} \cdot \text{dr} $   
+== Proof ==
+
+== See Also ==
+  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

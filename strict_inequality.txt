@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Strict inequality =
+This article is a stub.  Help us out by  .  A strict inequality is an inequality where the inequality symbol is either  $ > $  (greater than) or  $ < $  (less than).  That is, a strict inequality is an inequality which has no equality conditions . For example:  $ x>1 $   is a strict inequality. However,  $ x\geq1 $  is not a strict inequality. An example of a well-known strict inequality is the Triangle Inequality , which states that, in a nondegenerate triangle  $ ABC $  , the following relation holds: A non-example is the Trivial Inequality which states that if  $ x $  is a real number then  $ x^2 \geq 0 $  .  This inequality is not strict because it has an equality case: when  $ x = 0 $  ,  $ x^2 = 0 $  . Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Natural number =
+A natural number is any positive integer :  $ \text{1, 2, 3, 4, 5, 6, 7,\dots} $  . The set of natural numbers , denoted  $ \mathbb{N} $  , is a subset of the set of integers ,  $ \mathbb{Z} $  . Some texts use  $ \mathbb{N} $  to denote the set of positive integers (sometimes called counting numbers in elementary contexts), while others use it to represent the set of nonnegative integers (sometimes called whole numbers ).  In particular,  $ \mathbb{N} $  usually includes zero in the contexts of set theory and  algebra , but usually not in the contexts of number theory .  When there is risk of confusion, mathematicians often resort to less ambiguous notations, such as  $ \mathbb{Z}_{\geq0} $  and  $ \mathbb{Z}_0^+ $  for the set of non-negative integers, and  $ \mathbb{Z}_{>0} $  and  $ \mathbb{Z}^+ $  for the set of positive integers. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

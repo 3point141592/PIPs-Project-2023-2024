@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mobius function =
+The Möbius function is a multiplicative number theoretic function defined as follows: \[\mu(n) = \begin{cases} 1 &\text{if}~n=1\\ 0 & \text{if}~n~\text{has a square factor} \\ (-1)^k & n = p_1p_2\cdots{p_k} .\end{cases}\] Hence, we see that  $ \mu(5)=-1 $  ,  $ \mu(8)=0 $  and  $ \mu(6)=1 $  . 
+== Contents ==
+
+== Multiplicity of the Function ==
+One of the most important results of the Möbius function is that it is multiplicative, or that  $ \mu(ab)=\mu(a)\mu(b) $  . Proof. Let  $ \left[\frac{n}{a}\right] $  denote the number of integers not greater than  $ n $  and divisible by  $ a $  .  If  $ a $  and  $ b $  are coprime then  $ \left[\frac{n}{ab}\right] $  denotes the number of integers not greater than  $ n $  and divisible by  $ a $  and  $ b $  .  Via a combinatorial argument using the Principle of Inclusion-Exclusion (PIE), it can be seen that the number of integers less than or equal to  $ n $  and not divisible by any one of a coprime set of integers  $ a_1,a_2,\ldots $  is and by taking the coprime set of integers  $ a_1,a_2,\ldots $  to be the different (and distinct) prime factors of  $ n $  we get Now the proof of the multiplicity of  $ \mu(n) $  comes naturally from its definition and what we previously established.  We see that completing the proof  $ \square $   
+== Sums of Divisors ==
+While the multiplicity of the Möbius function is its most crucial component, there are other relationships that we can draw from as well.  One of the most notable is the following: \[\sum_{d|n}\mu(d) = \begin{cases} 1 &\text{if}~n=1\\ 0 & \text{if}~n>1.\end{cases}\]  Proof. If  $ n=p_1^{e_1}p_2^{e_2}\ldots p_k^{e_k} $  where  $ k\ge 1 $  then To finish, we simply can use the fact that  $ \mu(1)=1 $  , completing the proof.  By a similar argument, one can also prove that where  $ k $  is the number of distinct prime factors of  $ n $    $ \square $   
+== Implications to Other Functions ==
+Let  $ f(n) $  be a multiplicative function with respect to  $ n $  .  If there is such an  $ f $  , then is also multiplicative. Proof. If, for some  $ m $  , that  $ \gcd(n,m)=1 $  ,  $ d_1|n $  and  $ d_2|m $  then  $ \gcd(d_1,d_2)=1 $  and  $ c=d_1d_2 $  runs through all divisors of  $ nm $  .  This means we have which completes the proof.  On a different note, this also provides an alternative proof for the theorem we proved earlier.  By letting the result follows by taking  $ g(1) $  and  $ g(p^k) $  for  $ k\ge 1 $    $ \square $   
+== Applications ==
+One of the major uses of the Möbius function is in the Mobius inversion formula .  It also has ties to the Riemann zeta function , mainly that for  $ s>1 $  , This comes from a couple of theorems.  Firstly, if  $ s>1 $  then Secondly, if  $ f $  is an arithmetic function such that  $ f(1)=1 $  and  $ f(n) $  is multiplicative such that  $ \sum |f(n)|n^{-s} $  is convergent, then Our theorem follows by using the multiplicity of  $ \mu(n) $  lastly.  Doing so gives which is what we wanted.  The reason why this is important is because we can do more things by using this as a baseline.  For example, it follows trivially that for  $ s>2 $   Something appears to not have loaded correctly. Click to refresh .

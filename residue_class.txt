@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Residue class =
+In modular arithmetic , a residue of an integer  $ a $  in modulo  $ n $  is the unique value of  $ 0\leq r \leq n-1 $  such that  $ a=kn + r $  . In the context of division, a residue is simply a remainder. A residue class is a complete set of integers that are congruent modulo  $ n $  for some positive integer  $ n $  . In modulo  $ n $  , there are exactly  $ n $  different residue classes, corresponding to the  $ n $  possible residues  $ \{0,1,2,3,... n-2, n-1\} $   Each residue class contains all integers in the form  $ kn + r $  where  $ r $  is the corresponding residue. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Simple harmonic motion =
+Simple harmonic motion (SHM) is an mechanical example of periodic motion, a motion of an object that regularly repeat itself.  If a force is directed toward the equilibrium position, that motion is referred as harmonic motion.  Generally, this force directed toward the eqilibrium position, the opposite of t he displacement vector, is often called a restoring force.  The most common form of restoring force is the Hooke's Law. Percisely, a system demonstrates simple harmonic motion when an object's accerleration is porportional to its position and is oppositely directed to the displacement from equilibrium position. Simple harmonic motion can be mathematically represented by the following cosine (or sine, which would differ by a phase constant) function: where  $ A $  is the amplitude,  $ w $  is the angular frequency, and  $ \phi $  is the phase constant Something appears to not have loaded correctly. Click to refresh .

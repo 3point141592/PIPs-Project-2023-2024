@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Algebra =
+
+== Contents ==
+
+== Overview ==
+In mathematics , algebra can denote many things.  As a subject, it generally denotes the study of calculations on some set.  In high school, this can the study of examining, manipulating, and solving equations , inequalities , and other mathematical expressions . Algebra revolves around the concept of the variable , an unknown quantity given a name and usually denoted by a letter or symbol. Many contest problems test one's fluency with algebraic manipulation .
+Algebra can be used to solve different types of equations, but algebra is also many other things Modern algebra (or "higher", or "abstract" algebra) deals (in part) with generalisations of the normal operations seen arithmetic and high school algebra. Groups , rings , fields , modules , and vector spaces are common objects of study in higher algebra. Algebra Involving Equation Algebra can be used to solve equations as simple as 3x=9 but in some cases so complex that mathematicians have not figured how to solve the particular equation yet. 
+As if to add to the confusion, " algebra " is the name for a certain kind of structure in modern algebra. Modern algebra also arguably contains the field of number theory , which has important applications in computer science. (It is commonly claimed that the NSA is the largest employer in the USA of mathematicians, due to the applications of number theory to cryptanalysis.)  However, number theory concerns itself with a specific structure (the ring   $ \mathbb{Z} $  ), whereas algebra in general deals with general classes of structure.  Furthermore, number theory interacts more specifically with
+certain areas of mathematics (e.g., analysis ) than does algebra in general.  Indeed, number theory
+is traditionally divided into different branches, the most prominent of which are algebraic number theory and analytic number theory . 
+== Study Guides to Algebra ==
+
+== Recommended AoPS books ==
+Competition math for middle school 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

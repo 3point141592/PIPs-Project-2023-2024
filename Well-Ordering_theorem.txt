@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Well-Ordering theorem =
+The Well-Ordering theorem is an axiom for Set theory . It states that every set can be well-ordered. A well-ordered set is a totally ordered set   $ (S,\prec) $  for which each set  $ A\subseteq S $  has a minimum element. The Well-Ordering theorem is equivalent to the Axiom of choice and Zorn's Lemma . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

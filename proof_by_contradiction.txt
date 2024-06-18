@@ -1,0 +1,19 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Proof by contradiction =
+Proof by contradiction (also known as reducto ad absurdum or indirect proof) is an indirect type of proof that assumes the proposition (that which is to be proven) is false and shows that this assumption leads to an error, logically or mathematically. Thus, the proposition is true. Famous results which utilized proof by contradiction include the irrationality of  $ \sqrt{2} $  and the infinitude of primes.  This technique usually works well on problems where not a lot of information is known, and thus we can create some using proof by contradiction. 
+== Contents ==
+
+== Examples ==
+
+=== Proof that the square root of 2 is irrational ===
+Assume  $ \sqrt{2} $  is rational , i.e. it can be expressed as a rational fraction of the form  $ \frac{b}{a} $  , where  $ a $  and  $ b $  are two relatively prime integers.  Now, since  $ \sqrt{2}=\frac{b}{a} $  , we have  $ 2=\frac{b^2}{a^2} $  , or  $ b^2=2a^2 $  .  Since  $ 2a^2 $  is even,  $ b^2 $  must be even, and since  $ b^2 $  is even, so is  $ b $  .  Let  $ b=2c $  .  We have  $ 4c^2=2a^2 $  and thus  $ a^2=2c^2 $  .
+Since  $ 2c^2 $  is even,  $ a^2 $  is even, and since  $ a^2 $  is even, so is a.  However, two even numbers cannot be relatively prime, so  $ \sqrt{2} $  cannot be expressed as a rational fraction; hence  $ \sqrt{2} $  is irrational.  $ \blacksquare $   
+=== Euclid's proof of the infinitude of primes ===
+Assume there exists a finite number of primes   $ p_1, p_2,\ldots, p_n $  .  Let  $ N=p_1p_2p_3...p_n+1 $  .  $ N $  is not divisible by any of the known primes since it will leave a remainder of one upon division by any one of them.  Thus,  $ N $  must be divisible by some other prime not in our list, which contradicts the assumption that there is a finite number of primes.  $ \blacksquare $   
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

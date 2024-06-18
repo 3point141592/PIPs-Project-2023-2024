@@ -1,0 +1,13 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Hypercube =
+As used in geometry, a hypercube is an extrapolation of the cube or square to n dimensions. For example, a 4th dimensional hypercube is called a tesseract . Therefore, an n-dimensional hypercube is also known as an n-cube. It is best drawn and represented in non-Euclidean geometry. 
+== Links ==
+
+== Tesseract ==
+A tesseract is the 4th dimensional hypercube. It is made by combining two cubes.
+The net of a tesseract is composed of 8 cubes. It has the Schlaefli symbol  $ {4,3,3} $  . Its vertices are  $ {\pm1, \pm1, \pm1, \pm1} $  .  To see an  $ \mathfrak{e} $  xample of a 4D cube, click here: [1]  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= United States of America Mathematical Talent Search =
+The United States of America Mathematical Talent Search ( USAMTS ) is a mathematics competition in which students are challenged to write full solutions and mathematical proofs to exploratory math problems. The USAMTS is administered by the Art of Problem Solving Foundation with support and sponsorship by the National Security Agency (NSA). : 3-4 : 5-6 
+== Contents ==
+
+== Format ==
+The USAMTS is portioned into 3 rounds. Each round consists of 5 problems that are very challenging. Students are given one month to write up professional solutions. All calculators and computer programs are allowed; however, full and detailed explanations proving that such works must be given. Solutions can be sent via the online interface, or regular mail. 
+=== Scoring ===
+Each problems are graded on a scale from 0 to 5. The full 5 points are awarded for correct, concise solutions, and points are taken off from there for mistakes or other reasons. A perfect score is 75 points. The honors are divided into 4 sections: Honorable Mention,  Bronze, Silver, and Gold. Approximately the top 5% get Gold, top 12.5% Silver, top 25% Bronze, top 45% HM. Prizes are awarded to high scorers at the end of the year. These typically include a free t-shirt, along with other prizes like books or software of the participant's choices (with first priority to the top scorers, and then down the ranks). 
+== History ==
+The USAMTS was initiated in 1989 by Professor George Berzsenyi under the joint sponsorship of the Rose-Hulman Institute for Technology (RHIT) and and the Consortium for Mathematics and Its Applications (COMAP). In 1997 the administrative portions of the USAMTS were transferred to COMAP, while the mathematical responsibilities associated with the USAMTS were assumed by the National Security Agency (NSA), with Gene Berg becoming the Director of the USAMTS. In 2000, Blair Kelly became the third Director of the USAMTS. In 2001, NSA assumed all responsibility for the USAMTS. In 2004, full responsibility for the program passed to the Art of Problem Solving Foundation. NSA continues its generous financial support, as well as handling some of the grading and problem generation duties. Year-round creative mathematical problem solving was initiated in Hungary in 1894, through the high school mathematics journal, KöMaL, Except for interruptions caused by World Wars I and II, KöMaL continues to be published. KöMaL is a popular abbreviation of Középiskolai Matematikai és Fizikai Lapok (KMaL), which means "High School Mathematics and Physics Journal". In order to provide similar challenges to students in the United States, the USA Mathematical Talent Search (USAMTS) was initiated in the fall of 1989 through a regular column by the same name in Consortium, a quarterly newsletter published by COMAP. NSA's involvement with the USAMTS grew out of a conversation between George Berzsenyi and Gene Berg at the Seventh International Congress on Mathematics Education, held in Quebec, Canada, in the summer of 1992. By that time, both the USAMTS and its international extension were well established, and it became evident that the growing popularity of the USAMTS necessitated various adjustments in its administration. Initially, NSA was able to offer additional graders. From 1997 to 2004, all grading was done at NSA. NSA continues to perform some of the grading. The USAMTS problems and solutions also appeared in Mathematics and Informatics Quarterly (M&IQ) as the equivalent International Mathematical Talent Search (IMTS). The first 22 rounds of the IMTS are gathered together in M&IQ, vol. 6 no. 4, November 1996. 
+== Resources ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

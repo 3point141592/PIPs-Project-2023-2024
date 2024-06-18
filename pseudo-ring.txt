@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Pseudo-ring =
+A pseudo-ring is a ring that lacks a multiplicative identity.  In other words, it is a set  $ R $  closed under two operations, addition and multiplication, such that  $ (R,+) $  is an abelian group ,  $ (R,\cdot) $  is an associative  magma , and multiplication is doubly distributive over addition. By virtue of terrible pun, pseudo-rings are also called rngs (rings without i, the identity). Ideals , divisors , and multiples may be defined as with rings. This article is a stub.  Help us out by  .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

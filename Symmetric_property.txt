@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Symmetric property =
+A binary relation   $ R $  on a set  $ S $  is said to be symmetric or to have the symmetric property if, for all  $ x, y \in S $  we have  $ R(x, y) $  if and only if  $ R(y, x) $  . For example, the relation of similarity on the set of triangles in a given plane is symmetric: one triangle is similar to another if and only if the second triangle is similar to the first.  However, the relation  $ \leq $  on the real numbers is not symmetric, because there exists a pair of real numbers  $ x, y $  such that  $ x \leq y $  but  $ y \not\leq x $  .  (In fact, there are infinitely many such pairs, but to disprove symmetry we need only one.) The notion of symmetry can be extended to broader contexts than binary relations, as well.  For example, one could call a general relation symmetric if the relation held for a set of arguments if and only if it held for every permutation of those arguments. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .
