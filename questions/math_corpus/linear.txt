@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Linear =
+A function  $ f $  is linear if  $ f(x) - f(y) $  depends only on  $ x - y $  . The notion of linearity, although normally defined in spaces like  $ \mathbf{R} $  , can be extended to arbitrary vector spaces . 
+== Examples of linear functions ==
+
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

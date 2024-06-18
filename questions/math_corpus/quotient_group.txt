@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Quotient group =
+Let  $ G $  be a group , and  $ R $  an equivalence relation compatible with the group structure on  $ G $  .  The structure derived from  $ R $  on the quotient set   $ G/R $  is called the quotient group of  $ G $  by  $ R $  , or the quotient group  $ G/R $  , or  $ G $  mod  $ R $  . An equivalence relation  $ R(x,y) $  on  $ G $  is compatible with the group structure on  $ G $  if and only if it is equivalent to a relation of the form  $ xy^{-1} \in H $  , for some normal subgroup   $ H $  of  $ G $  . This article is a stub.  Help us out by  .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

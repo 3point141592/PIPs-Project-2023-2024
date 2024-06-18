@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Linear recurrence =
+A sequence  $ \{a_{0},a_{1},a_{2},\ldots\} $  is said to obey a linear recurrence of order   $ k $  if there exist constants  $ c_{0},c_{1},\ldots,c_{k-1} $  such that \[a_{n+k} = \sum_{i=0}^{k-1}c_{i}a_{n+i}\] for all  $ n \ge 0 $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

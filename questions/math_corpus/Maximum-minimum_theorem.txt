@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Maximum-minimum theorem =
+The Maximum-minimum theorem is a result about continous functions that deals with a property of intervals rather than that of the function itself. 
+== Contents ==
+
+== Statement ==
+Let  $ f:[a,b]\rightarrow\mathbb{R} $   Let  $ f $  be continous on  $ [a,b] $   Then,  $ f $  has an absolute maximum and an absolute minimum on  $ [a,b] $   
+== Proof ==
+We will first show that  $ f $  is bounded on  $ [a,b] $  ...(1) Assume if possible  $ \forall n\in\mathbb{N}\exists x_n\in [a,b] $  such that  $ f(x_n)>n $   As  $ [a,b] $  is bounded,  $ \left\langle  x_n\right\rangle $  is bounded. By the Bolzano-Weierstrass theorem , there exists a sunsequence  $ \left\langle x_{n_r}\right\rangle $  of  $ \left\langle x_n\right\rangle $  which converges to  $ x $  . As  $ [a,b] $  is closed,  $ x\in [a,b] $  . Hence,  $ f $  is continous at  $ x $  , and by the sequential criterion for limits   $ f(x_n) $  is convergent, contradicting the assumption. Similarly we can show that  $ f $  is bounded below Now, Let  $ M=\sup\{f([a,b])\} $   By the Gap lemma ,  $ \forall n\in\mathbb{N} $  ,  $ \exists x_n $  such that  $ M-f(x_n)<\frac{1}{n} $   As  $ \left\langle x_n\right\rangle $  is bounded, by Bolzano-Weierstrass theorem ,  $ \left\langle x_n\right\rangle $  has a subsequence  $ \left\langle x_{n_r}\right\rangle $  that converges to  $ x\in [a,b] $   As  $ f $  is continous at  $ x $  ,  $ f(x)\in V_{\frac{1}{n}}(M)\forall n $   i.e.  $ f(x)=M $   
+== References ==
+R.G. Bartle, D.R. Sherbert, Introduction to Real Analysis , John Wiley & Sons 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

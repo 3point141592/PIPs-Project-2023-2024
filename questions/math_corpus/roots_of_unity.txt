@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Roots of unity =
+The Roots of unity are a topic closely related to trigonometry . Roots of unity come up when we examine the complex  roots of the polynomial   $ x^n=1 $  . 
+== Contents ==
+
+== Solving the Equation ==
+First, we note that since we have an n th degree polynomial, there will be n complex roots. Now, we can convert everything to polar form by letting  $ x = re^{i\theta} $  , and noting that  $ 1 = e^{2\pi ik} $  for  $ k\in \mathbb{Z} $  , to get  $ r^ne^{ni\theta} = e^{2\pi ik} $  . The magnitude of the RHS is 1, making  $ r^n=1\Rightarrow r=1 $  (magnitude is always expressed as a positive real number).  This leaves us with  $ e^{ni\theta} = e^{2\pi ik} $  . Taking the natural logarithm of both sides gives us  $ ni\theta = 2\pi ik $  .  Solving this gives  $ \theta=\frac{2\pi k}n $  .  Additionally, we note that for each of  $ k=0,1,2,\ldots,n-1 $  we get a distinct value for  $ \theta $  , but once we get to  $ k > n-1 $  , we start getting coterminal angles. Thus, the solutions to  $ x^n=1 $  are given by  $ x = e^{2\pi k i/n} $  for  $ k=0,1,2,\ldots,n-1 $  .  We could also express this in trigonometric form as  $ x=\cos\left(\frac{2\pi k}n\right) + i\sin\left(\frac{2\pi k}n\right) = \mathrm{cis }\left(\frac{2\pi k}n\right). $   
+== Geometry ==
+All of the roots of unity lie on the unit circle in the complex plane.  This can be seen by considering the magnitudes of both sides of the equation  $ x^n = 1 $  .  If we let  $ x = re^{i\theta} $  , we see that  $ r^n = 1 $  , since the magnitude of the RHS of  $ x^n=1 $  is 1, and for two complex numbers to be equal, both their magnitudes and arguments must be equivalent. Additionally, we can see that when the n th roots of unity are connected in order (more technically, we would call this their convex hull ), they form a regular n -sided polygon.  This becomes even more evident when we look at the arguments of the roots of unity. 
+== Properties ==
+Listed below is a quick summary of important properties of roots of unity. 
+== Uses ==
+Roots of unity show up in many surprising places.  Here, we list a few: 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

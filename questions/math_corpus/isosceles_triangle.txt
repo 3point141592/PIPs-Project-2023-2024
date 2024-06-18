@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Isosceles triangle =
+This article is a stub.  Help us out by  .  An isosceles triangle is a triangle in which at least two edges have equal length .  Equivalently, an isosceles triangle is one in which at least two angles have equal measure . Equilateral triangles are a special class of isosceles triangles in which all three sides and angles are equal. Because Isosceles triangles have two sides of equal length, the angles that don't connect them are equal, meaning that if you had the angle that connects them's measure, you would be able to figure out the other two. In more clear definitions: Say we have an isoscelese triangle  $ \triangle ABC $  where  $ AB = AC $  . You also know that  $ \angle C = 50^\circ $  . You can then find out angles  $ \angle A $  and  $ \angle B $  because those angles are congruent (geometry) , due to  $ AB=AC $  .  $ 180 - 50 = 130 \rightarrow \frac{130}{2} = 65 $  , so angles  $ A $  and  $ B $  are each  $ 65^\circ $  . Every isosceles triangle has reflectional symmetry . The axis of symmetry passes through the vertex which is shared by the edges of equal length, and it is also the triangle's median , altitude , and angle bisector of that vertex. [asy]draw((0,0)--(1,0)--(0.5,0.5)--cycle);[/asy]  
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

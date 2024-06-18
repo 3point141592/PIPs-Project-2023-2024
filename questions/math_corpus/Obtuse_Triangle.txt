@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Obtuse triangle =
+An obtuse triangle is a triangle in which one angle is an obtuse angle .  Any triangle which is not obtuse is either a right triangle or an acute triangle . [asy] unitsize(1cm); pair A, B, C, D, E, F;  A = (0, 0); B = (2, 0); C = (-1, 4);  draw(A--B--C--cycle); draw(anglemark(B, A, C, 10)); label(" $ 100^\circ $ ", A, 3NE);  D = (3, 0); E = (7, 0); F = (5, 2);  draw(D--E--F--cycle); draw(anglemark(D, F, E, 10)); label(" $ 140^\circ $ ", F, 4S); [/asy]  Obtuse triangles only have one obtuse angle because the angles of a triangle must sum to  $ 180^\circ $  . Two obtuse angles would sum to more than that. Obtuse triangles can be defined in other ways: This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

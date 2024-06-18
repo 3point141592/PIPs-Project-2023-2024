@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rectangle =
+A rectangle is a quadrilateral in which all angles are right angles . [asy] size(200); pair A, B, C, D; A = (-377,233); B = (377,233); C = (377,-233); D = (-377,-233); dot(" $ A $ ",A,1.5*dir(A),linewidth(4)); dot(" $ B $ ",B,1.5*dir(B),linewidth(4)); dot(" $ C $ ",C,1.5*dir(C),linewidth(4)); dot(" $ D $ ",D,1.5*dir(D),linewidth(4)); draw(A--B--C--D--cycle); [/asy]  Every rectangle is a parallelogram and so has all the properties of a parallelogram. In addition, rectangles have congruent  diagonals .  Squares are the only rectangles which are also rhombuses . All rectangles are cyclic quadrilaterals . 
+== See Also ==
+Area  British Flag Theorem  Ptolemy's Theorem  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Totally ordered set =
+A totally ordered set is a partially ordered set in which every two elements are comparable .  Thus, the standard ordering on the real numbers   $ \mathbb{R} $  or the integers   $ \mathbb Z $  is a total ordering, but if we order the subsets of the set   $ \{1, 2, 3\} $  by inclusion (the boolean lattice on a set of size 3), we don't get a total order because  $ \{1, 2\} $  and  $ \{3\} $  are incomparable (there are no inclusion relations between them). Note that it is possible to impose a total ordering on any set.  For example, the lexicographic ordering on the complex numbers , where we say  $ a + bi > c + di $  if  $ a > c $  or if  $ a = c $  and  $ b > d $  , is a total ordering, but it is not a "natural" ordering of this set.  In particular, it behaves very poorly with respect to arithmetic operations on  $ \mathbb C $  . 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

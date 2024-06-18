@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Radius =
+The radius of a circle is the distance from the center to any point on the circle.  Identical definitions hold for the sphere and hypersphere . The plural form of radius is radii. The radius of a circle is often denoted using R or r.  [asy]size(150); pair O=origin, P=dir(30); D(unitcircle); D(O--P); MP("O",D(O),NNW); MP("P",D(P),NE); MP("r",midpoint(O--P),NNW);[/asy]   
+== Links to other key terms ==
+1. Diameter :  $ d = 2 r $   The diameter is the longest chord in a circle. It is usually expressed by D or d. 2. Circumference ( perimeter ):  $ C = 2 \pi r $   The circumference is the distance around a circle. It is usually represented by C. 3. Area :  $ S\:\text{or}\:A = \pi r^2 $   The area of a circle is the amount of space it occupies. It is usually denoted using S or A.  By grace.yongqing.yu Something appears to not have loaded correctly. Click to refresh .

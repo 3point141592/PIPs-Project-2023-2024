@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Parallel =
+Being parallel is a property of lines in a plane. Generally, when the term is used, it refers to the definition of parallel in Euclidean geometry. 
+== Contents ==
+
+== Definition ==
+Two lines   $ l $  and  $ m $  are said to be parallel if they lie in the same plane but do not intersect. This is denoted by  $ l \parallel m $  . If  $ l $  and  $ m $  are parallel, then  $ l $  can be transposed (shifted) so that  $ l $  lies exactly on  $ m $  , and vice versa. 
+== The 11th Postulate ==
+One of the postulates (or axioms ) of Euclidean geometry is that given a plane, a line on that plane and a point on that plane not on the line, there is exactly one line passing through the point parallel to the given line.  This axiom has historically proven to be contentious, with many attempts made from the time of the ancient Greeks onward to prove it from the other axioms.  These attempts all failed, and in 1868 it was proven by Eugenio Beltrami that the Parallel Postulate did not follow from the other axioms of Euclidean geometry. More recently, in the late 19th century it was discovered that negations of the Parallel Postulate led to different, interesting geometric systems. 
+== Spherical Geometry ==
+One example of such a system is spherical geometry .  If you and I begin on different longitudes and travel in parallel directions (say, both travel due north), our paths will eventually cross each other (probably at the North Pole).  In other words, spherical geometry is one model of a system in which a given line has no parallel lines. 
+== Coordinate Plane ==
+Two linear graphs in the Cartesian coordinate plane are parallel if and only if they have equal slopes . The distance between two non-vertical parallel lines in a coordinate plane is  $ \sqrt{\frac{(y_2-y_1)^2}{m^2+1}} $   
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

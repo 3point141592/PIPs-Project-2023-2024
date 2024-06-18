@@ -1,0 +1,50 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Set =
+The notion of a set is one of the fundamental notions in mathematics that is difficult to precisely define. Of course, we have plenty of synonyms for the word "set," like collection, ensemble, group , etc., but those names really do not define the meaning of the word set ; all they can do is replace it in various sentences. So, instead of defining what sets are, one has to define what can be done with them or, in other words, what axioms the sets satisfy. These axioms are chosen to agree with our intuitive concept of a set, on one hand, and to allow various, sometimes quite sophisticated, mathematical constructions on the other hand. For the full collection of these axioms, see Zermelo-Fraenkel Axioms . In this article we shall present just a brief discussion of the most common properties of sets and operations related to them. 
+== Contents ==
+
+== Rough Definition ==
+Roughly speaking, a set is a collection of objects. The objects can be anything: numbers, letters, libraries that have at least 20 male staff, or absolutely nothing. Order does not matter. What does matter is what is in the set. There might be a finite number of objects in the set, in which case it is called a finite set. Otherwise we call it an infinite set. The objects in a set are called the elements of the set. A common misconception is that a set can have multiple indistinct elements, such as the following:  $ \{1,4,5,3,24,4,4,5,6,2\} $  Such an entity is actually called a multiset. 
+== Relation of Belonging ==
+The most important property of sets is that, for every object   $ x $  and a set  $ S $  , we can say whether  $ x $  belongs to  $ S $  (written as  $ x\in S $  ), or not (written as  $ x\notin S $  ). Two sets  $ S' $  and  $ S'' $  are equal if they include the same objects, i.e., if for every object  $ x $  , we have  $ x\in S' $  if and only if  $ x\in S'' $  . 
+== Specifying a Set ==
+There are many ways to specify a set, using different notation. 
+=== Listing its Elements ===
+This means that in order to identify a particular set, it suffices to tell which objects belong to this set. If the set contains just several such objects, all you need to do is list them. So, you can specify the set consisting of the numbers  $ 1,3,5 $  , and  $ 239 $  , for example. (The standard notation for this set is  $ \{1,3,5,239\} $  . Note that the order in which the terms are listed is completely unimportant: we have to follow some order when writing things in one line, but you should actually imagine those numbers flowing freely inside those curly braces with no preference given to any of them. What matters is that these four numbers are in the set and everything else is out).  But how do you specify sets that have very many (maybe infinitely many) elements? You cannot list them all even if you spend your entire life writing! 
+=== Stating the Common Property of its Elements ===
+Another way to specify a set is to use some property to tell when an object belongs to this set. For instance, we may try to think (alas, only try!) of the set of all objects with green hair. In this case, we do not even try to list all such objects. We just decide that something belongs to this set if it has green hair and doesn't belong to it otherwise. This is a wonderful way to describe a set. Unfortunately, this method has several potential pitfalls.  It turns out, counter-intuitively, that not every collection of objects with a certain property is a set.  The most famous example of this problem is Russell's Paradox : consider the property, "is a set and does not contain itself."  (Remember that, given a set, we should be able to tell about every object whether it belongs to this set or not; in particular, we can ask this question about the set itself).  The set  $ S $  specified by this property can neither belong, nor not belong to itself.  There are a variety of ways to resolve this paradox, but the problem is clear: this way to describe sets should be used with extreme caution.  One way to avoid this problem is as follows: given a property  $ P $  , choose a known set  $ T $  .  Then the collection  $ S $  of elements of  $ T $  which have property  $ P $  will always be a set.  (In particular, for our previous example to lead to a paradox, we would need to choose  $ T = \{\mathrm{all \; sets}\} $  .  However, it turns out that it can be proven that the set of all sets does not exist -- the collection of all sets is too big to be a set.) 
+=== Set Notation ===
+There is a notation used just for sets:  $ \{ x \in \mathbb {R} \mid x^2>0 \} $   That symbolizes the set of all reals not equal to 0. This is probably the fastest way of describing a large set. Also, the empty set can be specified using set notation:  $ \{ x \in \mathbb {R} \mid x^2<0 \} $   Since there are no reals such that the square of it is less than 0, that set is the empty set. 
+== Subsets ==
+We say that a set  $ A $  is a subset of a set  $ S $  if every object  $ x $  that belongs to  $ A $  also belongs to  $ S $  . This is denoted  $ A\subseteq S $  or  $ A\subset S $  . For example, the sets  $ \{1,2\} $  and  $ \{2,3\} $  are subsets of the set  $ \{1,2,3\} $  , but the set  $ \{1,6\} $  is not.  Thus we can say that two sets are equal if and only if each is a subset of the other. A special kind of subset is the empty set . 
+== Power Sets ==
+The power set of a set  $ A $  , denoted  $ \mathcal{P}(A) $  is defined as the set of all its subsets. For example, the power set of  $ \{1,2,3\} $  is  $ \{\{\},\{1\},\{2\},\{3\},\{1,2\},\{2,3\},\{1,3\},\{1,2,3\}\} $  . If a  $ A $  is a finite set of size  $ n $  then  $ \mathcal{P}(A) $  has size  $ 2^n $  . 
+== Operations ==
+
+=== Union and Intersection ===
+The union of two or more sets is the set of all objects that belong to one or more of the sets. The union of A and B is denoted  $ A\cup B $  . For example, the union of  $ \{1,2\} $  and  $ \{1,3,5\} $  is  $ \{1,2,3,5\} $  . Unions can also be represented just as sums and products can be.  $ \bigcup_{statement}S $  would be the union of all sets  $ S $  that satisfy the statement. So, for example,  $ \bigcup_{S\subset\mathbb{N}}S $  would be the set of all natural numbers  $ \mathbb{N} $  . The intersection of two or more sets is the set of all objects that belong to all of the sets. The intersection of A and B is denoted  $ A\cap B $  . For example, the intersection of  $ \{1,2\} $  and  $ \{1,3,5\} $  is  $ \{1\} $  . Just like unions, intersections can be represented as such:  $ \bigcap_{statement}S $  . For example,  $ \bigcap_{S\,is\,P(A)\,for\,some\,set\,A}S=\emptyset $  , or the empty set defined next. 
+=== Cartesian Product ===
+The Cartesian Product of two sets  $ A $  and  $ B $  is defined as the set of Ordered Pairs   $ (a,b) $  such that  $ a\in A $  and  $ b\in B $    $ A\times B=\{(a,b)|a\in A, b\in B\} $   
+== Empty Set ==
+An empty set , denoted  $ \emptyset $  is a set with no elements. An empty set has some special properties: 
+== Infinite Sets ==
+An infinite set can be defined as a set that has the same cardinality as one of its proper subsets.  Alternatively, infinite sets are those which cannot be put into correspondence with any set of the form  $ \{1, 2, ..., n\} $  . 
+== Cardinality ==
+The cardinality of a set  $ A $  , denoted  $ |A| $  , is (informally) the size of the set.  For a finite set, the cardinality is simply the number of elements.  The empty set has cardinality 0.  $ |A|=|B| $   iff there is a bijective function  $ f:A\to B $  meaning that there is a function  $ f $  that maps all elements of  $ A $  to all the elements of  $ B $  with one-to-one correspondence.  $ |A|\le|B| $  iff there exists an injective function  $ f:A\to B $  meaning there is a function  $ f $  that maps all elements of  $ A $  to (not necessarily all) elements of  $ B $  .  $ |A|\ge|B| $  can be defined similarily by expressing it as  $ |B|\le|A| $  .  $ |A|<|B| $  iff there exists an injective function  $ f:A\to B $  and there is no bijective function  $ g:A\to B $  meaning  $ |A|\le|B| $  but  $ |A|\neq|B| $  .  $ |A|>|B| $  is defined similarly. Although showing that  $ A\le B $  and  $ B\le A $  implies that  $ A=B $  is easy to prove when using finite sets, it is more complicated when using infinite sets. This theorem is called the Cantor-Bernstein-Schröder theorem and was proven by Georg Cantor , Felix Bernstein , and Ernst Schröder . 
+== Problems ==
+
+=== Introductory ===
+ $ (\mathrm {A}) \ 9 \qquad (\mathrm {B}) \ 10 \qquad (\mathrm {C})\ 11 \qquad (\mathrm {D}) \ 12 \qquad (\mathrm {E})\ 13 $  ( Source ) 
+=== Intermediate ===
+( Source ) 
+=== Olympiad ===
+( Source ) 
+== See Also ==
+
+== External Links ==
+Something appears to not have loaded correctly. Click to refresh .

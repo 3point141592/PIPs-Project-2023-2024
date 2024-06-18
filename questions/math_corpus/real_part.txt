@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Real part =
+Any complex number   $ z $  can be written in the form  $ z = a + bi $  where  $ i = \sqrt{-1} $  is the imaginary unit and  $ a $  and  $ b $  are real numbers .  Then the real part of  $ z $  , usually denoted  $ \Re (z) $  or  $ \mathrm{Re} (z) $  , is just the value  $ a $  . Geometrically, if a complex number is plotted in the complex plane , its real part is its  $ x $  -coordinate ( abscissa ). A complex number  $ z $  is real exactly when  $ z = \mathrm{Re}(z) $  . The function   $ \mathrm{Re} $  can also be defined in terms of the complex conjugate   $ \overline z $  of  $ z $  :  $ \mathrm{Re}(z) = \frac{z + \overline z}2 $  .  (Recall that if  $ z = a + bi $  ,  $ \overline z = a - bi $  ). 
+== Examples ==
+
+== Practice Problem 1 ==
+Find the conditions on  $ w $  and  $ z $  so that  $ \mathrm{Re}(w\cdot z) = \mathrm{Re}(w) \cdot \mathrm{Re}(z) $  .  Solution   
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Negative number =
+A real number (and thus integer , rational number or irrational number ) is negative if it is less than  zero . 
+== Overview ==
+The negation (or additive inverse ) of a number is the number which, when added to that number, gives zero.  Note that this definition extends beyond the real numbers to include the complex numbers (and, more generally, to any additive group ).  The negative of a negative real number is a positive number .  The negation of zero is zero. 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,28 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Parity =
+Parity refers to whether a number is even or odd . While this may seem highly basic, checking the parity of numbers is often an useful tactic for solving problems, especially with proof by contradictions and casework . This concept begins with integers. An even number is an integer that is "evenly divisible" by 2, i.e., divisible by 2 without remainder; an odd number is an integer that is not evenly divisible by 2. (The old-fashioned term "evenly divisible" is now almost always shortened to "divisible".) A formal definition of an even number is that it is an integer of the form n = 2k, where k is an integer; it can then be shown that an odd number is an integer of the form n = 2k + 1. This only applies to integers, not fractions or decimals. 
+== Contents ==
+
+== Problems ==
+Example from 1997 AJHSME:  Problem:  Ten balls numbered  $ 1 $  to  $ 10 $  are in a jar. Jack reaches into the jar and randomly removes one of the balls. Then Jill reaches into the jar and randomly removes a different ball. The probability that the sum of the two numbers on the balls removed is even is  $ \text{(A)}\ \frac{4}{9} \qquad \text{(B)}\ \frac{9}{19} \qquad \text{(C)}\ \frac{1}{2} \qquad \text{(D)}\ \frac{10}{19} \qquad \text{(E)}\ \frac{5}{9} $   
+== Solution 1 ==
+For the sum of the two numbers removed to be even, they must be of the same parity. There are five even values and five odd values. No matter what Jack chooses, the number of numbers with the same parity is four. There are nine numbers total, so the probability Jill chooses a number with the same parity as Jack's is  $ \frac49 $  .  $ \boxed{\text{A}} $   
+== Solution 2 ==
+We find that it is only possible for the sum to be even if the numbers added are both even or odd. We will get an odd number when we add an even and odd. We can use complementary counting to help solve the problem. There are a total of  $ 90 $  possibilities since Jack can choose  $ 10 $  numbers and Jill can pick  $ 9 $  . There are  $ 50 $  possibilities for the two numbers to be different since Jack can pick any of the  $ 10 $  numbers and Jill has to pick from  $ 5 $  numbers in the set with a different parity than the one that Jack picks. So the probability that the sum will be odd is  $ \frac{50}{90}=\frac{5}{9} $  . Subtracting this by one gets the answer  $ \frac{4}{9} $  (edited by qkddud)  $ \boxed{\text{A}} $   
+=== Introductory ===
+Many AMC 8 problems fit this category, help us out by putting problems here! 
+=== Intermediate ===
+2000 AIME II Problem 2:  
+==== Problem ====
+A point whose coordinates are both integers is called a lattice point. How many lattice points lie on the hyperbola  $ x^2 - y^2 = 2000^2 $  ? 
+==== Solution ====
+\[(x-y)(x+y)=2000^2=2^8 \cdot 5^6\]  Note that  $ (x-y) $  and  $ (x+y) $  have the same parities , so both must be even. We first give a factor of  $ 2 $  to both  $ (x-y) $  and  $ (x+y) $  . We have  $ 2^6 \cdot 5^6 $  left. Since there are  $ 7 \cdot 7=49 $  factors of  $ 2^6 \cdot 5^6 $  , and since both  $ x $  and  $ y $  can be negative, this gives us  $ 49\cdot2=\boxed{098} $  lattice points. 2008 AIME I Problem 3  
+==== Problem 2 ====
+There exist unique positive integers  $ x $  and  $ y $  that satisfy the equation  $ x^2 + 84x + 2008 = y^2 $  . Find  $ x + y $  . 
+==== Solution ====
+Completing the square ,  $ y^2 = x^2 + 84x + 2008 = (x+42)^2 + 244 $  . Thus  $ 244 = y^2 - (x+42)^2 = (y - x - 42)(y + x + 42) $  by difference of squares . Since  $ 244 $  is even, one of the factors is even. A parity check shows that if one of them is even, then both must be even. Since  $ 244 = 2^2 \cdot 61 $  , the factors must be  $ 2 $  and  $ 122 $  . Since  $ x,y > 0 $  , we have  $ y - x - 42 = 2 $  and  $ y + x + 42 = 122 $  ; the latter equation implies that  $ x + y = \boxed{080} $  . Indeed, by solving, we find  $ (x,y) = (18,62) $  is the unique solution. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Proper fraction =
+A proper fraction is a fraction such that the absolute value is less than 1. 
+=== Examples ===
+ $ \frac{3}{4} $  Because  $ 3\neq4 $  and  $ 3<4. $   
+=== See Also ===
+Improper fraction  This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

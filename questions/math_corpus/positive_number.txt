@@ -1,0 +1,11 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Positive number =
+A positive  real number (and so also rational number or integer ) is one which is greater than  zero . Any real number which is not positive is either zero or negative .
+Therefore 0 is not truly positive. Furthermore, a positive number is required to not have a minus sign before the number (only if it is not an equation). A number that is nonnegative is a number that is not negative, and is therefore either zero or positive. You may think of this as a two-circled Venn Diagram of real numbers. The nonnegatives representing one circle, and nonpositive representing another circle. The middle part of the diagram only has one element, zero. Furthermore, the nonnegative part excluding zero is positive, and vice versa. Another way to think about this is the Number Line . Zero is at the middle, like a border between two realms, and positive and negative are to the right and left, respectively. 
+== See Also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

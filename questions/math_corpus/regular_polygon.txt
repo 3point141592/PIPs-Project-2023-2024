@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Regular polygon =
+This article is a stub.  Help us out by  .  A regular polygon is a polygon in which all edges have the same length and all angles have equal measures .  The regular triangles are the equilateral triangles .  The regular quadrilaterals are the  squares . Note that for triangles, it is enough to assert either that all angles are equal or that all sides are equal, but this is not true for polygons of more sides.  For instance, there are many rhombuses which have all equal sides but not all equal angles and many rectangles which have all equal angles but not all equal sides. The closest  3D equivalent to the regular polygon is the Platonic solid . Something appears to not have loaded correctly. Click to refresh .

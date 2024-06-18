@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Least common multiple =
+The least common multiple ( LCM ) of two or more positive integers is the smallest integer which is a multiple of all of them.  Any finite  set of integers has an infinite number of common multiples , but only one LCM. The LCM of a set of numbers  $ \{a_1,a_2,\cdots,a_n\} $  is conventionally represented as  $ [a_1,a_2,\ldots,a_n] $  . 
+== Contents ==
+
+== Video on Least Common Multiple ==
+Least Common Multiple  
+== How to find ==
+The most primitive way to find the LCM of a set of numbers is to list out the multiples of each until you find a multiple that is common to all of them. This is a tedious method, so it is usually only used when the numbers are small. For example, suppose we wanted to find the LCM of two numbers, 4 and 6. We would begin by listing the multiples of 4 and 6 until we find the smallest number in both lists, as shown below. 4  8 12  6 12  12 is the LCM of 4 and 6. 
+=== Using prime factorization ===
+The LCM of two or more numbers can also be found using prime factorization .  In order to do this, factor all of the numbers involved.  For each prime number which divides any of them, take the largest  power with which it appears, and multiply the results together.  For example, to find the LCM of 8, 12 and 15, write:  $ 8 = 2^3 $    $ 12 = 2^2\cdot 3^1 $    $ 15 = 3^1\cdot 5^1 $   Three primes appear in these factorizations, 2, 3 and 5.  The largest power of 2 that appears is  $ 2^3 $  ; the largest power of 3 that appears is  $ 3^1 $  ; and the largest power of 5 that appears is  $ 5^1 $  .  Therefore the LCM,  $ LCM(8, 12, 15) = 2^3\cdot 3^1\cdot 5^1 = 120 $  . 
+=== Using the GCD ===
+The LCM of two numbers can be found more easily by first finding their greatest common divisor (GCD). Once the GCD is known, the LCM is calculated by the following equation,  $ LCM(a, b) = \frac{a \cdot b}{GCD(a, b)} $  . Let's use our first example. The GCD of 4 and 6 is 2.  Using the above equation, we find  $ LCM(4, 6) = \frac{4 \cdot 6}{2} = \frac{24}{2} = 12 $  , just like we expected. Another useful fact involving LCM and GCD is that  $ a\cdot b = lcm(a, b)\cdot gcd(a, b) $  . Something appears to not have loaded correctly. Click to refresh .

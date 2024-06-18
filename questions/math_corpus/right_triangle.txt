@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Right triangle =
+A right triangle is any triangle with an angle of 90 degrees (that is, a right angle ). [asy] pair A, B, C;  A = (0, 3); B = (4, 0); C = (0, 0);  draw(A--B--C--cycle); draw(rightanglemark(A, C, B));  label(" $ A $ ", A, NW); label(" $ B $ ", B, E); label(" $ C $ ", C, SW); label(" $ a $ ", midpoint(C--B), S); label(" $ b $ ", midpoint(C--A), W); label(" $ c $ ", midpoint(A--B), NE); [/asy]  In the image above, angle C has a measure of 90 degrees, so  $ \triangle ABC $  is a right triangle.  The sides of a right triangle have names: the longest side, opposite the right angle, is called the hypotenuse .  In this diagram, the hypotenuse is labeled  $ c $  .  The other two sides are called the legs of the triangle. Right triangles are very useful in geometry and for finding the areas of polygons .  The most important relationship for right triangles is the Pythagorean Theorem .  Besides, the field of trigonometry arises from the study of right triangles, and nearly all trigonometric identities can be deduced from them. 
+== Contents ==
+
+== Special right triangles ==
+There are several right triangles with special properties. One of these is the isosceles   $ 45^{\circ}-45^{\circ}-90^{\circ} $  triangle, where the hypotenuse is equal to  $ \sqrt{2} $  times the length of either of the legs. This triangle is analogous to a square cut in half along its diagonal. [asy] pair A, B, C;  A = (0, 1); B = (1, 0); C = (0, 0);  draw(A--B--C--cycle); draw(rightanglemark(A, C, B, 3)); draw(anglemark(A, B, C, 4)); draw(anglemark(C, A, B, 4));  label(" $ A $ ", A, NW); label(" $ 45^{\circ} $ ", A, 6*dir(290)); label(" $ B $ ", B, E); label(" $ 45^{\circ} $ ", B, 5*dir(155)); label(" $ C $ ", C, SW); label(" $ 1 $ ", midpoint(C--B), S); label(" $ 1 $ ", midpoint(C--A), W); label(" $ \sqrt{2} $ ", midpoint(A--B), NE); [/asy]  Another one of these is the  $ 30^{\circ}-60^{\circ}-90^{\circ} $  triangle, which has sides in the ratio of  $ x:x\sqrt3:2x $  . This triangle is analogous to an equilateral triangle cut in half down the middle. [asy] pair A, B, C;  A = (0, sqrt(3)); B = (1, 0); C = (0, 0);  draw(A--B--C--cycle); draw(rightanglemark(A, C, B, 4));  label(" $ A $ ", A, NW); label(" $ 30^{\circ} $ ", A, 10*dir(283)); label(" $ B $ ", B, E); label(" $ 60^{\circ} $ ", B, 3*dir(150)); label(" $ C $ ", C, SW); label(" $ 1 $ ", midpoint(C--B), S); label(" $ \sqrt{3} $ ", midpoint(C--A), W); label(" $ 2 $ ", midpoint(A--B), NE); [/asy]  If the lengths of the legs and hypotenuse are integral, they are said to form a Pythagorean triple . Some common Pythagorean triples include {3, 4, 5}, {5, 12, 13}, and {7, 24, 25}. 
+== Properties ==
+The area of the triangle can be calculated using half of the product of the lengths of the legs. It can also be calculated using half of the product of the median to the hypotenuse and the hypotenuse. Using similarity, it is possible to derive several formulas relating the sides, the hypotenuse, and the median. The circumradius of a right triangle is equal to half of the hypotenuse, or the median to the hypotenuse. 
+== Problems ==
+ 2007 AMC 12A Problem 10  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

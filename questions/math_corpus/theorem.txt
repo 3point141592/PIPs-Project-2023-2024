@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Theorem =
+This article is a stub.  Help us out by  .  A theorem is a demonstrated result of a set of axioms . Theorems may also be known as lemmas , if they are intended to be used as part of the proof of another theorem; or they may be known as corollaries , if they are an immediate consequence of some other theorem. Mathematics is in large part the process of proving new theorems. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mathematical convention =
+A mathematical convention is a fact, name, notation , or usage which is generally agreed upon by mathematicians .  For instance, the fact that one evaluates multiplication before addition in the expression  $ 2 + 3\times4 $  is merely conventional: there is nothing inherently significant about the order of operations .  Mathematicians abide by conventions in order to allow other mathematicians to understand what they write without constantly having to redefine basic terms. (Imagine if every mathematical paper began with an explanation of PEMDAS!) Nearly all mathematical names and symbols are conventional.  The longer a name or notation has been in use, the more likely it is to become a mathematical convention.  Unfortunately, some notational questions stubbornly refuse to develop conventional solutions, usually because two or more competing conventions achieve wide-spread usage.  See, for example, the article on the Natural numbers .  
+== Alternate meaning ==
+In English, a convention is also "a place where people convene, or come together."  Thus, the phrase "mathematical convention" is also used to denote a convention whose purpose is mathematical.  For instance, Mu Alpha Theta describes its yearly gatherings as conventions. Something appears to not have loaded correctly. Click to refresh .

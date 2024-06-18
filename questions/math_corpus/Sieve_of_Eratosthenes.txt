@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Sieve of Eratosthenes =
+The Sieve of Eratosthenes is a simple method to quickly uncover a short list of prime numbers . 
+== Description of the algorithm ==
+Begin by writing the positive integers starting with  $ 2 $  up to the  maximal number you are interested in. Now, during each step, take the first number that is neither crossed out nor circled, circle it, and cross all larger numbers  divisible by it.  Keep doing this until all numbers are either circled or crossed.  The circled numbers are the primes! Below is an example of how to use this sieve to find the primes up to  $ 20 $  . Note that after just two steps, no new crossouts appear. In general, one can forget about crossouts and start just circling all remaining numbers once a number exceeding the square root of the maximal number we are interested in is circled (in our example it is  $ 5>\sqrt{20} $  ). The reason is that if a number  $ n $  is  composite , then it has a prime divisor not exceeding  $ \sqrt n $  .  
+== Related Links ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

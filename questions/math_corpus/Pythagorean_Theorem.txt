@@ -1,0 +1,37 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Pythagorean Theorem =
+The Pythagorean Theorem states that for a right triangle with legs of length  $ a $  and  $ b $  and hypotenuse of length  $ c $  we have the relationship  $ {a}^{2}+{b}^{2}={c}^{2} $  .  This theorem has been know since antiquity and is a classic to prove; hundreds of proofs have been published and many can be demonstrated entirely visually(the book The Pythagorean Proposition alone consists of more than 370). The Pythagorean Theorem is one of the most frequently used theorems in geometry , and is one of the many tools in a good geometer's arsenal. A very large number of geometry problems can be solved by building right triangles and applying the Pythagorean Theorem. This is generalized by the  Pythagorean Inequality and the Law of Cosines . 
+== Contents ==
+
+== Proofs ==
+In these proofs, we will let  $ ABC $  be any right triangle with a right angle at  $ {} C $  . 
+=== Proof 1 ===
+We use  $ [ABC] $  to denote the area of triangle  $ ABC $  . Let  $ H $  be the perpendicular to side  $ AB $  from  $ {} C $  . [asy] pair A, B, C, H; A = (0, 0); B = (4, 3); C = (4, 0); H = foot(C, A, B);  draw(A--B--C--cycle); draw(C--H); draw(rightanglemark(A, C, B)); draw(rightanglemark(C, H, B)); label(" $ A $ ", A, SSW); label(" $ B $ ", B, ENE); label(" $ C $ ", C, SE); label(" $ H $ ", H, NNW); [/asy]  Since  $ ABC, CBH, ACH $  are similar right triangles, and the areas of similar triangles are proportional to the squares of corresponding side lengths,  $ \frac{[ABC]}{AB^2} = \frac{[CBH]}{CB^2} = \frac{[ACH]}{AC^2} $  . But since triangle  $ ABC $  is composed of triangles  $ CBH $  and  $ ACH $  ,  $ [ABC] = [CBH] + [ACH] $  , so  $ AB^2 = CB^2 + AC^2 $  .  
+=== Proof 2 ===
+Consider a circle  $ \omega $  with center  $ B $  and radius  $ BC $  .  Since  $ BC $  and  $ AC $  are perpendicular,  $ AC $  is tangent to  $ \omega $  .  Let the line  $ AB $  meet  $ \omega $  at  $ Y $  and  $ X $  , as shown in the diagram: Evidently,  $ AY = AB - BC $  and  $ AX = AB + BC $  .  By considering the  power of point   $ A $  with respect to  $ \omega $  , we see  $ AC^2 = AY \cdot AX = (AB-BC)(AB+BC) = AB^2 - BC^2 $  .  
+=== Proof 3 ===
+ $ ABCD $  and  $ EFGH $  are squares. [asy] pair A, B,C,D; A = (-10,10); B = (10,10); C = (10,-10); D = (-10,-10);  pair E,F,G,H; E = (7,10); F = (10, -7); G = (-7, -10); H = (-10, 7);  draw(A--B--C--D--cycle); label(" $ A $ ", A, NNW); label(" $ B $ ", B, ENE); label(" $ C $ ", C, ESE); label(" $ D $ ", D, SSW);  draw(E--F--G--H--cycle); label(" $ E $ ", E, N); label(" $ F $ ", F,SE); label(" $ G $ ", G, S); label(" $ H $ ", H, W);  label("a", A--B,N); label("a", B--F,SE); label("a", C--G,S); label("a", H--D,W); label("b", E--B,N); label("b", F--C,SE); label("b", G--D,S); label("b", A--H,W); label("c", E--H,NW); label("c", E--F); label("c", F--G,SE); label("c", G--H,SW); [/asy]   $ (a+b)^2=c^2+4\left(\frac{1}{2}ab\right)\implies a^2+2ab+b^2=c^2+2ab\implies a^2 + b^2=c^2 $  .  
+== Common Pythagorean Triples ==
+A Pythagorean Triple is a set of 3 positive integers such that  $ a^{2}+b^{2}=c^{2} $  , i.e. the 3 numbers can be the lengths of the sides of a right triangle.  Among these, the Primitive Pythagorean Triples , those in which the three numbers have no common divisor , are most interesting.  A few of them are: \[3-4-5\]  \[5-12-13\]  \[7-24-25\]  \[8-15-17\]  \[9-40-41\]  \[12-35-37\]  \[20-21-29\]  \[11-60-61\]  Also Pythagorean Triples can be created with the a Pythagorean triple by multiplying the lengths by any integer.
+For example, \[6-8-10 = (3-4-5)*2\]  \[21-72-75 = (7-24-25)*3\]  \[10-24-26 = (5-12-13)*2\] Note that (-1,0,1) and (3,4,5) are the only pythagoren triplets that consist of consecutive integers. Also, if (a,b,c) are a pythagorean triplet it follows that (ka,kb,kc) will also form a pythagorean triplet for any constant k. k can also be imaginary. 
+== Problems ==
+
+=== Introductory ===
+
+=== Sample Problem ===
+Right triangle  $ ABC $  has legs of length  $ 333 $  and  $ 444 $  . Find the hypotenuse of  $ ABC $  . 
+==== Solution 1 (Bash) ====
+ $ \sqrt{333^2 + 444^2} = 555 $  . 
+==== Solution 2 (Using 3-4-5) ====
+We see  $ 333-444 $  looks like the legs of a  $ 3-4-5 $  right triangle with a multiplication factor of 111. Thus  $ 5*111 = 555 $  . 
+=== Another Problem ===
+Right triangle  $ ABC $  has side lengths of  $ 3 $  and  $ 4 $  . Find the sum of all the possible hypotenuses. 
+==== Solution (Casework) ====
+Case 1: 3 and 4 are the legs. Then 5 is the hypotenuse. Case 2: 3 is a leg and 4 is the hypotenuse. There are no more cases as the hypotenuse has to be greater than the leg. This makes the sum  $ 4+5=9 $  . 
+== External links ==
+Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Square root property =
+The square root property is a method for solving quadratic equations . 
+== Method ==
+First we must convert the quadratic to either the form  $ ax^2=b $  or  $ (yx+z)^2=w $  . 
+=== First format ===
+ $ x^2=18 $   take the square root of both sides  $ x=\pm\sqrt{18} $   so the roots are  $ \sqrt{18} $  and  $ -\sqrt{18} $  . 
+=== Second format ===
+ $ (3x+4)^2=5 $   take the square root of both sides  $ 3x+4=\pm\sqrt{5} $   isolate  $ x $    $ x=\frac{\pm\sqrt{5}-4}{3} $    and those are the roots. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Intermediate Value Theorem =
+The Intermediate Value Theorem is one of the very interesting properties of continous functions. 
+== Statement ==
+Take a function  $ f $  and interval  $ [a,b] $  such that the following hold:  $ f:[a,b]\rightarrow\mathbb{R}, $    $ f $  is continuous on  $ [a,b], $    $ f(a)<k<f(b). $   Then,  $ \exists c\in (a,b) $  such that  $ f(c)=k. $   
+== Proof ==
+Consider  $ g:[a,b]\rightarrow\mathbb{R} $  such that  $ g(x)=f(x)-k. $   Note that  $ g(a)<0 $  and  $ g(b)>0 $   By the Location of roots theorem ,  $ \exists c\in (a,b) $  such that  $ g(c)=0 $  or  $ f(c)=k. $   QED 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

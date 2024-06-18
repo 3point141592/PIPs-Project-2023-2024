@@ -1,0 +1,24 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Divisor function =
+The divisor function is denoted  $ \sigma_k(n) $  and is defined as the sum of the  $ k $  th powers of the divisors of  $ n $  .  Thus  $ \sigma_k(n) = \sum_{d|n}d^k = d_1^k + d_2^k + \cdots + d_r^k $  where the  $ d_i $  are the positive divisors of  $ n $  . 
+== Contents ==
+
+== Counting divisors ==
+Note that  $ \sigma_0(n) = d_1^0 + d_2^0 + \ldots + d_r^0 = 1 + 1 + \ldots + 1 = r $  , the number of divisors of  $ n $  .  Thus  $ \sigma_0(n) = d(n) $  is simply the number of divisors of  $ n $  . 
+=== Example Problems ===
+
+==== Demonstration ====
+Consider the task of counting the divisors of 72. We can now generalize.  Let the prime factorization of  $ n $  be  $ p_1^{e_1}p_2^{e_2}\cdots p_k^{e_k} $  .  Any divisor of  $ n $  must be of the form  $ p_1^{f_1}p_2^{f_2} \cdots p_k^{e_k} $  where the  $ f_i $  are integers such that  $ 0\le f_i \le e_i $  for  $ i = 1,2,\ldots, k $  .  Thus, the number of divisors of  $ n $  is  $ \sigma_0(n) = (e_1+1)(e_2+1)\cdots (e_k+1) $  .  
+==== Introductory Problems ====
+ 
+== Sum of divisors ==
+The sum of the divisors, or  $ \sigma_1(n) $  , is given by There will be  $ (e_1+1)(e_2+1)(e_3+1)\cdots (e_k+1) $  products formed by taking one number from each sum, which is the number of divisors of  $ n $  .  Clearly all possible products are divisors of  $ n $  .  Furthermore, all of those products are unique since each positive integer has a unique prime factorization. Since all of these products are added together, we can conclude this gives us the sum of the divisors. 
+== Sum of kth Powers of Divisors ==
+Inspired by the example of the sum of divisors, we can easily see that the sum of the  $ k^\text{th} $  powers of the divisors is given by \begin{align*} \sigma_k(n) &= (1+p_1^k+p_1^{2k}+\cdots +p_1^{e_1k})(1+p_2^k+p_2^{2k}+\cdots +p_2^{e_2k})\cdots (1+p_i^k+p_i^{2k}+\cdots +p_i^{e_ik}) \\ &= \prod_{a=1}^{i}\left(\sum_{b=0}^{e_a}p_a^{bk}\right) \end{align*} where  $ p_1,p_2,...,p_i $  are the distinct prime divisors of  $ n $  . This is proven in a very similar way to the  $ \sigma_1 $  case. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Incomparable =
+Given a relation   $ R $  on a set   $ S $  , we say two elements   $ a, b $  of  $ S $  are incomparable if neither of the relations  $ R(a, b) $  and  $ R(b, a) $  holds.  Otherwise, the two elements are comparable . Comparability is important in the theory of partially ordered sets . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,73 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Principle of Inclusion-Exclusion =
+The Principle of Inclusion-Exclusion (abbreviated PIE) provides an organized method/formula to find the number of elements in the union of a given group of sets , the size of each set, and the size of all possible intersections among the sets. 
+== Contents ==
+
+== Important Note(!) ==
+When using PIE, one should understand how to strategically overcount and undercount, in the end making sure every element is counted once and only once. In particular, memorizing a formula for PIE is a bad idea for problem solving. 
+== Application ==
+Here, we will illustrate how PIE is applied with various numbers of sets. 
+=== Two Set Example ===
+Assume we are given the sizes of two sets,  $ |A_1| $  and  $ |A_2| $  , and the size of their intersection,  $ |A_1\cap A_2| $  .  We wish to find the size of their union,  $ |A_1\cup A_2| $  . To find the union, we can add  $ |A_1| $  and  $ |A_2| $  .  In doing so, we know we have counted everything in  $ |A_1\cup A_2| $  at least once.  However, some things were counted twice.  The elements that were counted twice are precisely those in  $ {}A_1\cap A_2 $  .  Thus, we have that: 
+=== Three Set Example ===
+Assume we are given the sizes of three sets,  $ |A_1|, |A_2|,{} $  and  $ |A_3| $  , the size of their pairwise intersections,  $ |A_1\cap A_2|, |A_2\cap A_3| $  , and  $ |A_3\cap A_1| $  , and the size their overall intersection,  $ |A_1\cap A_2\cap A_3| $  .  We wish to find the size of their union,  $ |A_1\cup A_2\cup A_3| $  . Just like in the Two Set Example, we start with the sum of the sizes of the individual sets  $ |A_1|+|A_2|+|A_3| $  .  We have counted the elements which are in exactly one of the original three sets once, but we've obviously counted other things twice, and even other things thrice!  To account for the elements that are in two of the three sets, we first subtract out  $ |A_1\cap A_2|+|A_2\cap A_3| + |A_3\cap A_1| $  .  Now we have correctly accounted for them since we counted them twice originally, and just subtracted them out once. However, the elements that are in all three sets were originally counted three times and then subtracted out three times.  We have to add back in  $ |A_1\cap A_2\cap A_3| $  .  Putting this all together gives: 
+=== Four Set Example ===
+
+==== Problem ====
+Six people of different heights are getting in line to buy donuts. Compute the number of ways they can arrange themselves in line such that no three consecutive people are in increasing order of height, from front to back. (2015 ARML I10) 
+==== Solution ====
+Let  $ A $  be the event that the first, second, and third people are in ordered height,  $ B $  be the event that the second, third, and fourth people are in ordered height,  $ C $  be the event that the third, fourth, and fifth people are in ordered height, and  $ D $  be the event that the fourth, fifth and sixth people are in ordered height. By a combination of complementary counting and PIE, we have that our answer will be  $ 720-|A|-|B|-|C|-|D|+|A\cap B|+|A\cap C|+|A\cap D|+|B\cap C|+|B\cap D|+|C\cap D|-|A\cap B\cap C|-|A\cap B\cap D|-|A\cap C\cap D|-|B\cap C\cap D|+|A\cap B\cap C\cap D| $  . Now for the daunting task of evaluating all of this. For  $ |A| $  , we just choose  $ 3 $  people and there is only one way to put them in order, then  $ 3! $  ways to order the other three guys for  $ 3!\binom{6}{3}=120 $  . Same goes for  $ |B| $  ,  $ |C| $  , and  $ |D| $  . Now, for  $ |A\cap B| $  , that's just putting four guys in order. By the same logic as above, this is  $ 2!\binom{6}{4}=30 $  . Again,  $ |A\cap C| $  would be putting five guys in order, so  $ 1!\binom{6}{5}=6 $  .  $ |A\cap D| $  is just choosing  $ 3 $  guys out of  $ 6 $  , then  $ 3 $  guys out of  $ 3 $  for  $ \binom{6}{3}=20 $  . Now,  $ |B\cap C| $  is just the same as  $ |A\cap B| $  , so  $ 30 $  ,  $ |B\cap D| $  is  $ |A\cap C| $  so  $ 6 $  , and  $ |C\cap D| $  is  $ |A\cap B| $  so  $ 30 $  . Moving on to the next set:  $ |A\cap B\cap C| $  is the same as  $ |A\cap C| $  which is  $ 6 $  ,  $ |A\cap B\cap D| $  is ordering everybody so  $ 1 $  ,  $ |A\cap C\cap D| $  is again ordering everybody which is  $ 1 $  , and  $ |B\cap C\cap D| $  is the same as  $ |A\cap B\cap C| $  so  $ 6 $  . Finally,  $ |A\cap B\cap C\cap D| $  is ordering everybody so  $ 1 $  . Now, lets substitute everything back in. We get a massive expression of  $ 720-120-120-120-120+30+6+20+30+6+30-6-1-1-6+1=\boxed{349} $  . 
+=== Five Set Example ===
+
+==== Problem ====
+There are five courses at my school. Students take the classes as follows:
+243 take algebra.
+323 take language arts.
+143 take social studies.
+241 take biology.
+300 take history.
+213 take algebra and language arts.
+264 take algebra and social studies.
+144 take algebra and biology.
+121 take algebra and history.
+111 take language arts and social studies.
+90 take language arts and biology.
+80 take language arts and history.
+60 take social studies and biology.
+70 take social studies and history.
+60 take biology and history.
+50 take algebra, language arts, and social studies.
+50 take algebra, language arts, and biology.
+50 take algebra, language arts, and history.
+50 take algebra, social studies, and biology.
+50 take algebra, social studies, and history.
+50 take algebra, biology, and history.
+50 take language arts, social studies, and biology.
+50 take language arts, social studies, and history.
+50 take language arts, biology, and history.
+50 take social studies, biology, and history.
+20 take algebra, language arts, social studies, and biology.
+15 take algebra, language arts, social studies, and history.
+15 take algebra, language arts, biology, and history.
+10 take algebra, social studies, biology, and history.
+10 take language arts, social studies, biology, and history.
+5 take all five.
+None take none. How many people are in my school? 
+==== Solution ====
+Let A be the subset of students who take Algebra, L-languages, S-Social Studies, B-biology, H-history, M-the set of all students. We have:  $ |M|=|A|+|L|+|S|+|B|+|H|-|A\cap L|-|A\cap S|-|A\cap B|-|A\cap H|-|L\cap S|-|L\cap B| $    $ -|L\cap H|-|S\cap B|-|S\cap H|-|B\cap H|+|A\cap L\cap S|+|A\cap L\cap B|+|A\cap L\cap H|+|A\cap S\cap B|+|A\cap S\cap H| $    $ +|A\cap B\cap H|+|L\cap S\cap H|+|L\cap S \cap B|+|S\cap B\cap H|+|L \cap B\cap H|-|A\cap L\cap S\cap B|-|A\cap L\cap S\cap H| $    $ -|A\cap L\cap B\cap H|-|A\cap S\cap B\cap H|-|L\cap S\cap B\cap H|+|A\cap L\cap S\cap B\cap H| $    $ =243+323+143+241+300-213-264-144-121-111-90-80-60-70-60 $    $ +50+50+50+50+50+50+50+50+50+50-20-15-15-10-10+5=472 $   Thus, there are  $ \boxed{472} $  people in my school. 
+== Statement ==
+If  $ (A_i)_{1\leq i\leq n} $  are finite sets, then: 
+== Proof ==
+We prove that each element is counted once. Say that some element  $ X $  is in  $ k $  sets. Without loss of generality, these sets are  $ A_1,A_2,\dots,A_k. $   We proceed by induction. This is obvious for  $ k=1. $   If this is true for  $ k, $  we prove this is true for  $ k+1. $  For every set of sets not containing  $ A_{k+1} $  with size  $ i, $  there is a set of sets containing  $ A_{k+1} $  with size  $ i+1. $  In PIE, the sum of how many times these sets are counted is  $ 0. $  There is also one additional set of sets  $ \{A_{k+1}\}, $  so  $ X $  is counted exactly once. 
+== Remarks ==
+Sometimes it is also useful to know that, if you take into account only the first  $ m\le n $  sums on the right, then you will get an overestimate if  $ m $  is  odd and an underestimate if  $ m $  is  even .
+So,  $ \left|\bigcup_{i=1}^n A_i\right|\le \sum_{i=1}^n\left|A_i\right| $  ,  $ \left|\bigcup_{i=1}^n A_i\right|\ge \sum_{i=1}^n\left|A_i\right|-\sum_{i < j}\left|A_i\cap A_j\right| $  ,  $ \left|\bigcup_{i=1}^n A_i\right|\le \sum_{i=1}^n\left|A_i\right|-\sum_{i < j}\left|A_i\cap A_j\right| +\sum_{i<j<k}\left|A_i\cap A_j\cap A_k\right| $  , and so on. 
+== Examples ==
+2011 AMC 8 Problems/Problem 6  2017 AMC 10B Problems/Problem 13  2005 AMC 12A Problems/Problem 18  2001 AIME II Problems/Problem 9  2002 AIME I Problems/Problem 1  2020 AIME II Problems/Problem 9  2001 AIME II Problems/Problem 2  2017 AIME II Problems/Problem 1  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

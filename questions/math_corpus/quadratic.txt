@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Quadratic equation =
+A quadratic equation in one variable is an equation of the form  $ {a}{x}^2+{b}{x}+{c}=0 $  , where  $ a $  ,  $ b $  and  $ c $  are constants (that is, they do not depend on  $ x $  ) and  $ x $  is the unknown variable.  Quadratic equations are solved using one of three main strategies: factoring , completing the square and the quadratic formula . 
+== Contents ==
+
+=== Factoring ===
+The purpose of factoring is to turn a general quadratic into a product of binomials . This is easier to illustrate than to describe. Example: Solve the equation  $ x^2-3x+2=0 $  for  $ x $  . Note: This is different for all quadratics; we cleverly chose this so that it has common factors. Solution:  $ x^2-3x+2=0 $   First, we expand the middle term:  $ x^2-x-2x+2=0 $  . Next, we factor out our common terms to get  $ x(x-1)-2(x-1)=0 $  . We can now factor the  $ (x-1) $  term to get  $ (x-1)(x-2)=0 $  . By the zero-product property, either  $ (x-1) $  or  $ (x-2) $  equals zero. We now have the pair of equations  $ x-1=0 $  and  $ x-2=0 $  . These give us the answers  $ x=1 $  and  $ x=2 $  , which can also be written as  $ x=\{1,\,2\} $  . Plugging these back into the original equation, we find that both of these work! We are done. 
+=== Completing the square ===
+Completing the square   
+=== Quadratic Formula ===
+See Quadratic Formula . 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

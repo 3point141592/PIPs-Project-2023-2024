@@ -1,0 +1,31 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Liouville's Theorem (complex analysis) =
+In complex analysis , Liouville's Theorem states that a
+bounded holomorphic function on the entire complex plane must be
+constant.  It is named after Joseph Liouville. Picard's Little Theorem is a stronger result. 
+== Contents ==
+
+== Statement ==
+Let  $ f : \mathbb{C} \to \mathbb{C} $  be a holomorphic function.
+Suppose there exists some real number   $ M \ge 0 $  such that  $ \lvert f(z) \rvert \le M $  for all  $ z \in \mathbb{C} $  .  Then  $ f $  is a constant function . 
+== Proof ==
+We use Cauchy's Integral Formula . Pick some  $ z_0 \in \mathbb{C} $  ; let  $ C_R $  denote the simple
+counterclockwise circle of radius  $ R $  centered at  $ z_0 $  .  Then \[\lvert f'(z_0) \rvert = \biggl\lvert \frac{1}{2\pi i} \int_C \frac{f(z)}{(z-z_0)^2}dz \biggr\rvert \le \frac{M}{R} .\] Since  $ f $  is holomorphic on the entire complex plane,  $ R $  can
+be arbitrarily large.  It follows that  $ f'(z) = 0 $  , for every
+point  $ z \in \mathbb{C} $  .  Now for any two complex numbers  $ A $  and  $ B $  , \[f(B) - f(A) = \int_{A}^B f'(z)dz  = 0 ,\] so  $ f $  is constant, as desired.  $ \blacksquare $   
+== Extensions ==
+It follows from Liouville's theorem if  $ f $  is a non-constant entire function, then the image of  $ f $  is dense in  $ \mathbb{C} $  ; that is, for every  $ z_0 \in \mathbb{C} $  , there exists
+some  $ z \in \text{Im}\,f $  that is arbitrarily close to  $ z_0 $  . 
+=== Proof ===
+Suppose on the other hand that there is some  $ z_0 $  not in the
+image of  $ f $  , and that there is a positive real  $ \epsilon $  such
+that  $ \text{Im}\,f $  has no point within  $ \epsilon $  of  $ z_0 $  .  Then
+the function \[g(z) = \frac{1}{f(z) - z_0}\] is holomorphic on the entire complex plane, and it is bounded by  $ 1/\epsilon $  .  It is therefore constant.  Therefore  $ f $  is constant.  $ \blacksquare $   Picard's Little Theorem offers the stronger result that if  $ f $  avoids two points in the plane, then it is constant.  It is
+possible for an entire function to avoid a single point, as  $ \exp(z) $  avoids 0.  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

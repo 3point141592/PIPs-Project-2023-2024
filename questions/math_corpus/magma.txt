@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Magma =
+A magma (or a groupoid ) is a set   $ \displaystyle S $  , together with a function  $ \bot : S \times S \mapsto S $  , i.e., a set with a binary operation   $ \bot $  .  A set  $ \displaystyle S $  with an operation  $ \bot $  that maps some proper subset of  $ S \times S $  into  $ \displaystyle S $  may be described as a magma with an operation not everywhere defined on  $ \displaystyle S $  . Magmas so general that usually one studies special cases of magmas.  For example, monoids are associative magmas with an identity. 
+== Resources ==
+ This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

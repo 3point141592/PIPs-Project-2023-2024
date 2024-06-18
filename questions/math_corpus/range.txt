@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Range =
+Let  $ A $  and  $ B $  be any sets and let  $ f:A\to B $  be any function between them, so that  $ A $  is the domain of  $ f $  and  $ B $  is the codomain . Then  $ \{b\in B\mid \mathrm{there\ is\ some\ } a\in A\mathrm{\ such\ that\ } f(a)=b\} $  is called the range or image of  $ f $  . Thus, if we have  $ f: \mathbb{R} \to \mathbb{R} $  given by  $ f(x) = x^2 $  , the range of  $ f $  is the set of nonnegative  real numbers . A function is a surjection exactly when the range is equal to the codomain. 
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

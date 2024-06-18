@@ -1,0 +1,29 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Power set =
+The power set of a given set   $ S $  is the set  $ \mathcal{P}(S) $  of all subsets of that set. It is also sometimes denoted by  $ 2^S $  . 
+== Contents ==
+
+== Examples ==
+The empty set has only one subset, itself.  Thus  $ \mathcal{P}(\emptyset) = \{\emptyset\} $  . A set  $ \{a\} $  with a single element has two subsets, the empty set and the entire set.  Thus  $ \mathcal{P}(\{a\}) = \{\emptyset, \{a\}\} $  . A set  $ \{a, b\} $  with two elements has four subsets, and  $ \mathcal{P}(\{a, b\}) = \{\emptyset, \{a\}, \{b\}, \{a, b\}\} $  . Similarly, for any finite set with  $ n $  elements, the power set has  $ 2^n $  elements. 
+== Size Comparison ==
+Note that for any nonnegative  integer   $ n $  ,  $ 2^n > n $  and so for any finite set  $ S $  ,  $ |\mathcal P (S)| > |S| $  (where absolute value signs here denote the cardinality of a set).  The analogous result is also true for infinite sets (and thus for all sets): for any set  $ S $  , the cardinality  $ |\mathcal P (S)| $  of the power set is strictly larger than the cardinality  $ |S| $  of the set itself. 
+=== Proof ===
+There is a natural injection   $ S \hookrightarrow \mathcal P (S) $  taking  $ x \mapsto \{x\} $  , so  $ |S| \leq |\mathcal P(S)| $  .  
+Suppose for the sake of contradiction that  $ |S| = |\mathcal P(S)| $  .  Then there is a bijection   $ f: \mathcal P(S) \to S $  .  Let  $ T \subset S $  be defined by  $ T = \{x \in S \;|\; x \not\in f(x) \} $  .  Then  $ T \in \mathcal P(S) $  and since  $ f $  is a bijection,  $ \exists y\in S \;|\; T = f(y) $  . Now, note that  $ y \in T $  by definition if and only if  $ y \not\in f(y) $  , so  $ y \in T $  if and only if  $ y \not \in T $  .  This is a clear contradiction.  Thus the bijection  $ f $  cannot really exist and  $ |\mathcal P (S)| \neq |S| $  so  $ |\mathcal P(S)| > |S| $  , as desired. Note that this proof does not rely upon either the Continuum Hypothesis or the Axiom of Choice .  It is a good example of a diagonal argument , a method pioneered by the mathematician Georg Cantor . 
+== Size for Finite Sets ==
+The number of elements in a power set of a set with n elements is  $ 2^n $  for all finite sets. This can be proven in a number of ways: 
+=== Method 1 ===
+Either an element in the power set can have 0 elements, one element, ... , or n elements. There are  $ \binom{n}{0} $  ways to have no elements,  $ \binom{n}{1} $  ways to have one element, ... , and  $ \binom{n}{n} $  ways to have n elements. We add:  $ \binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=2^n $   as desired. 
+=== Method 2 ===
+We proceed with induction . Let  $ S $  be the set with  $ n $  elements. If  $ n=0 $  , then  $ S $  is the empty set. Then  $ P(S)=\{\emptyset \} $   and has  $ 2^0=1 $  element. Now let's say that the theorem stated above is true or n=k. We shall prove it for k+1. Let's say that Q has k+1 elements. In set Q, if we leave element x out, there will be  $ 2^k $  elements in the power set. Now we include the sets that do include x. But that's just  $ 2^k $  , since we are choosing either 0 1, ... or k elements to go with x. Therefore, if there are  $ 2^k $  elements in the power set of a set that has k elements, then there are  $ 2^{k+1} $  elements in the power set of a set that has k+1 elements. Therefore, the number of elements in a power set of a set with n elements is  $ 2^n $  . 
+=== Method 3 ===
+We demonstrated in Method 2 that if S is the empty set, it works. Now let's say that S has at least one element. For an element x, it can be either in or out of a subset. Since there are n elements, and each different choice of in/out leads to a different subset, there are  $ 2^n $  elements in the power sum. 
+== See Also ==
+
+== External Links ==
+Something appears to not have loaded correctly. Click to refresh .

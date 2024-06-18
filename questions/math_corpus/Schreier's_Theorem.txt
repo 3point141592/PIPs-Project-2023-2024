@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Schreier's Theorem =
+Schreier's Refinement Theorem is a result in group theory .  Otto Schreir discovered it in 1928, and used it to give an improved proof of the Jordan-Hölder Theorem .  Six years later, Hans Zassenhaus published his  lemma , which gives an improved proof of Schreier's Theorem. 
+== Statement ==
+Let  $ \Sigma_1 $  and  $ \Sigma_2 $  be composition series of a group  $ G $  .  Then there exist equivalent composition series  $ \Sigma'_1 $  and  $ \Sigma'_2 $  such that  $ \Sigma'_1 $  is finer than  $ \Sigma_1 $  and  $ \Sigma'_2 $  is finer than  $ \Sigma_2 $  . 
+== Proof ==
+Suppose  $ \Sigma_1 = (H_i)_{0 \le i \le n} $  and  $ \Sigma_2 = (K_j)_{0\le j \le m} $  are the composition series in question.  For integers  $ j \in [1,m-1] $  ,  $ i \in [0,n-1] $  , let  $ H'_{im+j} = H_{i+1} \cdot (H_i \cap K_j) $  , and for integers  $ i \in [0,n] $  , let \[H'_{im} = H_i = H_{i+1} \cdot (H_i \cap K_0) = H_{i} \cdot (H_{i-1} \cap K_m),\] where these groups are defined.  Similarly, for integers  $ i \in [1,n-1] $  ,  $ j\in [0,m-1] $  , let  $ K'_{jn+i} = K_{j+1} \cdot (K_j \cap H_i) $  , and for integers  $ j \in [0,m] $  , define \[K'_{jn} = K_j = K_{j+1} \cdot (K_j \cap H_0) = K_j \cdot (K_{j-1} \cap H_n),\] where these groups are defined.  Then by Zassenhaus's Lemma ,  $ \Sigma'_1 = (H'_k)_{0 \le k \le mn} $  and  $ \Sigma'_2 = (K'_\ell)_{0 \le \ell \le mn} $  are composition series; they are evidently finer than  $ \Sigma_1 $  and  $ \Sigma_2 $  , respectively.  Again by Zassenhaus's Lemma, the quotients  $ H'_{im+j}/H'_{im+j+1} $  and  $ K'_{jn+i}/K'_{jn+i+1} $  are equivalent, so series  $ \Sigma'_1 $  and  $ \Sigma'_2 $  are equivalent, as desired.  $ \blacksquare $   
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

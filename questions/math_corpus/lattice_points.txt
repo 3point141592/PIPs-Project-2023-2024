@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Lattice point =
+This article is a stub.  Help us out by  .  A lattice point is a point in a Cartesian coordinate system such that both its  $ x $  - and  $ y $  -coordinates are integers . A lattice point is a point at the intersection of two or more grid lines in a regularly spaced array of points, which is a  point lattice . In a plane , point lattices can be constructed having unit cells in the shape of a square , rectangle , hexagon , and other shapes. If not specified, a point lattice is usually a point in a square array. Lattice points are complicated, so don't get stressed if you don't get it right away! Here's an example to help you to understand it better: 
+== Example ==
+A point lattice is constructed by plotting all of the points  $ (a,b) $  such that  $ a $  and  $ b $  are positive integers. How many points in the point lattice lie on the line  $ y = -3x + 8 $  ? 
+== Solution ==
+Notice that  $ y > 0 \implies -3x + 8 > 0 \implies x \leq 2 $  . So,  $ (1,5) $  and  $ (2,2) $  are the only such points, giving us  $ \boxed{2} $  points. ~advanture 
+== See Also ==
+TOTO SLOT  Something appears to not have loaded correctly. Click to refresh .
