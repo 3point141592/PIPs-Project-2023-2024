@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Subring =
+Given a ring   $ R $  , a subset   $ Q \subset R $  is called a subring of  $ R $  if it inherits the ring structure from  $ R $  .  That is,  $ Q $  must contain both the  $ 0 $  and  $ 1 $  (additive and multiplicative  identities ) of  $ R $  and be closed under the ring operations of multiplication, addition and additive inverse-taking. 
+== Examples ==
+Consider the ring  $ R = \mathbb{Z} \times \mathbb{Z} $  of ordered pairs of integers with coordinatewise operations, i.e.  $ (a, b) + (c, d) = (a + c, b + d) $  and  $ (a, b) \cdot (c, d) = (ac, bd) $  .  Then the diagonal ring  $ D = \{(a, a) \mid a \in \mathbb{Z}\} $  is a subring of  $ R $  : it contains the additive identity  $ (0, 0) $  , the multiplicative identity  $ (1, 1) $  and is closed under multiplication and addition. 
+== Non-examples ==
+The notion of a subring is slightly more subtle than that of a subgroup .  Suppose that  $ R $  is a commutative ring with an idempotent  element   $ i $  other than  $ 0 $  and  $ 1 $  , i.e.  $ i $  is a solution to the equation  $ i^2 = i $  .  Consider the principle ideal   $ I = Ri = \{a \in R \mid \exists b, a = bi\} $  .  As an ideal , this set is closed under addition and multiplication and contains the additive identity of  $ R $  .  Moreover, this ideal is a ring with multiplicative identity  $ i $  :  $ i \cdot bi = bi^2 = bi $  for every  $ b \in R $  , so  $ i\cdot a = a $  for every  $ a \in I $  .  However, it is not a subring of  $ R $  because it does not contain the multiplicative identity of  $ R $  .  (Otherwise  $ 1 \in I $  and there is some  $ j \in R $  such that  $ ij = 1 $  , so  $ i^2j = i $  but also  $ i^2j = ij  = 1 $  , and we assumed  $ i \neq 1 $  , a contradiction.)  
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

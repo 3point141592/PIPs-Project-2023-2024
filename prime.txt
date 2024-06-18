@@ -1,0 +1,40 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Prime number =
+A prime number (or simply prime ) is a positive integer   $ p>1 $  whose only positive  divisors are 1 and itself.  
+Note that  $ 1 $  is usually defined as being neither prime nor composite because it is its only factor among the natural numbers . There are an infinite number of prime numbers. A standard proof attributed to Euclid notes that if there are a finite set of prime numbers  $ p_1, p_2, \ldots, p_n $  , then the number  $ N = p_1p_2\cdots p_n + 1 $  is not divisible by any of them, but  $ N $  must have a prime factor, which leads to a direct contradiction. 
+== Contents ==
+
+== Primes Video ==
+https://youtu.be/SMOGYNYDSBw  
+== Techniques to Check for Prime Numbers ==
+
+=== Divisibility ===
+A prime number is only divisible by one or itself, so a number  $ n $  is prime if and only if  $ n $  is not divisible by any integer greater than  $ 1 $  and less than  $ n $  .  One only needs to check integers up to  $ \sqrt{n} $  because dividing larger numbers would result in a quotient smaller than  $ \sqrt{n} $  . 
+=== Modular Arithmetic ===
+Modular arithmetic can help determine if a number is not prime. Note that any odd prime(≥3) is of the form 4k±1 where k is a positive integer. Above facts lead to interesting results like: 3,5 and 7 are the only primes that form an Arithmetic sequence with common difference 2. 3,7 and 11 are the only primes that form an Arithmetic sequence with common difference 4. 
+=== Sieve of Eratosthenes ===
+The Sieve of Eratosthenes is a relatively simplistic algorithm for generating a list of the first few prime numbers. It is a method in which the multiples of all known primes are labeled as composites, and subsequently crossed out, starting with multiples of two, then three, then five, and so on. 
+For example, circle 2, and cross out all other multiples of two. Then circle 3, and cross out all multiples of three. Repeat with all other prime numbers as needed. Although simple to understand, it is inefficient for finding large primes. 
+=== Sieve of Sundaram ===
+The Sieve of Sundaram is a relatively simplistic algorithm for generating all odd prime numbers, less than  $ 2n+2 $  . It is a method by which all indices  $ m $  such that  $ 2m+1 $  has a non trivial factor are struck out. It employs the fact that \[(2a+1)\cdot (2b+1)=2(2ab+a+b)+1\] and if  $ a,b>0 $  this is a non-trivial factorization. 
+== Importance of Primes ==
+According to the Fundamental Theorem of Arithmetic , there is exactly one unique way to factor a positive integer into a product of primes ( permutations not withstanding).  This unique prime factorization plays an important role in solving many kinds of number theory problems. 
+== Famous Primes ==
+
+=== Fermat Primes ===
+A Fermat prime is a prime of the form  $ 2^n+1 $  . It can easily be shown that for such a number to be prime, n must not have any odd divisor larger than 1 and so must be a power of 2. Therefore all Fermat primes have the form  $ 2^{2^n}+1 $  . Fermat checked the cases  $ n=0,1,2,3,4 $  and conjectured that all such numbers of the form were prime. However,  $ 2^{2^5}+1=641\cdot 6700417 $  .  $ n $  also fails if  $ n = 6 $  ;  $ 2^{2^6} + 1 = 274177\cdot 67280421310721 $  . In fact, no other Fermat primes have been found to date. There is an easy proof of the infinitude of primes based on Fermat numbers (numbers of the form  $ 2^{2^n} + 1 $  ). Just show that any two Fermat numbers are relatively prime . 
+=== Mersenne Primes ===
+A Mersenne prime is a prime of the form  $ 2^n-1 $  . For such a number to be prime, n must itself be prime. Compared to other numbers of comparable sizes, Mersenne numbers are easy to check for primality because of the Lucas-Lehmer test , severely reducing the amount of computation needed. 
+=== Twin Primes ===
+Two primes that differ by exactly 2 are known as twin primes .  The following are the first few pairs of twin primes: 3, 5 5, 7 11, 13 17, 19 29, 31 41, 43  It is not known whether or not there are infinitely many pairs of twin primes. This is known as the Twin Prime Conjecture , which is a specific instance of the Hardy-Littlewood conjecture. An equivalent to the Twin Prime Conjecture (for primes greater than 3), is that there exists infinitely many numbers  $ n $   not of forms: \[6ab+a+b,6ab+a-b,6ab-a-b\] because if  $ n $  is of one of these forms, then at least one of  $ 6n\pm 1 $  is composite: \[6(6ab+a+b)+1=36ab+6a+6b+1=(6a+1)(6b+1)\] \[6(6ab+a-b)-1=36ab+6a-6b-1=(6a-1)(6b+1)\] \[6(6ab-a-b)+1=36ab-6a-6b+1=(6a-1)(6b-1)\]  
+=== Gaussian Primes ===
+A Gaussian prime is a prime that extends the idea of the traditional prime to the Gaussian integers . One can define this term for any ring , especially number rings. 
+== Advanced Definition ==
+When the need arises to include negative divisors, a prime is defined as an integer p whose only divisors are 1, -1, p, and -p. More generally, if R is an integral domain, then a nonzero element p of R is a prime if whenever we write  $ p=ab $  with  $ a,b\in R $  , then exactly one of a and b is a unit. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

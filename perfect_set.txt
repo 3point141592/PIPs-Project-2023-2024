@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Perfect set =
+A perfect set is a closed set such that every single point in the set is a limit point of the set. For example,  $ \mathbb{R} $  is a perfect set, though a more interesting example is the Cantor set . In  $ \mathbb{R}^n $  , any perfect set has an uncountable number of points. This can be shown by taking increasingly smaller neighborhoods about a point in the set. This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

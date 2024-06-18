@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Second =
+The second is the SI unit for time . It used to be defined as the time in which light travels approximately 299792458 meters , or about 299792 kilometers . The current definition of a second is the time it takes for a cesium 133's radiation to oscillate for 9192631770 periods. This is assuming that the cesium atom is at 0 K. There are 60 seconds in a minute , 3600 seconds in an hour , and 86400 seconds in a day . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,22 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Euler's totient function =
+Euler's totient function   $ \phi(n) $  applied to a positive integer   $ n $  is defined to be the number of positive integers less than or equal to  $ n $  that are relatively prime to  $ n $  .  $ \phi(n) $  is read "phi of n." 
+== Contents ==
+
+== Video ==
+https://youtu.be/T7INnve59JM  
+== Formula ==
+Given the general prime factorization of  $ {n} = {p}_1^{e_1}{p}_2^{e_2} \cdots {p}_m^{e_m} $  , one can compute  $ \phi(n) $  using the formula \[\phi(n)= n\left(1-\frac{1}{p_1} \right) \left(1-\frac{1}{p_2} \right)\cdots \left(1-\frac{1}{p_m}\right).\]   
+== Derivation ==
+To derive the formula, let us first define the prime factorization of  $ n $  as  $ n =\prod_{i=1}^{m}p_i^{e_i} =p_1^{e_1}p_2^{e_2}\cdots p_m^{e_m} $  where the  $ p_i $  are distinct prime numbers .  Now, we can use a PIE argument to count the number of numbers less than or equal to  $ n $  that are relatively prime to it. First, let's count the complement of what we want (i.e. all the numbers less than or equal to  $ n $  that share a common factor with it).  There are  $ \frac{n}{p_1} $  positive integers less than or equal to  $ n $  that are divisible by  $ p_1 $  .  If we do the same for each  $ p_i $  and add these up, we get But we are obviously overcounting.  We then subtract out those divisible by two of the  $ p_i $  .  There are  $ \sum_{1 \le i_1 < i_2 \le m}\frac{n}{p_{i_1}p_{i_2}} $  such numbers. We continue with this PIE argument to figure out that the number of elements in the complement of what we want is This sum represents the number of numbers less than  $ n $  sharing a common factor with  $ n $  , so  $ \phi(n) = n - \left(\sum_{1 \le i \le m}\frac{n}{p_i}- \sum_{1 \le i_1 < i_2 \le m}\frac{n}{p_{i_1}p_{i_2}} + \cdots + (-1)^{m+1}\frac{n}{p_1p_2\ldots p_m}\right) $    $ \phi(n)= n\left(1 - \sum_{1 \le i \le m}\frac{1}{p_i} + \sum_{1 \le i_1 < i_2 \le m}\frac{1}{p_{i_1}p_{i_2}} - \cdots + (-1)^{m}\frac{1}{p_1p_2\ldots p_m}\right) $    $ \phi(n)= n\left(1-\frac{1}{p_1} \right) \left(1-\frac{1}{p_2} \right)\cdots \left(1-\frac{1}{p_m}\right). $    
+== Identities ==
+(a) For prime   $ p $  ,  $ \phi(p)=p-1 $  , because all numbers less than  $ {p} $  are relatively prime to it. (b) For relatively prime  $ {a}, {b} $  ,  $ \phi{(a)}\phi{(b)} = \phi{(ab)} $  . (c) In fact, we also have for any  $ {a}, {b} $  that  $ \phi{(a)}\phi{(b)}\gcd(a,b)=\phi{(ab)}\phi({\gcd(a,b)}) $  . (d) If  $ p $  is prime and  $ n\ge{1}, $  then  $ \phi(p^n)=p^n-p^{n-1} $   (e) For any  $ n $  , we have  $ \sum_{d|n}\phi(d)=n $  where the sum is taken over all divisors  $ d $  of  $ n $  . Proof. Split the set  $ \{1,2,\ldots,n\} $  into disjoint sets  $ A_d $  where for all  $ d\mid n $  we have \[A_d=\{x:1\leq x\leq n\quad\text{and}\quad \operatorname{syt}(x,n)=d \}.\] Now  $ \operatorname{gcd}(dx,n)=d $  if and only if  $ \operatorname{gcd}(x,n/d)=1 $  . Furthermore,  $ 1\leq dx\leq n $  if and only if  $ 1\leq x\leq n/d $  . Now one can see that the number of elements of  $ A_d $  equals the number of elements of \[A_d^\prime=\{x:1\leq x \leq n/d\quad\text{and}\quad \operatorname{gcd}(x,n/d)=1 \}.\] Thus by the definition of Euler's phi we have that  $ |A_d^\prime|=\phi (n/d) $  . As every integer  $ i $  which satisfies  $ 1\leq i\leq n $  belongs in exactly one of the sets  $ A_d $  , we have that \[n=\sum_{d \mid n}\phi \left (\frac{n}{d} \right )=\sum_{d \mid n}\phi (d).\]  (f) Another interesting thing to note is that  $ \phi(n)\leq n - 1 $  . This does seem very obvious but is helpful in solving many problems. 
+== Notation ==
+Sometimes, instead of  $ \phi $  ,  $ \varphi $  is used. This variation of the Greek letter phi is common in textbooks, and is standard usage on the English Wikipedia  
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

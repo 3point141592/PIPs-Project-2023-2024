@@ -1,0 +1,16 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mode =
+
+== Contents ==
+
+== Definition ==
+In a finite  multiset , the mode is the element (or set of elements) that appears the most times.  For example, in  $ \{1,1,3,5,6,7,7,7,7,8\} $  , the mode is  $ 7 $  . 
+== Mean, Median, Mode ==
+https://youtu.be/TkZvMa30Juo?t=1504  
+== See also ==
+This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

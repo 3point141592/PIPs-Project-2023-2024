@@ -1,0 +1,28 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= United States of America Mathematical Olympiad =
+The United States of America Mathematical Olympiad ( USAMO ) is the third test in a series of exams used to challenge bright students on the path toward choosing the team that represents the United States at the International Mathematics Olympiad (IMO). The USAMO is administered by the American Mathematics Competitions (AMC). Art of Problem Solving (AoPS) is a proud sponsor of the AMC and of the recent expansion of USAMO participants from around 250 to around 500. : 7 : 8 : 9 
+== Contents ==
+
+== USAMO Curriculum ==
+The USAMO is best approached by students with a solid command of topics in algebra , geometry , number theory , combinatorics , probability , and a host of rigorous methods such as induction and proof by contradiction . Students who do well on the USAMO have considerable experience both solving highly challenging problems and writing proofs .  
+== Format ==
+The USAMO is an invitation-only proof-type examination administered to approximately 500 of the best and brightest students from the U.S. and Canada. Qualification is based on AMC 10 , AMC 12 , and AIME scores. No calculators are allowed on this two day, 9 hour exam (two 4.5 hour sessions). All six questions can be solved using precalculus methods, but an extensive understanding of the material and creative thinking is essential to performing well. 
+== Scoring ==
+Each response is assessed for correctness, completeness, and clarity and is subsequently awarded between 0 and 7 points, with a total maximum score of 42 points. Since most students receive very limited exposure to proofs in high school, scores in the single digits are common. The jump in difficulty and rigor from AIME to USAMO is quite large, and many first-time USAMO participants receive lower scores than they expect. The top 12 students are invited to an awards ceremony in Washington, D.C., and six of them are later selected to form the United States IMO team. These students and a number of other top scorers from the USAMO are invited to participate in the Math Olympiad Summer Program (MOSP), a challenging 3 to 4 week math program for the brightest students in the country. 
+== History ==
+In the 1960s, Nura D. Turner was working to institute a USAMO and to have an American team for the IMO , but had little support.  After she published the article "Why can't we have a USA Mathematical Olympiad?" in the American Mathematical Monthly 78 (1971), the MAA 's National Contest Committee revived an Olympiad Subcommittee, which voted to start a USAMO at its first meeting in 1971.  The MAA later endorsed this proposal, and the first USAMO was administered on May 9, 1972.  The United States sent its first team to the IMO in 1974, where it received second place. The first had five questions, which contestants had three hours to solve.  Total scores were out of 100 points.  Later, the time limit was extended to three and a half hours.  In 1996, the format changed: there were now six questions, administered in two three-question, three-hour sessions with a one-hour break in between.  The scoring was also changed, so that each question was worth seven points, for a maximum total score of 42.  In 2002, the time for each of the problem sets was extended to four and a half hours, and the two parts of the olympiad were administered on separate days (the present format).  In 2002, all participants were also invited to the MIT campus in Cambridge, Massachusetts, to take the olympiad, but this event has not been repeated. 
+== Resources ==
+
+=== Links ===
+
+=== Recommended reading ===
+
+=== USAMO Preparation Classes ===
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

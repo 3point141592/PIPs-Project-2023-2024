@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Infinite =
+A set   $ S $  is said to be infinite if there is a surjection   $ f:S\to\mathbb{Z} $  . If this is not the case,  $ S $  is said to be finite . In simplified language, a set is infinite if it doesn't end, i.e. you can always find another element that you haven't examined yet. 
+=== Equivalent formulations ===
+
+== Applications to Infinity with Sums ==
+A sum works the same way. Certain sums equate to infinity, such as  $ \sum_{i = 3}^{\infty}{(2i - 1)} $   This article is a stub.  Help us out by  .   
+== "Operations" with Infinity ==
+Some bad rules involving operations with infinity are as follows: None of these are true because  $ \infty $  is not a real number which you can write equations involving. Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Phi =
+Phi (in lowercase, either  $ \phi $  or  $ \varphi $  ; capitalized,  $ \Phi $  ) is the 21st letter in the Greek alphabet.  It is used frequently in mathematical writing, often to represent the constant  $ \frac{1+\sqrt{5}}{2} $  . (The Greek letter Tau (  $ \tau $  ) was also used for this purpose in pre-Renaissance times.) 
+== Contents ==
+
+== Use ==
+ $ \phi $  appears in a variety of different mathematical contexts: it is the limit of the ratio of successive terms of the Fibonacci sequence , as well as the positive solution of the quadratic equation   $ x^2-x-1=0 $  .  $ \phi $  is also equal to the continued fraction   $ 1+\frac{1}{1+\frac{1}{1+\frac{1}{1+\frac{1}{1+\cdots}}}} $  and the continued radical   $ \sqrt{1+\sqrt{1+\sqrt{1+\sqrt{1+\cdots}}}} $  . It is the only positive real number that is one more than its  square and one less than its reciprocal . It is also  $ {\lim_{x \to \infty}} \frac{F_{x+1}}{F_x} $  where  $ F_n $  is the nth number in the Fibonacci sequence . In other words, if you divide the  $ n $  term of the Fibonacci series over the  $ (n-1) $  term, the result approaches  $ \phi $  as  $ n $  increases. 
+== Golden ratio ==
+ $ \phi $  is also known as the Golden Ratio. It was commonly believed by the Greeks to be the most aesthetically pleasing ratio between side lengths in a rectangle .  The Golden Rectangle is a rectangle with side lengths of 1 and  $ \phi $  ; it has a number of interesting properties. The first fifteen digits of  $ \phi $  in decimal representation are  $ 1.61803398874989 $   
+== Other Usages ==
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

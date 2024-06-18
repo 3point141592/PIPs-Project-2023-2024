@@ -1,0 +1,14 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Integration by parts =
+The purpose of integration by parts is to replace a difficult integral with an easier one.  The formula is  $ \int u\, dv=uv-\int v\,du $   
+== Order ==
+Now, given an integrand, what should be  $ u $  and what should be  $ dv $  ?  Since  $ u $  will show up as  $ du $  and  $ dv $  as  $ v $  in the integral on the RHS,  $ u $  should be chosen such that it has an "easy" (or "easier") derivative and  $ dv $  so that it has a easy antiderivative . A mnemonic for when to substitute  $ u $  for what is LIATE: L ogarithmic I nverse trigonometric A lgebraic T rigonometric E xponential If any two of these types of functions are in the function to be integrated, the type higher on the list should be substituted as u. 
+== Examples ==
+ $ \int xe^x\; dx=? $    $ x $  has a pretty simple derivative, so let's say  $ u=x $  .  Then  $ dv=e^x dx $  ,  $ du=dx $  , and  $ v=\int dv=e^x $  .  We have  $ \int xe^x\; dx=(x)(e^x)-\int (e^x)(dx)=xe^x-e^x + C=e^x(x-1) + C $  , where  $ C $  is the constant of integration .  You can take the derivative to see that it is indeed our desired result. 
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

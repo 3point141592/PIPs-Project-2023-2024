@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rotation =
+A rotation of a planar figure is a transformation that preserves area and angles, but not orientation. The resulting figure is congruent to the first. Suppose we wish to rotate triangle  $ ABC $    $ 60^{\circ} $  clockwise around a point  $ O $  , also known as the center of rotation . We would first draw segment  $ AO $  . Then, we would draw a new segment,  $ A'O $  such that the angle formed is  $ 60^{\circ} $  , and  $ AO=A'O $  . Do this for points  $ B $  and  $ C $  , to get the new triangle  $ A'B'C' $   
+=== Practice Problems ===
+[asy] pathpen = linewidth(0.7); pen f = fontsize(10); size(5cm); pair B = (0,sqrt(85+42*sqrt(2))); pair A = (B.y,0); pair C = (0,0); pair P = IP(arc(B,7,180,360),arc(C,6,0,90)); D(A--B--C--cycle); D(P--A); D(P--B); D(P--C); MP("A",D(A),plain.E,f); MP("B",D(B),plain.N,f); MP("C",D(C),plain.SW,f); MP("P",D(P),plain.NE,f); [/asy]   $ \mathrm{(A)}\ 85 \qquad \mathrm{(B)}\ 91 \qquad \mathrm{(C)}\ 108 \qquad \mathrm{(D)}\ 121 \qquad \mathrm{(E)}\ 127 $   ( Source )  $ \textbf{(A) } 1+\sqrt{2} \qquad \textbf{(B) } \sqrt{7} \qquad \textbf{(C) } \frac{8}{3} \qquad \textbf{(D) } \sqrt{5+\sqrt{5}} \qquad \textbf{(E) } 2\sqrt{2} $   ( Source ) ( Source ) Something appears to not have loaded correctly. Click to refresh .

@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Number field =
+A number field is a finite  field extension of  $ \mathbb{Q} $  . They are of great importance in algebraic number theory . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

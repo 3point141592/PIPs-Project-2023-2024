@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Irreducible polynomial =
+It's a nonconstant polynomial (meaning it has a variable) that can't be factored into at least 2 nonconstant polynomials. Examples include  $ x+1 $  ,  $ x^{2}+x+1 $  , etc. Something appears to not have loaded correctly. Click to refresh .

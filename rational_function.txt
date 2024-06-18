@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Rational function =
+A rational function  $ R(x) $  is defined as any function that can be written as  $ \frac{P(x)}{Q(x)} $  for polynomials  $ P $  and  $ Q $  . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

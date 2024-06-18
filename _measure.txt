@@ -1,0 +1,20 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Measure =
+This article is a stub.  Help us out by  .  In mathematics , measure can mean the amount of  degrees in an angle , the length of a line segment , or a function that assigns a number to subsets of a given set . 
+== Contents ==
+
+== Line Segments ==
+The measure of  $ \overline{AB} $  is indicated by  $ AB $  , without the bar on top. If  $ \overline{AB}\cong\overline{CD} $  , then  $ AB=CD $  . 
+== Angles ==
+The measure of  $ \angle ABC $  is indicated by  $ \mbox{m}\angle ABC $  . If  $ \angle ABC\cong\angle DEF $  , then  $ \mbox{m}\angle ABC=\mbox{m}\angle DEF $  . The measure of an angle can expressed in  degrees or in radians . 
+== Circular arcs ==
+The measure of an arc of a given circle is given by the measure of the central angle  subtended by it. 
+== Sets ==
+The measure of a set is known as the set's cardinality . If  $ S=\{-2,\,\pi,\,7\} $  , then the cardinality of set  $ S $  is  $ 3 $  . 
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

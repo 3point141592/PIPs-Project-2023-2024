@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Uncountable =
+A set   $ S $  is said to be uncountable if there is no injection   $ f:S\to\mathbb{N} $  . Assuming the Axiom of choice , every set that is not uncountable is either finite or countably infinite .  The most common example of an uncountable set is the set of real numbers   $ \mathbb{R} $  . 
+== Proof that  is uncountable ==
+We give an indirect proof here. This is one of the most famous indirect proofs and was first given by Georg Cantor . Suppose that the set  $ A=\{x\in\mathbb{R}:0<x< 1\} $  is countable. Let  $ \{\omega_1, \omega_2, \omega_3, ...\} $  be any enumeration of the elements of  $ A $  (in other words, take an injection  $ f: A \to \mathbb{N} $  , and denote  $ \omega_i = f(i) $  ). Consider the decimal expansion of each  $ \omega_i $  , say  $ \omega_i=0.b_{i1}b_{i2}b_{i3} \ldots $  for all  $ i $  .  Now construct a real number  $ \omega= 0.b_1b_2b_3 \ldots $  , by choosing the digit  $ b_i $  so that it differs from  $ b_{ii} $  by at least 3 and so that  $ b_i $  is never equal to 9 or 0.  It follows that  $ \omega $  differs from  $ \omega_i $  by at least  $ \frac{2}{10^i} $  , so  $ \omega \neq \omega_i $  for every  $ i $  .  Thus,  $ \omega \not \in A $  .  However,  $ \omega $  is clearly a real number between 0 and 1, a contradiction .  Thus our assumption that  $ A $  is countable must be false, and since  $ \mathbb{R} \supset A $  we have that  $ \mathbb{R} $  is uncountable. An alternative proof uses Cantor's Theorem , which says that for all sets  $ S $  , we have  $ |S|<|\mathcal{P}(S)| $  , where  $ \mathcal{P}(S) $  is the power set of  $ S $  . First, we note that the Cantor set   $ \mathcal{C} $  has cardinality  $ 2^{\aleph_{0}}>\aleph_{0} $  , and since  $ \mathcal{C}\subset\mathbb{R} $  , there is an injection  $ f:\mathcal{C}\rightarrow\mathbb{R} $  and thus  $ |\mathbb{R}|\geq 2^{\aleph_{0}}>\aleph_{0} $  , so  $ \mathbb{R} $  is uncountable. In fact, it turns out that  $ |\mathbb{R}|=2^{\aleph_{0}} $  . 
+== See Also ==
+ This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

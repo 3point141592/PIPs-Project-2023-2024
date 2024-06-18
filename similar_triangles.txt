@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Similarity (geometry) =
+Informally, two objects are similar if they are similar in every aspect except possibly size or orientation.  For example, a globe and the surface of the earth are, in theory, similar. More formally, we say two objects are congruent if they are the same up to translation, rotation and reflection ( rigid motions ).  We say two objects are similar if they are congruent up to a dilation . 
+== Determining Similarity ==
+
+== Applications to Similarity ==
+Once two figures are determined to be similar, the corresponding sides are proportional and the corresponding angles are congruent. Similar figures (especially triangles) can be usually found in figures that contain many pairs of equal angles. Something appears to not have loaded correctly. Click to refresh .

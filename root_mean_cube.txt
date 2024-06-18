@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Root mean cube =
+The root mean cube of a set of numbers  $ [x_1, x_2, x_3,\cdots,x_a] $  is defined as: \[\sqrt[3]{\frac{x_1^3+x_2^3+x_3^3+\cdots+x_a^3}{a}}\]  Mentioned in RMS-AM-GM-HM . This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

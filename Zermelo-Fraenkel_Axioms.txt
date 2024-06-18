@@ -1,0 +1,34 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Zermelo-Fraenkel Axioms =
+The Zermelo-Fraenkel Axioms are a set of axioms that compiled by Ernst Zermelo and Abraham Fraenkel that make it very convenient for set theorists to determine whether a given collection of objects with a given property describable by the language of set theory could be called a set . As shown by paradoxes such as Russell's Paradox , some restrictions must be put on which collections to call sets. 
+== Contents ==
+
+== Axioms ==
+The language of set theory consists of a single binary relation  $ \in $  . As such, all axioms can be written using only the symbols of predicate logic and  $ \in $  . While  $ \in $  usually means set membership, strictly speaking, it need not represent that. That is, there are models of  $ \sf{ZF} $  where  $ \in $  does not mean set membership, but due to the Mostowski Collapse lemma this is often of little importance. Zermelo-Fraenkel set theory (  $ \sf{ZF} $  ) consists of all the following axioms except the Axiom of Choice. With the Axiom of Choice, the set of axioms becomes  $ \sf{ZFC} $  . 
+=== The Axiom of Extensionality ===
+This axiom establishes the most basic property of sets - a set is completely characterized by its elements alone.  Statement: Two sets  $ A $  and  $ B $  are equal if and only if the statements  $ a \in A $  (  $ a $  is an element of  $ A $  ) and  $ b\in B $  (  $ b $  is an element of  $ B $  ) are equivalent. 
+=== The Empty Set Axiom ===
+This axiom ensures that there is at least one set.  Statement: There exists a set (called the empty set and denoted  $ \emptyset $  ) which contains no elements. 
+=== The Axiom of Subset Selection ===
+This axiom declares subsets of a given set as sets themselves.  Statement: Given a set  $ A $  , and a formula  $ \phi(a) $  with one free variable , there exists a set whose elements are precisely those elements of  $ A $  which satisfy  $ \phi $  . 
+=== The Power Set Axiom ===
+This axiom allows us to construct a bigger set from a given set.  Statement: For every set  $ A $  , there exists a set, called the power set of  $ A $  (denoted  $ \mathcal{P}(A) $  or  $ \mathfrak{P}(A) $  ), containing exactly the subsets of  $ A $  . 
+=== The Axiom of Replacement ===
+This axiom allows us, given a set, to construct other sets of the same size.  Statement: Given a set  $ A $  and a functional predicate in the language of set theory, there is a set which consists of exactly those elements related to elements in  $ A $  . 
+=== The Axiom of Union ===
+This axiom allows us to take unions of two or more sets.  Statement: Given a set  $ A $  , there exists a set with exactly those elements which belong to some element of  $ A $  . 
+=== The Axiom of Infinity ===
+This gives us at least one infinite set.  Statement: There exists an infinite set, i.e., a set  $ A $  and an injection   $ A \to A $  which is not bijective. 
+=== The Axiom of Foundation ===
+This makes sure no set contains itself, thus avoiding certain paradoxical situations.  Statement: The relation belongs to is well-founded .  In other words, for every nonempty set  $ A $  , there exists a set  $ a \in A $  which is disjoint from  $ A $  . 
+=== The Axiom of Choice ===
+This allows to find a choice set for any arbitrary collection of sets.  Statement: For each collection of disjoint sets , there exists a set (called the choice set) containing precisely one element of each set in the collection. This axiom is more controversial than the others.  It gives no new results when applied to finite sets, but for infinite sets, it results in certain surprising results such as the Banach-Tarski Paradox .  As a result, many mathematicians investigate what parts of mathematics can be obtained without the axiom of choice, which results of mathematics require the axiom of choices, and plausible negations of the axiom of choice. 
+== See Also ==
+
+== External Links ==
+Something appears to not have loaded correctly. Click to refresh .

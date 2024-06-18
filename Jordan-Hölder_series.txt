@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Jordan-Hölder series =
+A Jordan-Hölder series of a group   $ G $  is a composition series   $ (G_i)_{0\le i \le n} $  of  $ G $  such that  $ G_i/G_{i+1} $  is a simple group for all integers  $ i\in [0,n-1] $  .  Equivalently, it is a strictly decreasing composition series of  $ G $  for which there exists no finer strictly decreasing composition series of  $ G $  . The Jordan-Hölder Theorem says that any two Jordan-Hölder series of the same group are equivalent.  Unfortunately, non-isomorphic groups can have equivalent Jordan-Hölder series.  For instance,  $ \mathbb{Z}/4\mathbb{Z} $  (the integers mod 4) and the Klein 4-group have equivalent Jordan-Hölder series, but they are not isomorphic. This article is a stub.  Help us out by  .  
+== Resources ==
+Something appears to not have loaded correctly. Click to refresh .

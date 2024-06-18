@@ -1,0 +1,12 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inner product =
+For a vector space   $ \displaystyle V $  over  $ F \subseteq \mathbb{C} $  (or  $ \mathbb{R} $  ), an inner product is a binary operation   $ \langle \cdot, \cdot \rangle : V \times V \mapsto \mathbb{C} $  (or  $ \mathbb{R} $  ) which satisfies the following axioms: From these three axioms we can also conclude that  $ \langle \mathbf{v}, \alpha\mathbf{w} \rangle = \alpha \langle \mathbf{v,w} \rangle $  and  $ \langle \mathbf{ v, u+w} \rangle = \langle \mathbf{v,u} \rangle + \langle \mathbf{v,w} \rangle $  . This is reasonable because from the first axiom, we must have  $ \langle \mathbf{v,v} \rangle \in \mathbb{R} $  . Note that from these axioms we may also obtain the following result: This is occasionally listed as an axiom in place of the condition that equality holds on the condition  $ \langle \mathbf{v,v} \rangle = 0 $  exactly when  $ \mathbf{v=0} $  . 
+== Examples ==
+For the vector space  $ \mathbb{R}^n $  , the dot product is perhaps the most familiar example of an inner product. In addition, for the vector space  $ \displaystyle A $  of continuous functions mapping some interval  $ I \mapsto \mathbb{R} $  , the operator  $ \displaystyle \int_{I} f(x)g(x) dx $  is an inner product for  $ f, g \in A $  . 
+== Resources ==
+ This article is a stub.  Help us out by  .  Something appears to not have loaded correctly. Click to refresh .

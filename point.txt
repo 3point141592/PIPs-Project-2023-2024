@@ -1,0 +1,18 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Point =
+A point is an entity with a location. In Euclidean geometry , points have no size , area , length , or any other characteristics except position . The intersection of two non- parallel  lines in the same plane is a point. Two points are used to denote a line, ray , or line segment . An angle can be denoted by either one or three points. If there is only one angle with this point as its vertex , only one point is needed; if there are multiple angles with this point as their vertex, three points are needed (the vertex is the middle point when written). An arc can be denoted by either two or three points. If the arc has a measure less than 180 degrees , only two points are needed; if the arc has a measure equal to or greater than 180 degrees, three points are used. 
+== Contents ==
+
+== Coordinates ==
+
+=== Two-Dimensional Coordinate System ===
+A two-dimensional coordinate system has the  $ x $  - and  $ y $  -axes, two perpendicular lines, running horizontally and vertically, respectively. Given coordinates, a point can be plotted, and given a point, its coordinates can be found. To plot a point on a two-dimensional graph, move to the right (positive) or left (negative)  $ x $  times, and then move up (positive) or down (negative)  $ y $  times. On a two-dimensional graph, The point  $ (1,\,-2) $  is found like this:  
+=== Three-Dimensional Coordinate System ===
+A three-dimensional coordinate system is different from a three-dimensional graph. The  $ x $  - and  $ y $  -axes are now "flat," and the  $ z $  -axis is vertical. The  $ x $  -axis should actually be pointing at you, but since this can not be shown correctly in a two-dimensional projection, it is displayed as a diagonal. Given coordinates, a point can be plotted, but given a point, its coordinates cannot be found, if your are using a two-dimensional projection.. To plot a point on a three-dimensional graph, move down and to the left (positive) or up and to the right (negative)  $ x $  times, then move to the right (positive) or left (negative)  $ y $  times, and finally, move up (positive) or down (negative)  $ z $  times. On a three-dimensional graph, the point  $ (1,\,2,\,3) $  is found like this:  
+== See Also ==
+Something appears to not have loaded correctly. Click to refresh .

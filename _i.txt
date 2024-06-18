@@ -1,0 +1,26 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Imaginary unit =
+The imaginary unit ,  $ i=\sqrt{-1} $  , is the fundamental component of all complex numbers . In fact, it is a complex number itself. It has a magnitude of 1, and can be written as  $ 1 \text{cis } \left(\frac{\pi}{2}\right) $  . Any complex number can be expressed as  $ a+bi $  for some real numbers  $ a $  and  $ b $  . 
+== Contents ==
+
+== Trigonometric function cis ==
+The trigonometric function  $ \text{cis } x $  is also defined as  $ e^{ix} $  or  $ \cos x + i\sin x $  . 
+== Series ==
+When  $ i $  is used in an exponential series, it repeats at every four terms: This has many useful properties. 
+== Use in factorization ==
+ $ i $  is often very helpful in factorization. For example, consider the difference of squares:  $ (a+b)(a-b)=a^2-b^2 $  . With  $ i $  , it is possible to factor the otherwise-unfactorisable  $ a^2+b^2 $  into  $ (a+bi)(a-bi) $  . 
+== Problems ==
+
+=== Introductory ===
+
+=== Intermediate ===
+
+=== Olympiad ===
+
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

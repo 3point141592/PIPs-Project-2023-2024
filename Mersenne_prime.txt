@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Mersenne prime =
+A Mersenne prime is a prime that is in the form of  $ 2^n-1 $  , where  $ n $  is an integer. It is named after Marin Mersenne. These are some of the largest primes known to man due to one main factor: There is an integer bit value set to that, so that the largest number with a certain amount of bits is a form of  $ 2^n-1 $  . For example: The amount of numbers on a 32 bit computer is  $ 2^{32} $  . Then, divide by 2, as there are positive, and negative values. Then subtract one, as zero is one of them, so the largest number on a 32 bit computer is 2,147,483,647. (Not necessarily the largest number displayed, to achieve a higher number, a computer could use a base system other than 2.) As of December 7th 2018, the largest known prime was  $ 2^{82,589,933}-1 $  , a Mersenne prime which contains 24,862,048 digits. Another cause of these primes being world record holders, is the dedication of the GIMPS (Great Internet Mersenne Prime Search) project. Their first step is to find prime exponents to test (only prime exponents can create primes). This is then followed by Trial Factoring (TF), which is mostly done by the GPUto72 subproject. The special form of candidate factors (  $ 2kp+1\equiv \pm 1\pmod 8 $  ), as well as the GPU support, allows GIMPS to sieve out prime exponents that have factors less than 72 bits (originally, now pushing 80+) in size, using binary exponentiation. Next steps would usually include, a modified Pollard P-1, followed by a Probable primality test developed by Robert Gerbicz, and finally an Lucas-Lehmer Primality test with error checking, and its Double check (in case of uncaught error). 
+== Connection with Even Perfect Numbers ==
+All even perfect numbers are of the form  $ \frac{p(p+1)}{2} $  where  $ p = 2^k-1 $  is a Mersenne prime, which was proven by Euler in the 18th century. Something appears to not have loaded correctly. Click to refresh .

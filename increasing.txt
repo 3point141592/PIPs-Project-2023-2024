@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Increasing =
+A function   $ f: A \to B $  where  $ A, B $  are totally ordered sets is said to be increasing if for every elements  $ x, y \in A $  ,  $ x \leq y $  implies  $ f(x) \leq f(y) $  . A simple example of an increasing function is the map  $ f: \mathbb{R} \to \mathbb{R} $  defined by  $ f(x) = x $  .  In fact, it's easy to see that the identity map is an increasing map on any totally ordered set. If  $ x < y $  implies  $ f(x) < f(y) $  we say that  $ f $  is strictly increasing . The notion of an increasing function is generalized to the context of partially ordered sets by order-preserving functions. If the function  $ f: (a, b) \to \mathbb{R} $  is differentiable then  $ f $  is increasing if and only if  $ f'(x) \geq 0 $  for all  $ x \in (a, b) $  .  If  $ f'(x) > 0 $  for all  $ x \in (a, b) $  then  $ f $  is strictly increasing, but the converse does not hold: for example, the function  $ g(x) = x^3 $  is strictly increasing on the interval  $ (-1, 1) $  , but  $ g'(0) = 0 $  . If the domain of the function  $ f $  is the integers (or the positive integers or nonnegative integers ) then  $ f $  is increasing (or strictly increasing) if and only if the sequence   $ \ldots, f(1), f(2), f(3), \ldots $  of its values is an increasing sequence (respectively, strictly increasing sequence).  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

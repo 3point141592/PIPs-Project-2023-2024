@@ -1,0 +1,8 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Inequality symbol =
+There are four symbols conventionally used to represent the notion of inequality . If  $ a $  and  $ b $  are real numbers we write: We use a slash through an inequality symbol to represent that the given inequality does not hold .  Thus for real numbers  $ a $  and  $ b $  , These symbols are also frequently used to represent the order relation in a partially ordered set .  Note that in this more general setting, it is not necessarily true that  $ a \not > b \Longleftrightarrow a \leq b $  , because it is also possible that  $ a $  and  $ b $  could be incomparable . Something appears to not have loaded correctly. Click to refresh .

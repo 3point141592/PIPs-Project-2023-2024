@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Transitive property =
+A binary relation   $ R(x,y) $  is said to be transitive or to have the transitive property if  $ R(x,y) $  and  $ R(y,z) $  together imply  $ R(x,z) $  . This article is a stub.  Help us out by  .  
+== See also ==
+Something appears to not have loaded correctly. Click to refresh .

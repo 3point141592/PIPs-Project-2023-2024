@@ -1,0 +1,10 @@
+= Page =
+
+= Toolbox =
+
+= Search =
+
+= Kinetic energy =
+
+== Kinetic Energy ==
+Simply put, kinetic energy is the amount of movement energy an object possesses. It is given by the formula K=1/2*mass*velocity^2. Notable theorems include the work energy theorem W=change in kinetic energy and the Conservation of energy theorem, Ki+Ui=Kf+Uf.  See Potential Energy. Something appears to not have loaded correctly. Click to refresh .
